@@ -1,0 +1,588 @@
+basin faucet retailer	1	0	2
+basin faucet retailer	1	1	2
+basin faucet retailer	1	2	1
+basin faucet retailer	1	3	1
+basin faucet retailer	1	4	1
+basin faucet retailer	1	5	2
+basin faucet retailer	1	6	1
+basin faucet retailer	1	7	1
+basin faucet retailer	1	8	2
+basin faucet retailer	1	9	2
+basin faucet retailer	2	0	1
+basin faucet retailer	2	1	0
+basin faucet retailer	2	2	1
+basin faucet retailer	2	3	1
+basin faucet retailer	2	4	2
+basin faucet retailer	2	5	1
+basin faucet retailer	2	6	1
+basin faucet retailer	2	7	1
+basin faucet retailer	2	8	1
+basin faucet retailer	2	9	2
+basin faucet retailer	3	0	1
+basin faucet retailer	3	1	2
+basin faucet retailer	3	2	2
+basin faucet retailer	3	3	1
+basin faucet retailer	3	4	2
+basin faucet retailer	3	5	2
+basin faucet retailer	3	6	2
+basin faucet retailer	3	7	1
+basin faucet retailer	3	8	2
+basin faucet retailer	3	9	2
+basin faucet retailer	4	0	2
+basin faucet retailer	4	1	1
+basin faucet retailer	4	2	1
+basin faucet retailer	4	3	1
+basin faucet retailer	4	4	1
+basin faucet retailer	4	5	1
+basin faucet retailer	4	6	0
+basin faucet retailer	4	7	2
+basin faucet retailer	4	8	2
+basin faucet retailer	4	9	2
+basin faucet retailer	5	0	2
+basin faucet retailer	5	1	2
+basin faucet retailer	5	2	2
+basin faucet retailer	5	3	2
+basin faucet retailer	5	4	2
+basin faucet retailer	5	5	0
+basin faucet retailer	5	6	2
+basin faucet retailer	5	7	1
+basin faucet retailer	5	8	1
+basin faucet retailer	5	9	2
+basin faucet retailer	6	0	2
+basin faucet retailer	6	1	1
+basin faucet retailer	6	2	2
+basin faucet retailer	6	3	1
+basin faucet retailer	6	4	2
+basin faucet retailer	6	5	2
+basin faucet retailer	6	6	2
+basin faucet retailer	6	7	1
+basin faucet retailer	6	8	2
+basin faucet retailer	6	9	0
+basin faucet retailer	7	0	2
+basin faucet retailer	7	1	2
+basin faucet retailer	7	2	1
+basin faucet retailer	7	3	1
+basin faucet retailer	7	4	2
+basin faucet retailer	7	5	1
+basin faucet retailer	7	6	2
+basin faucet retailer	7	7	1
+basin faucet retailer	7	8	1
+basin faucet retailer	7	9	0
+basin faucet retailer	8	0	1
+basin faucet retailer	8	1	1
+basin faucet retailer	8	2	0
+basin faucet retailer	8	3	1
+basin faucet retailer	8	4	1
+basin faucet retailer	8	5	1
+basin faucet retailer	8	6	0
+basin faucet retailer	8	7	0
+basin faucet retailer	8	8	1
+basin faucet retailer	8	9	1
+fragrance retailer	0	0	0
+fragrance retailer	0	1	2
+fragrance retailer	0	2	1
+fragrance retailer	0	3	2
+fragrance retailer	0	4	1
+fragrance retailer	0	5	0
+fragrance retailer	0	6	0
+fragrance retailer	0	7	2
+fragrance retailer	0	8	1
+fragrance retailer	0	9	1
+fragrance retailer	1	0	0
+fragrance retailer	1	1	1
+fragrance retailer	1	2	0
+fragrance retailer	1	3	0
+fragrance retailer	1	4	1
+fragrance retailer	1	5	0
+fragrance retailer	1	6	0
+fragrance retailer	1	7	1
+fragrance retailer	1	8	1
+fragrance retailer	1	9	0
+fragrance retailer	2	0	0
+fragrance retailer	2	1	0
+fragrance retailer	2	2	0
+fragrance retailer	2	3	1
+fragrance retailer	2	4	1
+fragrance retailer	2	5	1
+fragrance retailer	2	6	2
+fragrance retailer	2	7	2
+fragrance retailer	2	8	0
+fragrance retailer	2	9	0
+fragrance retailer	3	0	0
+fragrance retailer	3	1	0
+fragrance retailer	3	2	0
+fragrance retailer	3	3	1
+fragrance retailer	3	4	0
+fragrance retailer	3	5	1
+fragrance retailer	3	6	1
+fragrance retailer	3	7	0
+fragrance retailer	3	8	0
+fragrance retailer	3	9	0
+fragrance retailer	4	0	2
+fragrance retailer	4	1	1
+fragrance retailer	4	2	0
+fragrance retailer	4	3	1
+fragrance retailer	4	4	0
+fragrance retailer	4	5	2
+fragrance retailer	4	6	0
+fragrance retailer	4	7	
+fragrance retailer	4	8	2
+fragrance retailer	4	9	2
+fragrance retailer	5	0	0
+fragrance retailer	5	1	0
+fragrance retailer	5	2	0
+fragrance retailer	5	3	0
+fragrance retailer	5	5	1
+fragrance retailer	5	6	0
+fragrance retailer	5	7	2
+fragrance retailer	5	8	0
+fragrance retailer	5	9	1
+fragrance retailer	6	0	0
+fragrance retailer	6	8	1
+fragrance retailer	6	9	1
+fragrance retailer	7	0	2
+fragrance retailer	7	1	0
+fragrance retailer	7	2	1
+fragrance retailer	7	3	2
+fragrance retailer	7	4	0
+fragrance retailer	7	5	2
+fragrance retailer	7	6	0
+fragrance retailer	7	7	0
+fragrance retailer	7	8	1
+fragrance retailer	7	9	2
+fragrance retailer	8	1	1
+fragrance retailer	8	2	1
+fragrance retailer	8	3	1
+fragrance retailer	8	4	1
+fragrance retailer	8	5	0
+fragrance retailer	8	6	0
+fragrance retailer	8	7	1
+fragrance retailer	8	8	0
+fragrance retailer	8	9	2
+fragrance retailer	9	0	0
+fragrance retailer	9	1	0
+fragrance retailer	9	2	0
+fragrance retailer	9	3	1
+fragrance retailer	9	4	0
+fragrance retailer	9	5	2
+fragrance retailer	9	6	1
+fragrance retailer	9	7	0
+fragrance retailer	9	8	2
+fragrance retailer	9	9	0
+air cleaner retailer	0	0	2
+air cleaner retailer	0	1	1
+air cleaner retailer	0	2	2
+air cleaner retailer	0	3	1
+air cleaner retailer	0	4	2
+air cleaner retailer	0	5	1
+air cleaner retailer	0	6	2
+air cleaner retailer	0	7	1
+air cleaner retailer	0	8	2
+air cleaner retailer	0	9	2
+air cleaner retailer	1	0	2
+air cleaner retailer	1	1	2
+air cleaner retailer	1	2	2
+air cleaner retailer	1	3	2
+air cleaner retailer	1	4	2
+air cleaner retailer	1	5	2
+air cleaner retailer	1	6	2
+air cleaner retailer	1	7	2
+air cleaner retailer	1	8	2
+air cleaner retailer	1	9	0
+air cleaner retailer	2	4	2
+air cleaner retailer	2	5	1
+air cleaner retailer	2	6	2
+air cleaner retailer	2	7	1
+air cleaner retailer	2	8	2
+air cleaner retailer	2	9	2
+air cleaner retailer	3	0	1
+air cleaner retailer	3	1	0
+air cleaner retailer	3	2	0
+air cleaner retailer	3	3	1
+air cleaner retailer	3	4	1
+air cleaner retailer	3	5	0
+air cleaner retailer	3	6	2
+air cleaner retailer	3	7	2
+air cleaner retailer	3	8	0
+air cleaner retailer	3	9	2
+air cleaner retailer	4	0	1
+air cleaner retailer	4	1	2
+air cleaner retailer	4	2	2
+air cleaner retailer	4	3	1
+air cleaner retailer	4	4	2
+air cleaner retailer	4	5	1
+air cleaner retailer	4	6	0
+air cleaner retailer	4	7	1
+air cleaner retailer	4	8	2
+air cleaner retailer	4	9	2
+air cleaner retailer	5	0	2
+air cleaner retailer	5	1	2
+air cleaner retailer	5	2	1
+air cleaner retailer	5	3	2
+air cleaner retailer	5	4	0
+air cleaner retailer	5	5	2
+air cleaner retailer	5	6	0
+air cleaner retailer	5	7	2
+air cleaner retailer	5	8	2
+air cleaner retailer	5	9	2
+air cleaner retailer	6	1	0
+air cleaner retailer	6	2	1
+air cleaner retailer	6	3	2
+air cleaner retailer	6	4	1
+air cleaner retailer	6	5	0
+air cleaner retailer	6	6	1
+air cleaner retailer	6	7	2
+air cleaner retailer	6	8	2
+air cleaner retailer	6	9	2
+air cleaner retailer	7	0	2
+air cleaner retailer	7	1	2
+air cleaner retailer	7	2	0
+air cleaner retailer	7	3	2
+air cleaner retailer	7	4	1
+air cleaner retailer	7	5	1
+air cleaner retailer	7	6	0
+air cleaner retailer	7	7	2
+air cleaner retailer	7	8	2
+air cleaner retailer	7	9	2
+air cleaner retailer	8	0	2
+air cleaner retailer	8	1	2
+air cleaner retailer	8	2	0
+air cleaner retailer	8	3	0
+air cleaner retailer	8	4	1
+air cleaner retailer	8	5	2
+air cleaner retailer	8	6	0
+air cleaner retailer	8	7	2
+air cleaner retailer	8	8	2
+air cleaner retailer	8	9	2
+air cleaner retailer	9	0	2
+air cleaner retailer	9	1	2
+air cleaner retailer	9	2	2
+air cleaner retailer	9	3	1
+air cleaner retailer	9	4	0
+air cleaner retailer	9	5	1
+air cleaner retailer	9	6	2
+air cleaner retailer	9	7	2
+air cleaner retailer	9	8	1
+air cleaner retailer	9	9	1
+aluminum wire retailer	0	0	1
+aluminum wire retailer	0	1	2
+aluminum wire retailer	0	2	2
+aluminum wire retailer	0	3	1
+aluminum wire retailer	0	4	2
+aluminum wire retailer	0	5	0
+aluminum wire retailer	0	6	0
+aluminum wire retailer	0	7	1
+aluminum wire retailer	0	8	1
+aluminum wire retailer	0	9	2
+aluminum wire retailer	1	0	2
+aluminum wire retailer	1	1	1
+aluminum wire retailer	1	2	0
+aluminum wire retailer	1	3	2
+aluminum wire retailer	1	4	2
+aluminum wire retailer	1	5	1
+aluminum wire retailer	1	6	0
+aluminum wire retailer	1	7	1
+aluminum wire retailer	1	8	2
+aluminum wire retailer	1	9	0
+aluminum wire retailer	2	0	1
+aluminum wire retailer	2	1	0
+aluminum wire retailer	2	2	0
+aluminum wire retailer	2	3	2
+aluminum wire retailer	2	4	1
+aluminum wire retailer	2	5	1
+aluminum wire retailer	2	6	1
+aluminum wire retailer	2	7	1
+aluminum wire retailer	2	8	2
+aluminum wire retailer	2	9	2
+aluminum wire retailer	3	0	2
+aluminum wire retailer	3	6	2
+aluminum wire retailer	3	7	2
+aluminum wire retailer	3	8	1
+aluminum wire retailer	3	9	0
+aluminum wire retailer	4	0	2
+aluminum wire retailer	4	1	1
+aluminum wire retailer	4	2	0
+aluminum wire retailer	4	3	2
+aluminum wire retailer	4	4	2
+aluminum wire retailer	4	5	1
+aluminum wire retailer	4	6	2
+aluminum wire retailer	4	7	1
+aluminum wire retailer	4	8	2
+aluminum wire retailer	4	9	1
+aluminum wire retailer	5	0	0
+aluminum wire retailer	5	1	2
+aluminum wire retailer	5	2	2
+aluminum wire retailer	5	3	1
+aluminum wire retailer	5	4	2
+aluminum wire retailer	5	5	2
+aluminum wire retailer	5	6	0
+aluminum wire retailer	5	7	1
+aluminum wire retailer	5	8	2
+aluminum wire retailer	5	9	2
+aluminum wire retailer	6	0	1
+aluminum wire retailer	6	1	1
+aluminum wire retailer	6	2	1
+aluminum wire retailer	6	3	0
+aluminum wire retailer	6	4	1
+aluminum wire retailer	6	5	1
+aluminum wire retailer	6	6	1
+aluminum wire retailer	6	8	1
+aluminum wire retailer	6	9	2
+aluminum wire retailer	7	0	1
+aluminum wire retailer	7	1	0
+aluminum wire retailer	7	2	0
+aluminum wire retailer	7	3	0
+aluminum wire retailer	7	4	2
+aluminum wire retailer	7	5	1
+aluminum wire retailer	7	6	2
+aluminum wire retailer	7	7	0
+aluminum wire retailer	7	8	1
+aluminum wire retailer	7	9	2
+aluminum wire retailer	8	0	1
+aluminum wire retailer	8	1	0
+aluminum wire retailer	8	2	0
+aluminum wire retailer	8	3	2
+aluminum wire retailer	8	4	1
+aluminum wire retailer	8	5	2
+aluminum wire retailer	8	6	1
+aluminum wire retailer	8	7	2
+aluminum wire retailer	8	8	2
+aluminum wire retailer	8	9	1
+aluminum wire retailer	9	0	2
+aluminum wire retailer	9	1	1
+aluminum wire retailer	9	2	0
+aluminum wire retailer	9	3	1
+aluminum wire retailer	9	4	2
+aluminum wire retailer	9	5	2
+aluminum wire retailer	9	6	1
+aluminum wire retailer	9	7	1
+aluminum wire retailer	9	9	0
+cooler retailer	0	0	2
+cooler retailer	0	1	1
+cooler retailer	0	2	2
+cooler retailer	0	3	2
+cooler retailer	0	4	1
+cooler retailer	0	5	2
+cooler retailer	0	6	1
+cooler retailer	0	7	2
+cooler retailer	0	8	2
+cooler retailer	0	9	1
+cooler retailer	1	0	2
+cooler retailer	1	1	0
+cooler retailer	1	2	2
+cooler retailer	1	3	1
+cooler retailer	1	4	1
+cooler retailer	1	5	2
+cooler retailer	1	6	0
+cooler retailer	1	7	0
+cooler retailer	1	8	2
+cooler retailer	1	9	1
+cooler retailer	2	2	2
+cooler retailer	2	3	2
+cooler retailer	2	4	0
+cooler retailer	2	5	2
+cooler retailer	2	6	1
+cooler retailer	2	7	2
+cooler retailer	2	8	0
+cooler retailer	2	9	2
+cooler retailer	3	0	1
+cooler retailer	3	1	2
+cooler retailer	3	2	2
+cooler retailer	3	3	1
+cooler retailer	3	4	2
+cooler retailer	3	5	0
+cooler retailer	3	6	2
+cooler retailer	3	7	2
+cooler retailer	3	8	0
+cooler retailer	3	9	2
+cooler retailer	4	0	1
+cooler retailer	4	1	1
+cooler retailer	4	2	0
+cooler retailer	4	3	1
+cooler retailer	4	4	0
+cooler retailer	4	5	2
+cooler retailer	4	6	2
+cooler retailer	4	7	1
+cooler retailer	4	8	2
+cooler retailer	4	9	2
+cooler retailer	5	4	2
+cooler retailer	5	7	1
+cooler retailer	5	8	1
+cooler retailer	5	9	0
+cooler retailer	6	0	2
+cooler retailer	6	1	1
+cooler retailer	6	2	2
+cooler retailer	6	3	1
+cooler retailer	6	4	2
+cooler retailer	6	5	0
+cooler retailer	6	6	1
+cooler retailer	6	7	1
+cooler retailer	6	8	2
+cooler retailer	6	9	2
+cooler retailer	7	0	1
+cooler retailer	7	1	1
+cooler retailer	7	2	2
+cooler retailer	7	3	2
+cooler retailer	7	4	2
+cooler retailer	7	5	2
+cooler retailer	7	6	2
+cooler retailer	7	7	2
+cooler retailer	7	8	2
+cooler retailer	7	9	2
+cooler retailer	8	2	0
+cooler retailer	8	3	2
+cooler retailer	8	4	0
+cooler retailer	8	5	1
+cooler retailer	8	6	2
+cooler retailer	8	7	2
+cooler retailer	8	8	2
+cooler retailer	8	9	0
+cooler retailer	9	0	2
+cooler retailer	9	1	1
+cooler retailer	9	2	1
+cooler retailer	9	3	0
+cooler retailer	9	4	0
+cooler retailer	9	5	1
+cooler retailer	9	6	1
+cooler retailer	9	7	2
+cooler retailer	9	8	2
+cooler retailer	9	9	2
+tv antenna retailer	0	0	2
+tv antenna retailer	0	1	2
+tv antenna retailer	0	2	2
+tv antenna retailer	0	3	1
+tv antenna retailer	0	4	1
+tv antenna retailer	0	5	2
+tv antenna retailer	0	6	1
+tv antenna retailer	0	7	1
+tv antenna retailer	0	8	2
+tv antenna retailer	0	9	0
+tv antenna retailer	1	0	0
+tv antenna retailer	1	1	1
+tv antenna retailer	1	2	1
+tv antenna retailer	1	3	1
+tv antenna retailer	1	4	0
+tv antenna retailer	1	5	1
+tv antenna retailer	1	6	0
+tv antenna retailer	1	7	0
+tv antenna retailer	1	8	1
+tv antenna retailer	1	9	0
+tv antenna retailer	2	0	1
+tv antenna retailer	2	1	0
+tv antenna retailer	2	2	0
+tv antenna retailer	2	3	0
+tv antenna retailer	2	4	1
+tv antenna retailer	2	5	0
+tv antenna retailer	2	6	2
+tv antenna retailer	2	7	0
+tv antenna retailer	2	8	1
+tv antenna retailer	2	9	0
+tv antenna retailer	3	0	1
+tv antenna retailer	3	1	0
+tv antenna retailer	3	2	0
+tv antenna retailer	3	3	1
+tv antenna retailer	3	4	1
+tv antenna retailer	3	5	2
+tv antenna retailer	3	6	1
+tv antenna retailer	3	7	1
+tv antenna retailer	3	8	0
+tv antenna retailer	3	9	1
+tv antenna retailer	4	0	2
+tv antenna retailer	4	1	0
+tv antenna retailer	4	2	0
+tv antenna retailer	4	3	1
+tv antenna retailer	4	4	0
+tv antenna retailer	4	5	0
+tv antenna retailer	4	6	1
+tv antenna retailer	4	7	0
+tv antenna retailer	4	8	1
+tv antenna retailer	4	9	1
+tv antenna retailer	5	1	1
+tv antenna retailer	5	2	2
+tv antenna retailer	5	3	0
+tv antenna retailer	5	4	0
+tv antenna retailer	5	5	0
+tv antenna retailer	5	6	0
+tv antenna retailer	5	7	0
+tv antenna retailer	5	8	1
+tv antenna retailer	5	9	0
+tv antenna retailer	6	0	1
+tv antenna retailer	6	1	1
+tv antenna retailer	6	2	0
+tv antenna retailer	6	3	0
+tv antenna retailer	6	4	0
+tv antenna retailer	6	5	2
+tv antenna retailer	6	6	1
+tv antenna retailer	6	7	0
+tv antenna retailer	6	8	1
+tv antenna retailer	6	9	2
+tv antenna retailer	7	0	1
+tv antenna retailer	7	1	1
+tv antenna retailer	7	2	0
+tv antenna retailer	7	3	1
+tv antenna retailer	7	4	1
+tv antenna retailer	7	5	1
+tv antenna retailer	7	6	1
+tv antenna retailer	7	7	0
+tv antenna retailer	7	8	1
+tv antenna retailer	7	9	1
+tv antenna retailer	8	0	1
+tv antenna retailer	8	1	1
+tv antenna retailer	8	2	0
+tv antenna retailer	8	3	0
+tv antenna retailer	8	4	1
+tv antenna retailer	8	5	0
+tv antenna retailer	8	6	1
+tv antenna retailer	8	7	0
+tv antenna retailer	8	8	1
+tv antenna retailer	8	9	2
+tv antenna retailer	9	0	2
+tv antenna retailer	9	1	1
+tv antenna retailer	9	2	1
+tv antenna retailer	9	3	0
+tv antenna retailer	9	5	1
+tv antenna retailer	9	6	1
+tv antenna retailer	9	7	0
+tv antenna retailer	9	8	1
+tv antenna retailer	9	9	0
+plaster board retailer	0	1	3
+plaster board retailer	0	3	3
+plaster board retailer	0	4	2
+plaster board retailer	0	5	2
+plaster board retailer	0	6	0
+plaster board retailer	0	7	2
+plaster board retailer	0	8	2
+plaster board retailer	0	9	2
+plaster board retailer	1	1	1
+plaster board retailer	1	2	3
+plaster board retailer	1	7	0
+plaster board retailer	1	8	3
+plaster board retailer	1	9	1
+plaster board retailer	2	0	2
+plaster board retailer	2	1	1
+plaster board retailer	2	2	2
+plaster board retailer	2	4	1
+plaster board retailer	2	5	0
+plaster board retailer	2	7	2
+plaster board retailer	2	9	1
+plaster board retailer	3	0	0
+plaster board retailer	3	2	1
+plaster board retailer	3	3	0
+plaster board retailer	3	4	1
+plaster board retailer	3	6	0
+plaster board retailer	3	7	1
+plaster board retailer	3	8	0
+plaster board retailer	3	9	1
+plaster board retailer	4	0	1
+plaster board retailer	4	1	3
+plaster board retailer	4	2	1
+plaster board retailer	4	3	1
+plaster board retailer	4	4	1
+plaster board retailer	4	5	1
+plaster board retailer	4	6	2
+plaster board retailer	4	7	2
+plaster board retailer	4	8	2
+plaster board retailer	4	9	2
+plaster board retailer	5	0	1
+plaster board retailer	5	4	1
+plaster board retailer	5	5	3
