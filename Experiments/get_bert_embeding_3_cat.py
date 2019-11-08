@@ -76,7 +76,9 @@ if __name__=='__main__':
         results.append(all_search_results[key])
         if int(labels[key])==1:
             out_label.append(1)
-        else:
+        elif int(labels[key])==0:
+            out_label.append(0)
+        else int(labels[key])==2:
             out_label.append(-1)
 
 
@@ -97,7 +99,7 @@ if __name__=='__main__':
     np.save('../data/descriptions.npy',descriptions)
     np.save('../data/results.npy', results)
     out_label=np.array(out_label)
-    np.save('../data/labels.npy', out_label)
+    np.save('../data/labels_3_cat.npy', out_label)
 
 
 
