@@ -9,6 +9,7 @@ import numpy as np
 from keras.preprocessing import sequence
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Embedding, LSTM, Bidirectional
+from sklearn.model_selection import train_test_split
 
 
 def BiLSTM(x_train, y_train):
@@ -56,18 +57,19 @@ def gen_dummy_data(x=761,y=128,z=768):
     
     return [x_train, x_test],[y_train, y_test]
     
+def get_search_data():
+    x_data = np.load("../../data/results.npy")
+    y_data = np.load("../../data/labels.npy")
+    
+    x_train, x_test, y_train, y_test  = train_test_split(x_data, y_data, train_size=0.8)
+
+    return [x_train, x_test],[y_train, y_test]
+    
 
 
-[x_train, x_test],[y_train, y_test] = gen_dummy_data()
-
-
+[x_train, x_test],[y_train, y_test] = get_search_data()
 model = BiLSTM(x_train, y_train)
-
-
-model.summary()
-
-
-
+# model.summary()
 print('Train...')
 model.fit(x_train, y_train,
           epochs=15,
