@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67e4dfc2-766b-4bfc-aa5c-16d01d0995ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Scrapy_website_description/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../preprocessing/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/gsearch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/keywords" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/user_agents" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scrapy_website_description/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scrapy_website_description/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scrapy_website_description/SearchEngineScrapy/spiders/searchenginespider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Scrapy_website_description/SearchEngineScrapy/spiders/searchenginespider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scrapy_website_description/google_api.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SearchEngineScrapy/spiders/searchenginespider.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngineScrapy/spiders/searchenginespider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/google_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/description_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/description_categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/label_data_retailer_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/label_data_retailer_categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/label_data_retailer_categories_rem_dup.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/result_categories_retailer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/result_categories_retailer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/description_categories.csvbac" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/search_query_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/search_query_categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/search_query_categories.csvbac" beforeDir="false" afterPath="$PROJECT_DIR$/../data/search_query_categories.csvbac" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../preprocessing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/preprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../preprocessing/preprocessing_funs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/preprocessing_funs.py" afterDir="false" />
@@ -50,7 +36,7 @@
   <component name="ProjectId" id="1SwzWrqRVwkR2pcOpmplSWspruC" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Scrapy_website_description" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RunDashboard">
@@ -135,7 +121,7 @@
       <workItem from="1572941116827" duration="2534000" />
       <workItem from="1573174164052" duration="183000" />
       <workItem from="1573174483678" duration="5603000" />
-      <workItem from="1573195807705" duration="733000" />
+      <workItem from="1573195807705" duration="2993000" />
     </task>
     <servers />
   </component>

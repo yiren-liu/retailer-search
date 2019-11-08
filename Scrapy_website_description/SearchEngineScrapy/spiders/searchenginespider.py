@@ -8,6 +8,7 @@ from SearchEngineScrapy.utils.searchenginepages import SearchEngineURLs
 import csv
 from urllib.parse import urljoin
 import ast
+import random
 
 class SearchEngineScrapy(Spider):
     name = "SearchEngineScrapy"
@@ -92,7 +93,7 @@ class SearchEngineScrapy(Spider):
             print('no title')
             title=' '
 
-        if description==' ':
+        if description==' ' or description=='':
             return
         item['title']=title
         item['query']=response.meta['searchQuery']

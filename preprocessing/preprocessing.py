@@ -119,12 +119,14 @@ def remove_dup_query(file):
 #对descriptions进行处理，移除描述为空的网站
 def remove_dup_description(file):
     all_title,all_descr=read_description_file(file)
+    if os.path.exists(file + 'bac'):
+        os.remove(file + 'bac')
     os.rename(file,file+'bac')
     f=open(file,'w',encoding='utf-8')
     for key in all_descr.keys():
-        if all_descr[key]==' ':
+        if all_descr[key]==' 'or all_descr[key]=='':
             continue
-        f.write(key[0]+'\t'+key[1]+'\t'+key[2]+'\t'+all_descr[key]+'\t'+all_descr[key]+'\n')
+        f.write(key[0]+'\t'+key[1]+'\t'+key[2]+'\t'+all_title[key]+'\t'+all_descr[key]+'\n')
     f.close()
 
 
@@ -141,6 +143,7 @@ def rem_dup():
             f.write(key[0]+'\t'+key[1]+'\t'+key[2]+'\t'+labels[key]+'\n')
 
 if __name__=='__main__':
-    remove_dup_query('../data/search_query_categories.csv')
+    # remove_dup_query('../data/search_query_categories.csv')
     pass
+
     # remove_dup_description('../data/description_categories.csv')
