@@ -78,7 +78,7 @@ if __name__=='__main__':
             out_label.append(1)
         elif int(labels[key])==0:
             out_label.append(0)
-        else int(labels[key])==2:
+        else:
             out_label.append(-1)
 
 
