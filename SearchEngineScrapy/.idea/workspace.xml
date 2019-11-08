@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67e4dfc2-766b-4bfc-aa5c-16d01d0995ef" name="Default Changelist" comment="" />
+    <list default="true" id="67e4dfc2-766b-4bfc-aa5c-16d01d0995ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Scrapy_website_description/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../preprocessing/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/gsearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/keywords" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoogleSearchCrawler-master/user_agents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scrapy_website_description/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scrapy_website_description/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scrapy_website_description/SearchEngineScrapy/spiders/searchenginespider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Scrapy_website_description/SearchEngineScrapy/spiders/searchenginespider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scrapy_website_description/google_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchEngineScrapy/spiders/searchenginespider.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngineScrapy/spiders/searchenginespider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/google_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/description_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/description_categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/label_data_retailer_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/label_data_retailer_categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/label_data_retailer_categories_rem_dup.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/result_categories_retailer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/result_categories_retailer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/search_query_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/search_query_categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/preprocessing_funs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/preprocessing_funs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/tag_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/tag_data.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +44,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1SwzWrqRVwkR2pcOpmplSWspruC" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Scrapy_website_description" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RunDashboard">
@@ -104,11 +133,27 @@
       <workItem from="1572779684849" duration="1236000" />
       <workItem from="1572834454617" duration="12000" />
       <workItem from="1572941116827" duration="2534000" />
+      <workItem from="1573174164052" duration="183000" />
+      <workItem from="1573174483678" duration="5603000" />
+      <workItem from="1573195807705" duration="733000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -128,6 +173,21 @@
           <line>53</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/google_api.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/google_api.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/google_api.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -140,6 +200,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SearchEngineScrapy$exec.coverage" NAME="exec Coverage Results" MODIFIED="1572601811140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SearchEngineScrapy$google_api.coverage" NAME="google_api Coverage Results" MODIFIED="1572945175816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SearchEngineScrapy$google_api.coverage" NAME="google_api Coverage Results" MODIFIED="1573195923983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

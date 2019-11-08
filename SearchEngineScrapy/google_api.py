@@ -36,7 +36,8 @@ if __name__=='__main__':
         'AIzaSyD347p7XvYk0xnXXdRBbylQN_itAx4Byes',
         'AIzaSyB17dVlruLqRRPpg6GUdaLE7Gom82FK3nI'
     ]
-    my_api_key = api_keys[1]
+    key_num=6
+    my_api_key = api_keys[key_num]
     my_cse_id = '014747323697270263614:ogs0sc5goyq'
     result_file='../data/result_categories_retailer.csv'
     search_query_file='../data/search_query_categories.csv'
@@ -54,17 +55,23 @@ if __name__=='__main__':
 
     file = open(result_file, 'a', encoding='utf-8')
 
+    count_num=0
     for count,searchQuery in enumerate(query_list):
         # searchQuery='fish reseller'
         searchQuery = searchQuery.lower()
         searchEngine = 'google'
         pages = 10
 
-        if count>=10:
-            break
+
         for page in range(pages):
             if (searchQuery, str(page)) in results:
                 continue
+            count_num+=1
+            if count_num>100:
+                count_num=0
+                key_num=key_num+1
+                my_api_key=api_keys[key_num]
+
             try:
                 result = search(searchQuery, my_api_key, my_cse_id, page)
                 search_items = [[i['title'].replace('\n', '').replace('\t', ''), i['link'],
