@@ -35,7 +35,7 @@ class SearchEngineScrapy(Spider):
             # searchQuery='fish reseller'
             searchQuery = searchQuery.lower()
             searchEngine = 'google'
-            pages = 10
+            pages = 15
 
             pageUrls = SearchEngineURLs(searchQuery, searchEngine, pages)
             selector = SearchEngineResultSelector[searchEngine]

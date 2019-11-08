@@ -1,5 +1,5 @@
-def read_description_file():
-    description_file = '../data/description.csv'
+def read_description_file(description_file):
+
     with open(description_file, 'r', encoding='utf-8') as f:
         search_results = csv.reader(f, delimiter='\t')
         all_description={}

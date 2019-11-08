@@ -30,8 +30,6 @@ def tag_data():
     with open(result_file, 'r', encoding='utf-8') as f:
         f=csv.reader(f, delimiter='\t')
         for i,line in enumerate(f):
-            if i>50:
-                continue
 
             one_page_results=ast.literal_eval(line[2])
 

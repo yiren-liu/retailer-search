@@ -8,6 +8,7 @@ from SearchEngineScrapy.utils.searchenginepages import SearchEngineURLs
 import csv
 from urllib.parse import urljoin
 import ast
+
 class SearchEngineScrapy(Spider):
     name = "SearchEngineScrapy"
 
@@ -67,7 +68,18 @@ class SearchEngineScrapy(Spider):
 
         description = response.xpath('/html/head/meta[@name="description"]/@content')
         if description==[]:
+            description=response.xpath('/html/head/meta[@name="Description"]/@content')
+        if description==[]:
+            description=response.xpath('/html/head/meta[@name="DESCRIPTION"]/@content')
+
+
+        if description==[]:
             description=response.xpath('/html/head/meta[@property="og:description"]/@content')
+        if description==[]:
+            description=response.xpath('/html/head/meta[@property="og:Description"]/@content')
+        if description==[]:
+            description=response.xpath('/html/head/meta[@property="og:DESCRIPTION"]/@content')
+
         if description!=[]:
             description=description.extract()[0].replace('\t', ' ').replace('\n', ' ').replace('\r',' ').replace('\r\n',' ')
         else:
@@ -80,7 +92,8 @@ class SearchEngineScrapy(Spider):
             print('no title')
             title=' '
 
-
+        if description==' ':
+            return
         item['title']=title
         item['query']=response.meta['searchQuery']
         item['count'] = response.meta['count']

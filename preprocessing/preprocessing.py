@@ -4,6 +4,7 @@ import json
 import string
 import collections
 import re
+import os
 from preprocessing_funs import *
 def handle_search_result(search_result):
     title=search_result[0].translate(str.maketrans('', '',string.punctuation))
@@ -98,6 +99,40 @@ def data_stats():
 
     pass
 
+#对search query处理，去掉其中重复的行
+def remove_dup_query(file):
+    with open(file,'r') as f:
+        lines_set=set()
+        lines=f.readlines()
+        nums=[]
+        for i,line in enumerate(lines):
+            if line.strip().lower() not in lines_set:
+                nums.append(i)
+                lines_set.add(line.strip().lower())
+    if os.path.exists(file + 'bac'):
+        os.remove(file + 'bac')
+    os.rename(file, file + 'bac')
+    with open(file,'w') as f:
+        for x in lines_set:
+            f.write(x+'\n')
+
+#对descriptions进行处理，移除描述为空的网站
+def remove_dup_description(file):
+    all_title,all_descr=read_description_file(file)
+    os.rename(file,file+'bac')
+    f=open(file,'w',encoding='utf-8')
+    for key in all_descr.keys():
+        if all_descr[key]==' ':
+            continue
+        f.write(key[0]+'\t'+key[1]+'\t'+key[2]+'\t'+all_descr[key]+'\t'+all_descr[key]+'\n')
+    f.close()
+
+
+
+
+
+
+
 def rem_dup():
     labels=read_label_file()
     pass
@@ -106,4 +141,6 @@ def rem_dup():
             f.write(key[0]+'\t'+key[1]+'\t'+key[2]+'\t'+labels[key]+'\n')
 
 if __name__=='__main__':
-    data_stats()
+    remove_dup_query('../data/search_query_categories.csv')
+    pass
+    # remove_dup_description('../data/description_categories.csv')
