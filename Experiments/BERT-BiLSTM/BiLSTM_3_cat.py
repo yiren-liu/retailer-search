@@ -27,7 +27,7 @@ def BiLSTM(x_train, y_train):
     model.add(Dropout(0.2))
     model.add(Dense(100))
     model.add(Dropout(0.2))
-    model.add(Dense(1, activation='softmax'))
+    model.add(Dense(3, activation='softmax'))
 
     # try using different optimizers and different optimizer configs
     model.compile('adam', 'categorical_crossentropy', metrics=['categorical_accuracy'])
