@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7cb4b54-0e25-4ed0-a87b-ce43aa8e5b6a" name="Default Changelist" comment="" />
+    <list default="true" id="b7cb4b54-0e25-4ed0-a87b-ce43aa8e5b6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Experiments/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Experiments/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Experiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Experiments/get_bert_embeding.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/get_bert_embeding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scrapy_website_description/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scrapy_website_description/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scrapy_website_description/SearchEngineScrapy/spiders/searchenginespider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Scrapy_website_description/SearchEngineScrapy/spiders/searchenginespider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchEngineScrapy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchEngineScrapy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/description_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/description_categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_label_excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/index_label_excel.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/label_data_retailer_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/label_data_retailer_categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/label.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/preprocessing_funs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/preprocessing_funs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/tag_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/tag_data.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1THEmdROnzhYng26NtKSnXBJ2HD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MCTN-master" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,10 +59,22 @@
       <option name="presentableId" value="Default" />
       <updated>1573108780651</updated>
       <workItem from="1573108783416" duration="3066000" />
+      <workItem from="1573262416781" duration="708000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

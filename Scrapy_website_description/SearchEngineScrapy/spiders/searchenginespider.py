@@ -40,6 +40,8 @@ class SearchEngineScrapy(Spider):
 
         with open(result_file, 'r', encoding='utf-8') as f:
             f = csv.reader(f, delimiter='\t')
+            f=list(f)
+            random.shuffle(f)
             for i, line in enumerate(f):
                 # if i <= 100:
                 #     continue

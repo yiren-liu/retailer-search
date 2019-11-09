@@ -6,11 +6,10 @@
       <change beforePath="$PROJECT_DIR$/../Scrapy_website_description/SearchEngineScrapy/spiders/searchenginespider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Scrapy_website_description/SearchEngineScrapy/spiders/searchenginespider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/description_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/description_categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/description_categories.csvbac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/search_query_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/search_query_categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/search_query_categories.csvbac" beforeDir="false" afterPath="$PROJECT_DIR$/../data/search_query_categories.csvbac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/index_label_excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../data/index_label_excel.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/label_data_retailer_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/label_data_retailer_categories.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../preprocessing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/label.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../preprocessing/preprocessing_funs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/preprocessing_funs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../preprocessing/tag_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/tag_data.py" afterDir="false" />
     </list>
@@ -36,7 +35,7 @@
   <component name="ProjectId" id="1SwzWrqRVwkR2pcOpmplSWspruC" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Scrapy_website_description" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Experiments" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RunDashboard">
@@ -121,7 +120,8 @@
       <workItem from="1572941116827" duration="2534000" />
       <workItem from="1573174164052" duration="183000" />
       <workItem from="1573174483678" duration="5603000" />
-      <workItem from="1573195807705" duration="2993000" />
+      <workItem from="1573195807705" duration="3746000" />
+      <workItem from="1573259581227" duration="61000" />
     </task>
     <servers />
   </component>

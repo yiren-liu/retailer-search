@@ -5,6 +5,7 @@ import random
 from openpyxl import Workbook
 from preprocessing_funs import *
 
+#将要标注的数据写入表格中
 def tag_data():
     result_file='../data/result_categories_retailer.csv'
     label_file='../data/label_data_retailer_categories.csv'
@@ -22,7 +23,7 @@ def tag_data():
     all_result=[]
     # file= open('label_excel.csv','w',encoding='utf-8')
 
-    indexs=read_index_file(index_f)
+
 
     excel_file_name='../data/index_label_excel.xlsx'
     wb = Workbook()
@@ -48,8 +49,6 @@ def tag_data():
                 if (line[0],line[1],str(count)) not in all_description.keys():#543开始
                     continue
 
-                if (line[0],line[1],str(count)) in indexs:
-                    continue
 
                 print('\n'+line[0]+'\n'+one_result[0]+'\n'+one_result[1]+'\n'+one_result[2])
 
@@ -59,8 +58,7 @@ def tag_data():
                 all_excel_data.append([str((line[0],line[1],str(count))),'\n'+line[0]+'\n'+one_result[0]+'\n'+one_result[1]+'\n'+one_result[2]
                            +'\n\n'+'标题：'+all_title[(line[0],line[1],str(count))]+'\n'+'描述：'
                            +all_description[(line[0],line[1],str(count))]])
-                if len(unlabeled_data)>=500:
-                    break
+
                 unlabeled_data.append([line[0],line[1],str(count),one_result[0],one_result[1],one_result[2],
                                        all_title[(line[0],line[1],str(count))],all_description[(line[0],line[1],str(count))]])
 
@@ -79,9 +77,9 @@ def tag_data():
     # random.shuffle(all_excel_data)
     # save_500_results(unlabeled_data)
 
-    # for line in all_excel_data:
-    #     ws.append(line)
-    # wb.save(excel_file_name)
+    for line in all_excel_data:
+        ws.append(line)
+    wb.save(excel_file_name)
 
 def gen_excel():
     wb=Workbook()
@@ -109,5 +107,6 @@ if __name__=='__main__':
     # gen_excel()
     pass
     # check_label()
-    # tag_data()
+    tag_data()
     # creat_excel_for_labeled()
+    # read_excel_to_label('../data/labeled_excel/label_2.xlsx','../data/label_data_retailer_categories.csv')

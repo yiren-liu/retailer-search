@@ -1,7 +1,19 @@
 import ast
 import csv
 import json
-from openpyxl import Workbook
+from openpyxl import Workbook,load_workbook
+
+def read_excel_to_label(excel_file,label_file):
+    with open(label_file,'a',encoding='utf-8') as f:
+        wb=load_workbook(excel_file)
+        ws = wb.active
+        for i,cell in enumerate(ws['C']):
+            if cell.value!=None:
+                f.write('\t'.join(ast.literal_eval(ws['A%d'%(i+1)].value))+'\t'+str(cell.value)+'\n')
+
+
+
+
 
 def read_description_file(description_file):
 
