@@ -70,6 +70,10 @@ if __name__=='__main__':
     for key in labels.keys():
         if labels[key]=='3':
             continue
+        if key not in all_title.keys():
+            continue
+
+
         if all_title[key]+all_description[key]=='  ':
             continue
         descriptions.append(all_title[key]+all_description[key])
