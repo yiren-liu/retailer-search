@@ -29,7 +29,7 @@ def BiLSTM(x_train, y_train):
     model.add(Dense(1, activation='sigmoid'))
 
     # try using different optimizers and different optimizer configs
-    model.compile('adam', 'binary_crossentropy', metrics=['binary_accuracy'])
+    model.compile('adam', 'categorical_crossentropy', metrics=['categorical_accuracy'])
     return model
 
 
