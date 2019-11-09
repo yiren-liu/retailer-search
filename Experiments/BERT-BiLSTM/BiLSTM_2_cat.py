@@ -61,7 +61,7 @@ def gen_dummy_data(x=761,y=128,z=768):
 def get_search_data():
     x_data = np.load("../../data/results.npy")
     x_data = np.concatenate([x_data,np.load("../../data/descriptions.npy")],axis=-1)
-    y_data = (np.load("../../data/labels.npy")+1)/2
+    y_data = (np.load("../../data/labels_2_cat.npy")+1)/2
     
     x_train, x_test, y_train, y_test  = train_test_split(x_data, y_data, train_size=0.8)
 
@@ -95,7 +95,7 @@ model = BiLSTM(x_train, y_train)
 # model.summary()
 print('Train...')
 model.fit(x_train, y_train,
-          epochs=3,
+          epochs=15,
           validation_data=[x_test, y_test])
 
 model.save('BiLSTM_2_cat.h5')
