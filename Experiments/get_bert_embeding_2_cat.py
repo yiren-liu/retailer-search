@@ -100,7 +100,7 @@ if __name__=='__main__':
     np.save('../data/descriptions.npy',descriptions)
     np.save('../data/results.npy', results)
     out_label=np.array(out_label)
-    np.save('../data/labels.npy', out_label)
+    np.save('../data/labels_2_cat.npy', out_label)
 
 
 
