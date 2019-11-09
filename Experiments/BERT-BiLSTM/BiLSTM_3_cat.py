@@ -12,6 +12,7 @@ from keras.layers import Dense, Dropout, Embedding, LSTM, Bidirectional
 from sklearn.model_selection import train_test_split
 from keras import backend as K
 from sklearn.metrics import classification_report
+from keras.utils import to_categorical
 
 def BiLSTM(x_train, y_train):
 #     max_features = 20000
@@ -26,7 +27,7 @@ def BiLSTM(x_train, y_train):
     model.add(Dropout(0.2))
     model.add(Dense(100))
     model.add(Dropout(0.2))
-    model.add(Dense(1, activation='sigmoid'))
+    model.add(Dense(1, activation='softmax'))
 
     # try using different optimizers and different optimizer configs
     model.compile('adam', 'categorical_crossentropy', metrics=['categorical_accuracy'])
@@ -91,6 +92,8 @@ def f1_m(y_true, y_pred):
 
 
 [x_train, x_test],[y_train, y_test] = get_search_data()
+y_train = to_categorical(y_train)
+y_test = to_categorical(y_test)
 model = BiLSTM(x_train, y_train)
 # model.summary()
 print('Train...')
