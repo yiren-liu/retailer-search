@@ -10,7 +10,8 @@ from keras.preprocessing import sequence
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Embedding, LSTM, Bidirectional
 from sklearn.model_selection import train_test_split
-
+from keras import backend as K
+from sklearn.metrics import classification_report
 
 def BiLSTM(x_train, y_train):
 #     max_features = 20000
@@ -22,13 +23,13 @@ def BiLSTM(x_train, y_train):
     model = Sequential()
 #     model.add(Embedding(x_train.shape[-1], 100, input_length=maxlen))
     model.add(Bidirectional(LSTM(512)))
-    model.add(Dropout(0.5))
+    model.add(Dropout(0.2))
     model.add(Dense(100))
-    model.add(Dropout(0.5))
-    model.add(Dense(1, activation='tanh'))
+    model.add(Dropout(0.2))
+    model.add(Dense(1, activation='sigmoid'))
 
     # try using different optimizers and different optimizer configs
-    model.compile('adam', 'binary_crossentropy', metrics=['accuracy'])
+    model.compile('adam', 'binary_crossentropy', metrics=['binary_accuracy'])
     return model
 
 
@@ -59,12 +60,34 @@ def gen_dummy_data(x=761,y=128,z=768):
     
 def get_search_data():
     x_data = np.load("../../data/results.npy")
-    y_data = np.load("../../data/labels.npy")
+    x_data = np.concatenate([x_data,np.load("../../data/descriptions.npy")],axis=-1)
+    y_data = (np.load("../../data/labels.npy")+1)/2
     
     x_train, x_test, y_train, y_test  = train_test_split(x_data, y_data, train_size=0.8)
 
     return [x_train, x_test],[y_train, y_test]
     
+#---------------------------metrics---------------------------------------------#
+def recall_m(y_true, y_pred):
+        #true_positives = K.sum(K.cast(K.equal(K.round(K.clip(y_pred, 0, 1)),K.round(K.clip(y_true, 0, 1))),'float32'))
+        true_positives = K.sum(K.round(K.clip(y_true, 0, 1) * K.clip(y_pred, 0, 1)))                
+        possible_positives = K.sum(K.round(K.clip(y_true, 0, 1)))
+        recall = true_positives / (possible_positives + K.epsilon())
+        return recall
+
+def precision_m(y_true, y_pred):
+        #true_positives = K.sum(K.cast(K.equal(K.round(K.clip(y_pred, 0, 1)),K.round(K.clip(y_true, 0, 1))),'float32'))
+        true_positives = K.sum(K.round(K.clip(y_true, 0, 1) * K.clip(y_pred, 0, 1))) 
+        predicted_positives = K.sum(K.round(K.clip(y_pred, 0, 1)))
+        precision = true_positives / (predicted_positives + K.epsilon())
+        return precision
+
+def f1_m(y_true, y_pred):
+    precision = precision_m(y_true, y_pred)
+    recall = recall_m(y_true, y_pred)
+    return 2*((precision*recall)/(precision+recall+K.epsilon()))
+
+
 
 
 [x_train, x_test],[y_train, y_test] = get_search_data()
@@ -72,12 +95,15 @@ model = BiLSTM(x_train, y_train)
 # model.summary()
 print('Train...')
 model.fit(x_train, y_train,
-          epochs=15,
+          epochs=3,
           validation_data=[x_test, y_test])
 
 model.save('BiLSTM_2_cat.h5')
 
+y_pred = model.predict(x_test)
+y_pred_bool = y_pred>0.5
 
+print(classification_report(y_test, y_pred_bool))
 
 
 
