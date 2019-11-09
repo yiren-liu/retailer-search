@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c976b8-d862-4d9f-a094-99358b6c5a57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Experiments/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../data/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Experiments/.idea/Experiments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/.idea/Experiments.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Experiments/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Experiments/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Experiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Experiments/get_bert_embeding.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/get_bert_embeding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scrapy_website_description/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scrapy_website_description/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scrapy_website_description/SearchEngineScrapy/spiders/searchenginespider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Scrapy_website_description/SearchEngineScrapy/spiders/searchenginespider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SearchEngineScrapy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchEngineScrapy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../data/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../data/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/description_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/description_categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/index_label_excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../data/index_label_excel.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/label_data_retailer_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/label_data_retailer_categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reports/实验.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Reports/实验.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/label.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing_funs.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing_funs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/tag_data.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MCTN-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_2cat" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -176,7 +166,8 @@
       <workItem from="1573127214440" duration="662000" />
       <workItem from="1573175105639" duration="8687000" />
       <workItem from="1573197569964" duration="20722000" />
-      <workItem from="1573260080302" duration="2470000" />
+      <workItem from="1573260080302" duration="3669000" />
+      <workItem from="1573315749903" duration="632000" />
     </task>
     <servers />
   </component>
