@@ -33,7 +33,7 @@ def read_description_file():
     return all_title,all_description
 
 def read_label_file():
-    label_file = '../data/label_data_retailer_categories_rem_dup.csv'
+    label_file = '../data/label_data_retailer_categories.csv'
     with open(label_file, 'r', encoding='utf-8') as f:
         labels={}
         search_results = csv.reader(f, delimiter='\t')
