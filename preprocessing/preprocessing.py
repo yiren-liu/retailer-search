@@ -149,8 +149,44 @@ def rem_dup():
         for key in labels.keys():
             f.write(key[0]+'\t'+key[1]+'\t'+key[2]+'\t'+labels[key]+'\n')
 
+def draw_pic():
+    import pickle
+    import matplotlib.pyplot as plt
+    with open('history_params.sav', 'rb') as f:
+        tmp = pickle.load(f)
+    history_dict = tmp
+    loss_values = history_dict['loss']
+    val_loss_values = history_dict['val_loss']
+
+    epochs = range(1, len(loss_values) + 1)
+
+    plt.plot(epochs, loss_values, 'bo', label='Training loss')  # ←------'bo'
+    # 表示蓝色圆点
+    plt.plot(epochs, val_loss_values, 'b', label='Validation loss')  # ←------'b'
+    # 表示蓝色实线
+    plt.title('Training and validation loss')
+    plt.xlabel('Epochs')
+    plt.ylabel('Loss')
+    plt.legend()
+
+    plt.show()
+    plt.clf()  # ←------ 清空图像
+    acc = history_dict['regression_output_acc']
+    val_acc = history_dict['val_regression_output_acc']
+
+    plt.plot(epochs, acc, 'bo', label='Training acc')
+    plt.plot(epochs, val_acc, 'b', label='Validation acc')
+    plt.title('Training and validation accuracy')
+    plt.xlabel('Epochs')
+    plt.ylabel('Accuracy')
+    plt.legend()
+
+    plt.show()
+
+
 if __name__=='__main__':
     # remove_dup_query('../data/search_query_categories.csv')
     pass
-    replace_npy()
+    draw_pic()
+    # replace_npy()
     # remove_dup_description('../data/description_categories.csv')

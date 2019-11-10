@@ -1,9 +1,12 @@
 import pickle
 from collections import defaultdict
-
+from keras.utils import to_categorical
 import numpy as np
 import scipy.io as sio
-
+import random
+from keras.utils import to_categorical
+from sklearn.model_selection import train_test_split
+from keras.utils import to_categorical
 # GLOBAL Vars
 data_path = '../data/'
 dataset_path = data_path + 'mosi/'
@@ -27,7 +30,7 @@ def load_word_embedding():
 
 def load_word2ix():
   with open(word2ix_path) as f:
-    word2ix = cPickle.load(f)
+    word2ix = pickle.load(f)
   return word2ix
 
 
@@ -165,11 +168,9 @@ def load_word_level_features(max_seq_len, train_split):
   return train, test
 
 def load_search_data():
-
-
   data_1 = np.load('../../data/results.npy')
   data_2=np.load('../../data/descriptions.npy')
-  labels_all=np.load('../../data/labels_2_cat.npy')
+  labels_all=to_categorical(np.load('../../data/labels_3_cat.npy'))
   split = int(len(data_1) * 4 / 5)
   # facet_train = facet_all[0:3000]
   data_1_train = data_1[0:split]
@@ -191,6 +192,7 @@ def load_search_data():
 
   return feats_dict
 
+
 def load_and_preprocess_data(max_seq_len=20,
                              train_split=2.0 / 3,
                              is_cycled=True):
@@ -206,19 +208,106 @@ def load_and_preprocess_data(max_seq_len=20,
 
   """
   print("Loading data from disk...\n")
-  train, test = load_word_level_features(max_seq_len,
-                                         train_split)
+  # train, test = load_word_level_features(max_seq_len,
+  #                                        train_split)
 
   # extract parts from datasets
-  facet_train = train['facet']
-  covarep_train = train['covarep'][:, :, 1:35]
-  facet_test = test['facet']
-  covarep_test = test['covarep'][:, :, 1:35]
+  # facet_train = train['facet']
+  # covarep_train = train['covarep'][:, :, 1:35]
+  # facet_test = test['facet']
+  # covarep_test = test['covarep'][:, :, 1:35]
+  #
+  # text_train = train['text_eb']
+  # text_test = test['text_eb']
+  # y_train = train['label']
+  # y_test = test['label']
 
-  text_train = train['text_eb']
-  text_test = test['text_eb']
-  y_train = train['label']
-  y_test = test['label']
+  # 随机生成（T,A,V）
+  # facet_train = np.random.rand(100,50,20)
+  # covarep_train = np.random.rand(100,50,20)
+  # facet_test = np.random.rand(10,50,20)
+  # covarep_test = np.random.rand(10,50,20)
+  #
+  # text_train = np.random.rand(100,50,30)
+  # text_test = np.random.rand(10,50,30)
+  # y_train = np.random.randint(0,2,100)
+  # y_test = np.random.randint(0,2,10)
+
+  #读取json
+  facet_all=[]
+  covarep_all=[]
+  text_all=[]
+
+  facet_train = []
+  covarep_train = []
+  facet_test = []
+  covarep_test = []
+
+  text_train = []
+  text_test = []
+  y_train = []
+  y_test = []
+  import json
+  # with open('data.txt', 'r') as f:
+  #   for i,line in enumerate(f.readlines()):
+  #     data=json.loads(line)
+  #
+  #     text_all.append(data['SentSeq'])
+  #     covarep_all.append(data['SpeedSeq'])
+  #     facet_all.append([a + b for (a, b) in zip(data['VF_left'], data['VF_right'])])
+  #
+  #     pass
+
+  x1_data = np.load("../data/results.npy")
+  x2_data = np.load("../data/descriptions.npy")
+  y_data = np.load("../data/labels_3_cat.npy") + 1
+
+  x1_train, x1_test,x2_train, x2_test, y_train, y_test = train_test_split(x1_data,x2_data, y_data, train_size=0.8)
+  y_train = to_categorical(y_train)
+  y_test = to_categorical(y_test)
+
+
+  text_all = np.load('../data/results.npy')
+  covarep_all=np.load('../data/descriptions.npy')
+  labels_all=np.load('../data/labels.npy')
+
+  # def padding(padding_list):
+  #   max_len=max([len(x) for x in padding_list])
+  #   padded_list=[]
+  #   for i in padding_list:
+  #     if len(i)<max_len:
+  #       i.extend([0]*(max_len-len(i)))
+  #     padded_list.append(i)
+  #
+  #   return padded_list
+  #
+  # def normalization(data):
+  #   _range = np.max(data) - np.min(data)
+  #   return (data - np.min(data)) / _range
+
+  # facet_all=normalization(np.array(padding(facet_all)))
+  # covarep_all = normalization(np.array(padding(covarep_all)))
+  # text_all = normalization(np.array(padding(text_all)))
+
+  # facet_all=facet_all.reshape(facet_all.shape[0], facet_all.shape[1], 1)
+  # covarep_all = covarep_all.reshape(covarep_all.shape[0], covarep_all.shape[1], 1)
+  # text_all = text_all.reshape(text_all.shape[0], text_all.shape[1], 1)
+
+  # split = int(len(text_all) * 4 / 5)
+  # # facet_train = facet_all[0:3000]
+  # covarep_train = covarep_all[0:split]
+  # text_train = text_all[0:split]
+  #
+  # # facet_test = facet_all[3000:]
+  # covarep_test = covarep_all[split:]
+  # text_test = text_all[split:]
+  #
+  #
+  # y_train = labels_all[:split]
+  # y_test = labels_all[split:]
+
+
+
 
   # --------------------------------------------
   #               INSTRUCTION
@@ -232,49 +321,49 @@ def load_and_preprocess_data(max_seq_len=20,
   #   D_i is the number of features (varies by T, A, V).
   # We do word-level aligned feature extraction
   # --------------------------------------------
+  #
+  # print("Post-processing facial and covarap features")
+  # facet_train_max = np.max(np.max(np.abs(facet_train), axis=0), axis=0)
+  # facet_train_max[facet_train_max == 0] = 1
+  # facet_train = facet_train / facet_train_max
+  # facet_test = facet_test / facet_train_max
 
-  print("Post-processing facial and covarap features")
-  facet_train_max = np.max(np.max(np.abs(facet_train), axis=0), axis=0)
-  facet_train_max[facet_train_max == 0] = 1
-  facet_train = facet_train / facet_train_max
-  facet_test = facet_test / facet_train_max
+  # text_dim = text_train.shape[2]
+  # # facet_dim = facet_train.shape[2]
+  # covarep_dim = covarep_train.shape[2]
+  # max_dim = max(text_dim, covarep_dim)
+  #
+  # if is_cycled:
+  #   print("PADDING FOR CYCLIC LOSS ...")
+  #   if max_dim > text_dim:
+  #     text_train = np.pad(text_train,
+  #                         ((0, 0), (0, 0), (0, max_dim - text_dim)),
+  #                         'constant')
+  #     text_test = np.pad(text_test,
+  #                        ((0, 0), (0, 0), (0, max_dim - text_dim)),
+  #                        'constant')
+  #   # if max_dim > facet_dim:
+  #   #   facet_train = np.pad(facet_train,
+  #   #                        ((0, 0), (0, 0), (0, max_dim - facet_dim)),
+  #   #                        'constant')
+  #   #   facet_test = np.pad(facet_test,
+  #   #                       ((0, 0), (0, 0), (0, max_dim - facet_dim)),
+  #   #                       'constant')
+  #   if max_dim > covarep_dim:
+  #     covarep_train = np.pad(covarep_train,
+  #                            ((0, 0), (0, 0), (0, max_dim - covarep_dim)),
+  #                            'constant')
+  #     covarep_test = np.pad(covarep_test,
+  #                           ((0, 0), (0, 0), (0, max_dim - covarep_dim)),
+  #                           'constant')
+  #
+  # print("Text train: {}".format(text_train.shape))
+  # print("Covarep train: {}".format(covarep_train.shape))
+  # # print("Facet train: {}".format(facet_train.shape))
 
-  text_dim = text_train.shape[2]
-  facet_dim = facet_train.shape[2]
-  covarep_dim = covarep_train.shape[2]
-  max_dim = max(text_dim, facet_dim, covarep_dim)
-
-  if is_cycled:
-    print("PADDING FOR CYCLIC LOSS ...")
-    if max_dim > text_dim:
-      text_train = np.pad(text_train,
-                          ((0, 0), (0, 0), (0, max_dim - text_dim)),
-                          'constant')
-      text_test = np.pad(text_test,
-                         ((0, 0), (0, 0), (0, max_dim - text_dim)),
-                         'constant')
-    if max_dim > facet_dim:
-      facet_train = np.pad(facet_train,
-                           ((0, 0), (0, 0), (0, max_dim - facet_dim)),
-                           'constant')
-      facet_test = np.pad(facet_test,
-                          ((0, 0), (0, 0), (0, max_dim - facet_dim)),
-                          'constant')
-    if max_dim > covarep_dim:
-      covarep_train = np.pad(covarep_train,
-                             ((0, 0), (0, 0), (0, max_dim - covarep_dim)),
-                             'constant')
-      covarep_test = np.pad(covarep_test,
-                            ((0, 0), (0, 0), (0, max_dim - covarep_dim)),
-                            'constant')
-
-  print("Text train: {}".format(text_train.shape))
-  print("Covarep train: {}".format(covarep_train.shape))
-  print("Facet train: {}".format(facet_train.shape))
-
-  feats_dict = {'t': [text_train, text_test, 'text'],
-                'f': [facet_train, facet_test, 'video'],
-                'c': [covarep_train, covarep_test, 'audio'],
+  feats_dict = {'t': [x1_train, x1_test, 'text'],
+                # 'f': [facet_train, facet_test, 'video'],
+                'c': [x2_train, x2_test, 'audio'],
                 'train_labels': y_train,
                 'test_labels': y_test
                 }

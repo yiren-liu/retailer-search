@@ -3,7 +3,7 @@
 
 # In[2]:
 
-
+import pickle
 import numpy as np
 
 from keras.preprocessing import sequence
@@ -60,13 +60,32 @@ def gen_dummy_data(x=761,y=128,z=768):
     return [x_train, x_test],[y_train, y_test]
     
 def get_search_data():
-    x_data = np.load("../../data/results.npy")
-    x_data = np.concatenate([x_data,np.load("../../data/descriptions.npy")],axis=-1)
-    y_data = np.load("../../data/labels_3_cat.npy")+1
-    
-    x_train, x_test, y_train, y_test  = train_test_split(x_data, y_data, train_size=0.8)
+    # x_data = np.load("../../data/results.npy")
+    # x_data = np.concatenate([x_data,np.load("../../data/descriptions.npy")],axis=-1)
+    # y_data = np.load("../../data/labels_3_cat.npy")+1
+    #
+    # x_train, x_test, y_train, y_test  = train_test_split(x_data, y_data, train_size=0.8)
 
-    return [x_train, x_test],[y_train, y_test]
+    data_1 = np.load('../../data/results.npy')
+    data_2 = np.load('../../data/descriptions.npy')
+    labels_all = to_categorical(np.load('../../data/labels_3_cat.npy'))
+    con_data=np.concatenate([data_1,data_2],axis=-1)
+
+    split = int(len(data_1) * 4 / 5)
+    # facet_train = facet_all[0:3000]
+    data_1_train = data_1[0:split]
+    data_2_train = data_2[0:split]
+    con_data_train = con_data[0:split]
+
+    # facet_test = facet_all[3000:]
+    data_1_test = data_1[split:]
+    data_2_test = data_2[split:]
+    con_data_test = con_data[split:]
+
+    y_train = labels_all[:split]
+    y_test = labels_all[split:]
+
+    return [con_data_train, con_data_test],[y_train, y_test]
     
 #---------------------------metrics---------------------------------------------#
 def recall_m(y_true, y_pred):
@@ -92,15 +111,16 @@ def f1_m(y_true, y_pred):
 
 
 [x_train, x_test],[y_train, y_test] = get_search_data()
-y_train = to_categorical(y_train)
-y_test = to_categorical(y_test)
+# y_train = to_categorical(y_train)
+# y_test = to_categorical(y_test)
 model = BiLSTM(x_train, y_train)
 # model.summary()
 print('Train...')
-model.fit(x_train, y_train,
+history=model.fit(x_train, y_train,
           epochs=15,
           validation_data=[x_test, y_test])
-
+with open('history_params.sav', 'wb') as f:
+    pickle.dump(history.history, f, -1)
 model.save('BiLSTM_3_cat.h5')
 
 

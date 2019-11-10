@@ -97,7 +97,8 @@ print('Train...')
 model.fit(x_train, y_train,
           epochs=15,
           validation_data=[x_test, y_test])
-
+with open('history_params.sav', 'wb') as f:
+    pickle.dump(history.history, f, -1)
 model.save('BiLSTM_2_cat.h5')
 
 y_pred = model.predict(x_test)
