@@ -131,10 +131,10 @@ class E2E_MCTN_Model(BaseModel):
       output_feeds = [self.output_train,
                       self.feats_dict['train_labels']
                       ]
-    self.model.fit(x=[self.input_train],
+    return self.model.fit(x=[self.input_train],
                    y=output_feeds,
                    epochs=n_epochs,
-                   validation_split=val_split,
+                   validation_data=[self.input_test,[self.output_test,self.input_test,self.feats_dict['test_labels']]],
                    batch_size=batch_size,
                    verbose=is_verbose,
                    callbacks=callbacks)

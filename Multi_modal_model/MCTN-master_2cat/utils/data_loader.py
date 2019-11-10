@@ -1,4 +1,4 @@
-import cPickle
+import pickle
 from collections import defaultdict
 
 import numpy as np
@@ -22,7 +22,7 @@ word_embedding_path = data_path + "glove_word_embedding/glove_300_mosi.pkl"
 
 def load_word_embedding():
   with open(word_embedding_path) as f:
-    return cPickle.load(f)
+    return pickle.load(f)
 
 
 def load_word2ix():
@@ -166,9 +166,10 @@ def load_word_level_features(max_seq_len, train_split):
 
 def load_search_data():
 
-  data_1 = np.load('../data/results.npy')
-  data_2=np.load('../data/descriptions.npy')
-  labels_all=np.load('../data/labels.npy')
+  #网站描述和result交换了顺序
+  data_2 = np.load('../../data/results.npy')
+  data_1=np.load('../../data/descriptions.npy')
+  labels_all=np.load('../../data/labels_2_cat.npy')
   split = int(len(data_1) * 4 / 5)
   # facet_train = facet_all[0:3000]
   data_1_train = data_1[0:split]

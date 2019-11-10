@@ -36,7 +36,7 @@ def create_regression_model(n_hidden, input, l2_factor):
   sent_representation = multiply([activations, attention])
   sent_representation = Lambda(lambda xin: K.sum(xin, axis=1)
                                )(sent_representation)
-  regression_score = Dense(1,
+  regression_score = Dense(1,activation='sigmoid',
                            name='regression_output',
                            kernel_regularizer=l2(l2_factor))(
     sent_representation)

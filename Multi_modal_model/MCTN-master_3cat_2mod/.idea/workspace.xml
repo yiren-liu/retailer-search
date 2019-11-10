@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b8fdb0a3-6f37-4a32-835e-0571f870b371" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Experiments/.idea/Experiments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Experiments/.idea/Experiments.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Experiments/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Experiments/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Experiments/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Experiments/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Experiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Experiments/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Experiments/get_bert_embeding_2_cat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Experiments/get_bert_embeding_3_cat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/.idea/MCTN-master_2cat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_2cat/.idea/MCTN-master_2cat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_2cat/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_2cat/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/configs/mctn.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_2cat/configs/mctn.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_2cat/end2end_bimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_2cat/models/bimodals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/models/regression_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_2cat/models/regression_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/output/New Folder/t_c_attention_seq2seq_bi_directional_bimodal.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/output/t_c_attention_seq2seq_bi_directional_bimodal.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/utils/args.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_2cat/utils/args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_2cat/utils/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_2cat/utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat/.idea/MCTN-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat/.idea/MCTN-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat/configs/mctn.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat/configs/mctn.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat/end2end_bimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat/models/bimodals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat/utils/args.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat/utils/args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat/utils/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat/utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Reports/实验.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Reports/新建 Microsoft Word 文档.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scrapy_website_description/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scrapy_website_description/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../data/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../data/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data/description_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../data/description_categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../preprocessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../preprocessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../preprocessing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../preprocessing/preprocessing.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1TMQdAj6uVjthZjoua4TSgAnhFV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="end2end_bimodal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MCTN-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/end2end_bimodal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.end2end_bimodal" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8fdb0a3-6f37-4a32-835e-0571f870b371" name="Default Changelist" comment="" />
+      <created>1573267569787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573267569787</updated>
+      <workItem from="1573267570984" duration="18324000" />
+      <workItem from="1573317567763" duration="1025000" />
+      <workItem from="1573355211622" duration="1493000" />
+      <workItem from="1573377425061" duration="3232000" />
+      <workItem from="1573382021532" duration="2228000" />
+      <workItem from="1573385619016" duration="1367000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MCTN_master$end2end_bimodal.coverage" NAME="end2end_bimodal Coverage Results" MODIFIED="1573307015259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MCTN_master_3cat$end2end_bimodal.coverage" NAME="end2end_bimodal Coverage Results" MODIFIED="1573383404692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

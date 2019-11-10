@@ -11,7 +11,7 @@ translation:
 regression:
   reg_hidden_dim: 32
   l2_factor: 0.01
-  loss_type: 'mae'
+  loss_type: 'binary_crossentropy'
   loss_weight: 1.0
 
 general:

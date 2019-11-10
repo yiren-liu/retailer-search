@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.extend(['/home/zhengjie/Projects/Search/MCTN-master', '/home/zhengjie/Projects/Search/MCTN-master/models'])
+sys.path.extend(['/home/zhengjie/Projects/Search/Multi_modal_model/MCTN-master_2cat/models'])
 import numpy as np
 import tensorflow as tf
 from keras.callbacks import EarlyStopping
@@ -45,11 +45,13 @@ callbacks = [
 ]
 
 print("TRAINING NOW...")
-end2end_model.train(weights_path=weights_path,
+history=end2end_model.train(weights_path=weights_path,
                     n_epochs=args.train_epoch,
                     val_split=args.val_split,
                     batch_size=args.batch_size,
                     callbacks=callbacks)
+# with open('history_params.sav', 'wb') as f:
+#     pickle.dump(history.history, f, -1)
 
 print("PREDICTING...")
 predictions = end2end_model.predict()

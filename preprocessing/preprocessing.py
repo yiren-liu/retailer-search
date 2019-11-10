@@ -130,9 +130,16 @@ def remove_dup_description(file):
     f.close()
 
 
-
-
-
+def replace_npy():
+    import numpy as np
+    a=np.load('../data/labels_2_cat.npy')
+    b=[]
+    for i in a:
+        if i==0 or i==2:
+            b.append(0)
+        elif i==1:
+            b.append(1)
+    np.save('../data/labels_2_cat.npy',np.array(b))
 
 
 def rem_dup():
@@ -145,5 +152,5 @@ def rem_dup():
 if __name__=='__main__':
     # remove_dup_query('../data/search_query_categories.csv')
     pass
-
+    replace_npy()
     # remove_dup_description('../data/description_categories.csv')

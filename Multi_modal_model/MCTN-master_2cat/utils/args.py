@@ -7,7 +7,7 @@ def parse_args():
   Parsing input arguments from command line 
   """
   parser = argparse.ArgumentParser(description='(H)MCTN Experiments')
-  parser.add_argument('--train_epoch', default=0, type=int,
+  parser.add_argument('--train_epoch', default=30, type=int,
                       help='default is 200 epochs')
   parser.add_argument('--train_patience', default=20, type=int)
   parser.add_argument('--batch_size', default=32, type=int)

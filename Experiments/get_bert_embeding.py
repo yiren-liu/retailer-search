@@ -56,6 +56,17 @@ def read_result_file():
 
 
 
+def creat_2_cat_label(out_label):
+    ult_label=[]
+    for i in out_label:
+        if i==0 or i==2:
+            ult_label.append(0)
+        else:
+            ult_label.append(1)
+    np.save('../data/labels_2_cat.npy', np.array(ult_label))
+
+def creat_3_cat_label(out_label):
+    np.save('../data/labels_3_cat.npy', out_label)
 
 
 
@@ -70,25 +81,32 @@ if __name__=='__main__':
     for key in labels.keys():
         if labels[key]=='3':
             continue
+
         if key not in all_title.keys():
             continue
         if all_title[key]+all_description[key]=='  ':
             continue
-        descriptions.append(all_title[key]+all_description[key])
-        results.append(all_search_results[key])
+
+
         if int(labels[key])==1:
             out_label.append(1)
+        elif int(labels[key])==0:
+            out_label.append(0)
+        elif int(labels[key])==2:
+            out_label.append(2)
         else:
-            out_label.append(-1)
+            continue
 
+        descriptions.append(all_title[key] + all_description[key])
+        results.append(all_search_results[key])
 
-    randnum = random.randint(0,100)
-    random.seed(randnum)
-    random.shuffle(descriptions)
-    random.seed(randnum)
-    random.shuffle(results)
-    random.seed(randnum)
-    random.shuffle(out_label)
+    d=list(zip(descriptions,results,out_label))
+    random.seed(90)
+    random.shuffle(d)
+    descriptions, results, out_label=zip(*d)
+    descriptions=list(descriptions)
+    results=list(results)
+
 
     bc = BertClient()
     descriptions.extend(results)
@@ -99,9 +117,11 @@ if __name__=='__main__':
     np.save('../data/descriptions.npy',descriptions)
     np.save('../data/results.npy', results)
     out_label=np.array(out_label)
-    np.save('../data/labels_2_cat.npy', out_label)
+    creat_2_cat_label(out_label)
+    creat_3_cat_label(out_label)
 
 
+    print('max_seq_len: ',len(descriptions[0]))
 
-    print(bc.encode(['First do it', 'then do it right', 'then do it better']).shape)
+    # print(bc.encode(['First do it', 'then do it right', 'then do it better']).shape)
 

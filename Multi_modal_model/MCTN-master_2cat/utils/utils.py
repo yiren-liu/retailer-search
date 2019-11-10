@@ -149,8 +149,8 @@ def get_preds_statistics(predictions, y_test):
                            np.round(y_test), average='weighted'),
                   5)
   print("mult f_score: {}".format(f_score))
-  true_label = (y_test >= 0)
-  predicted_label = (predictions >= 0)
+  true_label = y_test
+  predicted_label = np.round(predictions)
   print("Confusion Matrix :")
   print(confusion_matrix(true_label, predicted_label))
   print("Classification Report :")
