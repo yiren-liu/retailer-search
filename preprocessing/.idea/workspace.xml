@@ -3,16 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="82c976b8-d862-4d9f-a094-99358b6c5a57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Experiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Experiments/BERT-BiLSTM/BiLSTM_2_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/BERT-BiLSTM/BiLSTM_2_cat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Experiments/BERT-BiLSTM/BiLSTM_3_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/BERT-BiLSTM/BiLSTM_3_cat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_2cat/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_2cat/end2end_bimodal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_2cat/utils/args.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_2cat/utils/args.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_2cat/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_2cat/utils/data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_2mod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_2mod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scrapy_website_description/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scrapy_website_description/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/description_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/description_categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple/history_params.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple/history_params.sav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history_params.sav" beforeDir="false" afterPath="$PROJECT_DIR$/history_params.sav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -185,7 +179,7 @@
       <workItem from="1573315749903" duration="827000" />
       <workItem from="1573355006090" duration="1373000" />
       <workItem from="1573386979350" duration="392000" />
-      <workItem from="1573398611983" duration="3022000" />
+      <workItem from="1573398611983" duration="3989000" />
     </task>
     <servers />
   </component>
@@ -229,7 +223,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/preprocessing$create_query.coverage" NAME="create_query Coverage Results" MODIFIED="1572524166376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/preprocessing$get_description.coverage" NAME="get_description Coverage Results" MODIFIED="1572746455928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/preprocessing$preprocessing.coverage" NAME="preprocessing Coverage Results" MODIFIED="1573401823345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/preprocessing$preprocessing.coverage" NAME="preprocessing Coverage Results" MODIFIED="1573406527228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/preprocessing$tag_data.coverage" NAME="tag_data Coverage Results" MODIFIED="1573355142223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

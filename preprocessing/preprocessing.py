@@ -171,8 +171,8 @@ def draw_pic():
 
     plt.show()
     plt.clf()  # ←------ 清空图像
-    acc = history_dict['regression_output_acc']
-    val_acc = history_dict['val_regression_output_acc']
+    acc = history_dict['regression_output_categorical_accuracy']
+    val_acc = history_dict['val_regression_output_categorical_accuracy']
 
     plt.plot(epochs, acc, 'bo', label='Training acc')
     plt.plot(epochs, val_acc, 'b', label='Validation acc')

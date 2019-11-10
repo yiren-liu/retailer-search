@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b8fdb0a3-6f37-4a32-835e-0571f870b371" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Experiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Experiments/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Experiments/BERT-BiLSTM/BiLSTM_2_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Experiments/BERT-BiLSTM/BiLSTM_2_cat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Experiments/BERT-BiLSTM/BiLSTM_3_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Experiments/BERT-BiLSTM/BiLSTM_3_cat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_2cat/end2end_bimodal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/utils/args.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_2cat/utils/args.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_2cat/utils/data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_2mod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_2mod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Scrapy_website_description/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scrapy_website_description/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../data/description_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../data/description_categories.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../preprocessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../preprocessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../preprocessing/history_params.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../../preprocessing/history_params.sav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../preprocessing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../preprocessing/preprocessing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,7 +82,7 @@
       <workItem from="1573355211622" duration="1493000" />
       <workItem from="1573377425061" duration="3232000" />
       <workItem from="1573382021532" duration="2887000" />
-      <workItem from="1573398263156" duration="4465000" />
+      <workItem from="1573398263156" duration="6082000" />
     </task>
     <servers />
   </component>
