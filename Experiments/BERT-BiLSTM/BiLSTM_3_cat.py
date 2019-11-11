@@ -69,7 +69,7 @@ def get_search_data():
     y_test = labels_all[split:]
     print(y_test.shape)
 
-    return [con_data_train, con_data_test],[y_train, y_test]
+    return [data_1_train, data_1_test],[y_train, y_test]
     
 #---------------------------metrics---------------------------------------------#
 def recall_m(y_true, y_pred):

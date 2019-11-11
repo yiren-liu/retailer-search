@@ -1,2 +1,3 @@
 *.npy
 bert_base_dir/
+*.h5
