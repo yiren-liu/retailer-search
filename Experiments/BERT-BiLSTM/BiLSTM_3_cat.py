@@ -6,7 +6,6 @@
 import pickle
 import numpy as np
 
-from keras.preprocessing import sequence
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Embedding, LSTM, Bidirectional
 from sklearn.model_selection import train_test_split
@@ -34,22 +33,6 @@ def BiLSTM(x_train, y_train):
     return model
 
 
-def gen_imdb_data():
-    print('Loading data...')
-    (x_train, y_train), (x_test, y_test) = imdb.load_data(num_words=max_features)
-    print(len(x_train), 'train sequences')
-    print(len(x_test), 'test sequences')
-
-    print('Pad sequences (samples x time)')
-    x_train = sequence.pad_sequences(x_train, maxlen=maxlen)
-    x_test = sequence.pad_sequences(x_test, maxlen=maxlen)
-
-    print('x_train shape:', x_train.shape)
-    print('x_test shape:', x_test.shape)
-    y_train = np.array(y_train)
-    y_test = np.array(y_test)
-    
-    return [x_train, x_test],[y_train, y_test]
 
 def gen_dummy_data(x=761,y=128,z=768):
     x_train = np.random.rand(x,y,z)
@@ -68,7 +51,7 @@ def get_search_data():
 
     data_1 = np.load('../../data/results.npy')
     data_2 = np.load('../../data/descriptions.npy')
-    labels_all = to_categorical(np.load('../../data/labels_3_cat.npy'))
+    labels_all = to_categorical(np.load('../../data/labels_3_cat.npy')+1)
     con_data=np.concatenate([data_1,data_2],axis=-1)
 
     split = int(len(data_1) * 4 / 5)
@@ -84,6 +67,7 @@ def get_search_data():
 
     y_train = labels_all[:split]
     y_test = labels_all[split:]
+    print(y_test.shape)
 
     return [con_data_train, con_data_test],[y_train, y_test]
     
@@ -111,8 +95,8 @@ def f1_m(y_true, y_pred):
 
 
 [x_train, x_test],[y_train, y_test] = get_search_data()
-# y_train = to_categorical(y_train)
-# y_test = to_categorical(y_test)
+#y_train = to_categorical(y_train)
+#y_test = to_categorical(y_test)
 model = BiLSTM(x_train, y_train)
 # model.summary()
 print('Train...')
@@ -128,7 +112,6 @@ y_pred = model.predict(x_test)
 y_pred_cat = np.round(y_pred)
 
 print(classification_report(y_test, y_pred_cat))
-print(y_pred_cat)
 
 
 
