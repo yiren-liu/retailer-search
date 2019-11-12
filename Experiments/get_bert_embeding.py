@@ -12,9 +12,9 @@ import random
 def handle_search_result(search_result):
     title=search_result[0].translate(str.maketrans('', '',string.punctuation))
     description=search_result[2].translate(str.maketrans('', '',string.punctuation))
-    print(search_result[1])
+    #print(search_result[1])
     link=' '.join(re.split('\.|/|-|\?|=|&',search_result[1].split('//')[1]))
-    print(link)
+    #print(link)
     return title+' '+link+' '+description
 
 
@@ -92,8 +92,8 @@ def clean_sentence(sentence):
     fil = re.compile(u'[^0-9a-zA-Z ]+', re.UNICODE)
     x=fil.sub('', sentence)
 
-    print(sentence)
-    print(x)
+    #print(sentence)
+    #print(x)
     return x
 
 def stat_words(descriptions,results):
@@ -167,22 +167,26 @@ if __name__=='__main__':
     #get one-hot
     all_text = deepcopy(descriptions)
     all_text.extend(results)
-    tokenier = Tokenizer(num_words = 1000)
+    tokenier = Tokenizer(num_words = 100)
     tokenier.fit_on_texts(all_text)
     #one_hot_all = tokenier.texts_to_matrix(all_text)
 
     max_len = 200
     des_one_hot = []
     for sentence in descriptions:
-        temp = np.zeros([max_len, 1000]).tolist()
+        temp = np.zeros([max_len, 100]).tolist()
         for idx, word in enumerate(sentence.split(" ")):
+            if idx > max_len - 1:
+                break
             temp[idx]= tokenier.texts_to_matrix([word])[0]
         des_one_hot.append(temp)
 
     res_one_hot = []
     for sentence in results:
-        temp = np.zeros([max_len, 1000]).tolist()
+        temp = np.zeros([max_len, 100]).tolist()
         for idx, word in enumerate(sentence.split(" ")):
+            if idx > max_len - 1:
+                break
             temp[idx]= tokenier.texts_to_matrix([word])[0]
         res_one_hot.append(temp)
 
