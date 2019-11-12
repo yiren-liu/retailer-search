@@ -54,7 +54,7 @@ def get_search_data():
 
     data_1 = np.load('../../data/results_big_BoW.npy')
     data_2 = np.load('../../data/descriptions_big_BoW.npy')
-    labels_all = np.load('../../data/labels_3_cat.npy')
+    labels_all = np.load('../../data/labels_3_cat_big.npy')
     con_data=np.concatenate([data_1,data_2],axis=-1)
 
     split = int(len(data_1) * 4 / 5)
@@ -78,8 +78,6 @@ def get_search_data():
 [x_train, x_test],[y_train, y_test] = get_search_data()
 #[x_train, x_test],[y_train, y_test] = gen_dummy_data()
 
-x_train = np.reshape(x_train)
-x_test = np.reshape(x_test)
 
 #y_train = to_categorical(y_train)
 #y_test = to_categorical(y_test)

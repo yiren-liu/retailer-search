@@ -49,15 +49,9 @@ def get_search_data():
     #
     # x_train, x_test, y_train, y_test  = train_test_split(x_data, y_data, train_size=0.8)
 
-<<<<<<< HEAD
     data_1 = np.load('../../data/results_big.npy')
     data_2 = np.load('../../data/descriptions_big.npy')
     labels_all = to_categorical(np.load('../../data/labels_3_cat_big.npy'))
-=======
-    data_1 = np.load('../../data/results.npy')
-    data_2 = np.load('../../data/descriptions.npy')
-    labels_all = to_categorical(np.load('../../data/labels_3_cat.npy')+1)
->>>>>>> bd6a2240682cf1e9ebb14e627c1fc86e9381ae00
     con_data=np.concatenate([data_1,data_2],axis=-1)
 
     split = int(len(data_1) * 4 / 5)
@@ -75,12 +69,7 @@ def get_search_data():
     y_test = labels_all[split:]
     print(y_test.shape)
 
-<<<<<<< HEAD
-    return [con_data_train, con_data_test],[y_train, y_test]
-
-=======
     return [data_1_train, data_1_test],[y_train, y_test]
->>>>>>> bd6a2240682cf1e9ebb14e627c1fc86e9381ae00
     
 #---------------------------metrics---------------------------------------------#
 def recall_m(y_true, y_pred):

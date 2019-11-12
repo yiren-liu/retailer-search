@@ -53,9 +53,10 @@ def get_search_data():
     #
     # x_train, x_test, y_train, y_test  = train_test_split(x_data, y_data, train_size=0.8)
 
-    data_1 = np.load('../../data/results.npy')
-    data_2 = np.load('../../data/descriptions.npy')
-    labels_all = np.load('../../data/labels_3_cat.npy')
+
+    data_1 = np.load('../../data/results_big.npy')
+    data_2 = np.load('../../data/descriptions_big.npy')
+    labels_all = np.load('../../data/labels_3_cat_big.npy')
     con_data=np.concatenate([data_1,data_2],axis=-1)
 
     split = int(len(data_1) * 4 / 5)
@@ -74,27 +75,6 @@ def get_search_data():
     print(y_test.shape)
 
     return [data_1_train, data_1_test],[y_train, y_test]
-    
-#---------------------------metrics---------------------------------------------#
-def recall_m(y_true, y_pred):
-        #true_positives = K.sum(K.cast(K.equal(K.round(K.clip(y_pred, 0, 1)),K.round(K.clip(y_true, 0, 1))),'float32'))
-        true_positives = K.sum(K.round(K.clip(y_true, 0, 1) * K.clip(y_pred, 0, 1)))                
-        possible_positives = K.sum(K.round(K.clip(y_true, 0, 1)))
-        recall = true_positives / (possible_positives + K.epsilon())
-        return recall
-
-def precision_m(y_true, y_pred):
-        #true_positives = K.sum(K.cast(K.equal(K.round(K.clip(y_pred, 0, 1)),K.round(K.clip(y_true, 0, 1))),'float32'))
-        true_positives = K.sum(K.round(K.clip(y_true, 0, 1) * K.clip(y_pred, 0, 1))) 
-        predicted_positives = K.sum(K.round(K.clip(y_pred, 0, 1)))
-        precision = true_positives / (predicted_positives + K.epsilon())
-        return precision
-
-def f1_m(y_true, y_pred):
-    precision = precision_m(y_true, y_pred)
-    recall = recall_m(y_true, y_pred)
-    return 2*((precision*recall)/(precision+recall+K.epsilon()))
-
 
 
 

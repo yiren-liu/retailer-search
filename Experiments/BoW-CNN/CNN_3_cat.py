@@ -42,7 +42,7 @@ def CNN(x_train, y_train):
 
     model = Sequential()
 #     model.add(Embedding(x_train.shape[-1], 100, input_length=maxlen))
-    model.add(Conv1D(filters = int(np.round(maxlen/3)),kernel_size = 3, input_shape = (maxlen, embedding_dim)))
+    model.add(Conv1D(filters = int(np.round(maxlen/3)),kernel_size = 3, input_shape = (1, maxlen)))
     model.add(MaxPooling1D(2))
     model.add(Flatten())
     model.add(Dropout(0.2))
@@ -75,9 +75,9 @@ def get_search_data():
     #
     # x_train, x_test, y_train, y_test  = train_test_split(x_data, y_data, train_size=0.8)
 
-    data_1 = np.load('../../data/results_big.npy')
-    data_2 = np.load('../../data/descriptions_big.npy')
-    labels_all = to_categorical(np.load('../../data/labels_3_cat_big.npy'))
+    data_1 = np.load('../../data/results_big_BoW.npy')
+    data_2 = np.load('../../data/descriptions_big_BoW.npy')
+    labels_all = np.load('../../data/labels_3_cat_big.npy')
     con_data=np.concatenate([data_1,data_2],axis=-1)
 
     split = int(len(data_1) * 4 / 5)
@@ -125,6 +125,10 @@ def f1_m(y_true, y_pred):
 
 #y_train = to_categorical(y_train)
 #y_test = to_categorical(y_test)
+
+x_train = x_train.reshape(x_train.shape[0], 1 , x_train.shape[1])
+x_test = x_test.reshape(x_test.shape[0], 1 , x_test.shape[1])
+
 model = CNN(x_train, y_train)
 # model.summary()
 print('Train...')
