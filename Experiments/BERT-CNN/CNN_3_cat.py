@@ -125,6 +125,8 @@ y_pred = model.predict(x_test)
 y_pred_cat = np.round(y_pred)
 
 print(classification_report(y_test, y_pred_cat))
+print("accuracy {:.2f}".format(accuracy_score(y_test, y_pred_cat)))
+
 
 
 
