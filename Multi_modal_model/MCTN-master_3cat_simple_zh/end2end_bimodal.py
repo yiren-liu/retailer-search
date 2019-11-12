@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.extend(['/home/zhengjie/Projects/Search/Multi_modal_model/MCTN-master_3cat/models'])
+sys.path.extend(['models'])
 import numpy as np
 import tensorflow as tf
 from keras.callbacks import EarlyStopping
@@ -68,11 +68,11 @@ weights_path = os.path.join(output_dir, filename)
 if not os.path.exists(output_dir):
   os.mkdir(output_dir)
 
-# callbacks = [
-#   EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
-#   ModelCheckpoint(weights_path, monitor='val_loss', save_best_only=True,
-#                   verbose=1),
-# ]
+callbacks = [
+  # EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
+  ModelCheckpoint(weights_path, monitor='val_loss', save_best_only=False,
+                  verbose=1),
+]
 
 try:
     end2end_model.model.load_weights(weights_path)
@@ -87,7 +87,7 @@ history=end2end_model.train(weights_path=weights_path,
                     n_epochs=args.train_epoch,
                     val_split=args.val_split,
                     batch_size=args.batch_size,
-                    # callbacks=callbacks
+                    callbacks=callbacks
                             )
 
 

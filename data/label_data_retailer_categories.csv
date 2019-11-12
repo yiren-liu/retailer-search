@@ -1263,3 +1263,2994 @@ crafting retailer	2	6	0
 refrigerators, freezers & ice makers retailer	8	4	0
 pet supplies retailer	7	6	1
 candy & chocolate retailer	4	4	1
+movies & tv retailer	4	7	0
+movies & tv retailer	4	8	0
+movies & tv retailer	4	9	0
+movies & tv retailer	5	0	1
+movies & tv retailer	5	1	0
+movies & tv retailer	5	2	0
+movies & tv retailer	5	3	2
+movies & tv retailer	5	4	0
+movies & tv retailer	5	5	0
+movies & tv retailer	5	6	0
+movies & tv retailer	5	7	0
+movies & tv retailer	6	1	0
+movies & tv retailer	6	2	1
+movies & tv retailer	6	3	0
+movies & tv retailer	6	4	0
+movies & tv retailer	6	5	0
+movies & tv retailer	6	6	1
+movies & tv retailer	6	7	1
+movies & tv retailer	6	8	0
+movies & tv retailer	7	1	0
+movies & tv retailer	7	2	1
+movies & tv retailer	7	3	0
+movies & tv retailer	7	7	0
+movies & tv retailer	8	9	0
+movies & tv retailer	9	0	0
+movies & tv retailer	9	2	0
+movies & tv retailer	9	3	0
+movies & tv retailer	9	5	2
+movies & tv retailer	9	6	0
+movies & tv retailer	9	7	0
+movies & tv retailer	9	8	0
+movies & tv retailer	9	9	0
+digital music retailer	0	1	1
+digital music retailer	0	2	0
+digital music retailer	0	4	0
+digital music retailer	0	5	1
+digital music retailer	0	6	0
+digital music retailer	0	7	0
+digital music retailer	0	9	1
+digital music retailer	1	1	0
+digital music retailer	1	2	0
+digital music retailer	1	6	0
+digital music retailer	2	0	0
+digital music retailer	2	1	0
+digital music retailer	2	2	0
+digital music retailer	2	3	0
+digital music retailer	2	6	0
+digital music retailer	2	8	1
+digital music retailer	2	9	0
+digital music retailer	3	1	0
+digital music retailer	3	2	0
+digital music retailer	3	3	0
+digital music retailer	3	4	0
+digital music retailer	3	5	0
+digital music retailer	3	7	0
+digital music retailer	3	8	0
+digital music retailer	3	9	0
+digital music retailer	4	0	0
+digital music retailer	4	1	0
+digital music retailer	4	4	0
+digital music retailer	4	8	1
+digital music retailer	5	0	1
+digital music retailer	5	3	0
+digital music retailer	5	4	0
+digital music retailer	5	5	0
+digital music retailer	5	6	0
+digital music retailer	6	2	0
+digital music retailer	6	4	1
+digital music retailer	6	7	2
+digital music retailer	6	8	0
+digital music retailer	7	5	0
+digital music retailer	7	6	1
+digital music retailer	7	7	0
+digital music retailer	7	8	1
+digital music retailer	7	9	1
+digital music retailer	8	1	0
+digital music retailer	8	3	0
+digital music retailer	8	5	0
+digital music retailer	8	8	0
+cds & vinyl retailer	0	0	0
+cds & vinyl retailer	0	1	1
+cds & vinyl retailer	0	4	0
+cds & vinyl retailer	0	5	2
+cds & vinyl retailer	0	7	1
+cds & vinyl retailer	1	1	0
+cds & vinyl retailer	1	4	0
+cds & vinyl retailer	1	6	1
+cds & vinyl retailer	1	9	0
+cds & vinyl retailer	2	1	1
+cds & vinyl retailer	2	2	0
+cds & vinyl retailer	2	3	0
+cds & vinyl retailer	2	4	1
+cds & vinyl retailer	2	6	1
+cds & vinyl retailer	2	7	0
+cds & vinyl retailer	2	8	0
+cds & vinyl retailer	3	1	0
+cds & vinyl retailer	3	2	0
+cds & vinyl retailer	3	5	0
+cds & vinyl retailer	3	7	0
+cds & vinyl retailer	3	8	1
+cds & vinyl retailer	4	2	1
+cds & vinyl retailer	4	3	1
+cds & vinyl retailer	4	5	1
+cds & vinyl retailer	4	7	0
+cds & vinyl retailer	4	8	0
+cds & vinyl retailer	4	9	1
+cds & vinyl retailer	5	2	0
+cds & vinyl retailer	5	4	0
+cds & vinyl retailer	5	5	1
+cds & vinyl retailer	5	6	0
+cds & vinyl retailer	5	9	0
+cds & vinyl retailer	6	1	1
+cds & vinyl retailer	6	5	1
+cds & vinyl retailer	6	6	0
+cds & vinyl retailer	6	7	0
+cds & vinyl retailer	6	8	0
+cds & vinyl retailer	7	1	0
+cds & vinyl retailer	7	4	1
+cds & vinyl retailer	7	5	1
+cds & vinyl retailer	7	6	0
+cds & vinyl retailer	7	7	0
+cds & vinyl retailer	7	8	0
+cds & vinyl retailer	7	9	0
+cds & vinyl retailer	8	0	1
+cds & vinyl retailer	8	1	1
+cds & vinyl retailer	8	2	0
+cds & vinyl retailer	8	3	1
+cds & vinyl retailer	8	4	0
+cds & vinyl retailer	8	5	0
+cds & vinyl retailer	8	7	2
+cds & vinyl retailer	8	9	1
+cds & vinyl retailer	9	5	1
+cds & vinyl retailer	9	6	1
+cds & vinyl retailer	9	7	0
+musical instruments retailer	1	3	0
+musical instruments retailer	2	2	1
+musical instruments retailer	2	6	1
+musical instruments retailer	4	9	1
+musical instruments retailer	6	4	1
+musical instruments retailer	7	6	0
+musical instruments retailer	9	5	0
+musical instruments retailer	9	6	1
+musical instruments retailer	9	7	0
+musical instruments retailer	9	8	1
+musical instruments retailer	9	9	1
+office products retailer	1	8	0
+office products retailer	1	9	0
+office products retailer	2	0	0
+office products retailer	2	7	1
+office products retailer	4	9	1
+office products retailer	5	9	0
+office products retailer	6	3	1
+office products retailer	6	9	0
+office products retailer	7	2	1
+office products retailer	7	6	0
+office products retailer	7	7	0
+office products retailer	8	4	1
+office products retailer	8	7	0
+office products retailer	8	8	2
+office products retailer	9	3	1
+office products retailer	9	4	1
+computers retailer	0	1	1
+computers retailer	0	2	1
+computers retailer	0	3	2
+computers retailer	0	5	2
+computers retailer	0	7	0
+computers retailer	0	8	0
+computers retailer	0	9	2
+computers retailer	1	1	0
+computers retailer	1	2	2
+computers retailer	1	3	2
+computers retailer	1	4	2
+computers retailer	1	6	1
+computers retailer	2	1	0
+computers retailer	2	7	0
+computers retailer	2	9	1
+computers retailer	3	1	0
+computers retailer	3	2	0
+computers retailer	3	4	0
+computers retailer	3	7	0
+computers retailer	3	8	2
+computers retailer	3	9	0
+computers retailer	4	3	2
+computers retailer	4	7	2
+computers retailer	4	8	0
+computers retailer	5	1	1
+computers retailer	5	2	0
+computers retailer	5	4	1
+computers retailer	5	6	0
+computers retailer	5	7	1
+computers retailer	5	8	1
+computers retailer	5	9	0
+computers retailer	6	1	0
+computers retailer	6	2	0
+computers retailer	6	3	1
+computers retailer	6	4	0
+computers retailer	6	5	0
+computers retailer	6	6	1
+computers retailer	6	8	1
+computers retailer	7	0	1
+computers retailer	7	3	0
+computers retailer	7	6	0
+computers retailer	7	8	1
+computers retailer	7	9	1
+computers retailer	8	1	1
+computers retailer	8	2	1
+computers retailer	8	3	0
+computers retailer	8	4	1
+computers retailer	8	5	0
+computers retailer	8	8	1
+computers retailer	8	9	1
+pet supplies retailer	0	1	1
+pet supplies retailer	0	3	0
+pet supplies retailer	0	4	1
+pet supplies retailer	0	5	0
+pet supplies retailer	0	6	1
+pet supplies retailer	0	7	1
+pet supplies retailer	0	8	1
+pet supplies retailer	0	9	0
+pet supplies retailer	1	0	1
+pet supplies retailer	1	2	1
+pet supplies retailer	1	3	1
+pet supplies retailer	1	4	1
+pet supplies retailer	1	5	1
+pet supplies retailer	1	6	0
+pet supplies retailer	1	8	0
+pet supplies retailer	2	0	0
+pet supplies retailer	2	4	1
+pet supplies retailer	2	6	0
+pet supplies retailer	2	7	1
+pet supplies retailer	2	8	0
+pet supplies retailer	2	9	1
+pet supplies retailer	3	1	1
+pet supplies retailer	3	2	1
+pet supplies retailer	3	3	1
+pet supplies retailer	3	4	0
+pet supplies retailer	3	6	0
+pet supplies retailer	3	8	0
+pet supplies retailer	4	1	0
+pet supplies retailer	4	2	1
+pet supplies retailer	4	4	1
+pet supplies retailer	4	6	1
+pet supplies retailer	4	7	1
+pet supplies retailer	4	8	0
+pet supplies retailer	5	0	0
+pet supplies retailer	5	1	0
+pet supplies retailer	5	3	0
+pet supplies retailer	5	6	1
+pet supplies retailer	5	7	1
+pet supplies retailer	5	8	1
+pet supplies retailer	5	9	1
+pet supplies retailer	6	0	0
+pet supplies retailer	6	2	0
+pet supplies retailer	6	4	1
+pet supplies retailer	6	6	1
+pet supplies retailer	6	9	0
+pet supplies retailer	7	0	0
+pet supplies retailer	7	2	1
+pet supplies retailer	7	4	1
+pet supplies retailer	7	7	1
+pet supplies retailer	7	8	1
+pet supplies retailer	8	1	0
+pet supplies retailer	8	2	1
+pet supplies retailer	8	3	1
+pet supplies retailer	8	4	1
+pet supplies retailer	8	7	1
+pet supplies retailer	8	9	1
+pet supplies retailer	9	1	1
+pet supplies retailer	9	4	1
+pet supplies retailer	9	5	1
+pet supplies retailer	9	9	0
+software retailer	0	1	0
+software retailer	0	2	1
+software retailer	0	3	0
+software retailer	0	4	0
+software retailer	0	7	0
+software retailer	0	8	2
+software retailer	1	0	0
+software retailer	1	1	1
+software retailer	1	3	1
+software retailer	1	4	0
+software retailer	1	5	1
+software retailer	1	6	0
+software retailer	1	8	2
+software retailer	1	9	0
+software retailer	2	0	0
+software retailer	2	1	0
+software retailer	2	2	0
+software retailer	2	4	0
+software retailer	2	5	1
+software retailer	2	6	0
+software retailer	2	7	0
+software retailer	2	8	0
+software retailer	2	9	0
+software retailer	3	3	0
+software retailer	3	4	0
+software retailer	3	6	1
+software retailer	4	1	1
+software retailer	4	2	0
+software retailer	4	3	0
+software retailer	4	4	0
+software retailer	4	6	1
+software retailer	4	7	0
+software retailer	4	8	0
+software retailer	4	9	1
+software retailer	5	0	0
+software retailer	5	1	0
+software retailer	5	3	0
+software retailer	5	4	1
+software retailer	5	5	0
+software retailer	5	6	0
+software retailer	5	7	0
+software retailer	5	9	0
+software retailer	6	0	0
+software retailer	6	1	0
+software retailer	6	2	0
+software retailer	6	5	0
+software retailer	6	6	0
+software retailer	6	7	0
+software retailer	6	8	1
+software retailer	6	9	0
+software retailer	7	0	0
+software retailer	7	1	1
+software retailer	7	2	0
+software retailer	7	5	0
+software retailer	7	7	1
+software retailer	7	8	0
+software retailer	7	9	0
+software retailer	8	2	1
+software retailer	8	3	0
+software retailer	8	5	0
+software retailer	8	9	0
+software retailer	9	4	0
+software retailer	9	7	0
+software retailer	9	9	0
+sports & outdoors retailer	0	0	0
+sports & outdoors retailer	0	2	0
+sports & outdoors retailer	0	4	0
+sports & outdoors retailer	0	5	0
+sports & outdoors retailer	1	1	1
+sports & outdoors retailer	1	3	0
+sports & outdoors retailer	1	6	0
+sports & outdoors retailer	1	7	0
+sports & outdoors retailer	1	9	0
+sports & outdoors retailer	2	1	0
+sports & outdoors retailer	2	2	1
+sports & outdoors retailer	2	4	0
+sports & outdoors retailer	2	5	0
+sports & outdoors retailer	2	6	0
+sports & outdoors retailer	2	7	1
+sports & outdoors retailer	2	8	0
+sports & outdoors retailer	2	9	0
+sports & outdoors retailer	3	0	0
+sports & outdoors retailer	3	1	0
+sports & outdoors retailer	3	2	1
+sports & outdoors retailer	3	3	2
+sports & outdoors retailer	3	4	0
+sports & outdoors retailer	3	6	0
+sports & outdoors retailer	3	7	1
+sports & outdoors retailer	3	8	0
+sports & outdoors retailer	3	9	0
+sports & outdoors retailer	4	0	1
+sports & outdoors retailer	4	1	0
+sports & outdoors retailer	4	2	0
+sports & outdoors retailer	6	1	0
+sports & outdoors retailer	7	1	0
+sports & outdoors retailer	7	3	0
+sports & outdoors retailer	7	4	1
+sports & outdoors retailer	7	5	0
+sports & outdoors retailer	7	6	0
+sports & outdoors retailer	7	8	0
+sports & outdoors retailer	8	5	0
+sports & outdoors retailer	8	6	0
+sports & outdoors retailer	8	7	0
+sports & outdoors retailer	8	9	0
+sports & outdoors retailer	9	0	1
+sports & outdoors retailer	9	1	1
+sports & outdoors retailer	9	2	1
+sports & outdoors retailer	9	3	1
+sports & outdoors retailer	9	4	1
+sports & outdoors retailer	9	5	1
+sports & outdoors retailer	9	6	1
+sports & outdoors retailer	9	7	1
+sports & outdoors retailer	9	8	1
+sports & outdoors retailer	9	9	0
+tools & home improvement retailer	0	2	0
+tools & home improvement retailer	0	4	0
+tools & home improvement retailer	0	5	1
+tools & home improvement retailer	0	6	0
+tools & home improvement retailer	0	8	1
+tools & home improvement retailer	0	9	0
+tools & home improvement retailer	1	1	0
+tools & home improvement retailer	1	3	0
+tools & home improvement retailer	1	5	0
+tools & home improvement retailer	1	8	0
+tools & home improvement retailer	2	0	0
+tools & home improvement retailer	2	4	1
+tools & home improvement retailer	2	7	1
+tools & home improvement retailer	2	8	0
+tools & home improvement retailer	2	9	0
+tools & home improvement retailer	3	0	0
+tools & home improvement retailer	3	1	1
+tools & home improvement retailer	3	2	0
+tools & home improvement retailer	3	3	0
+tools & home improvement retailer	3	4	0
+tools & home improvement retailer	3	5	0
+tools & home improvement retailer	3	6	0
+tools & home improvement retailer	3	8	0
+tools & home improvement retailer	4	0	1
+tools & home improvement retailer	4	1	1
+tools & home improvement retailer	4	2	0
+tools & home improvement retailer	4	4	0
+tools & home improvement retailer	4	5	1
+tools & home improvement retailer	4	7	1
+tools & home improvement retailer	4	8	0
+tools & home improvement retailer	5	1	1
+tools & home improvement retailer	5	2	q
+tools & home improvement retailer	5	3	1
+tools & home improvement retailer	5	5	0
+tools & home improvement retailer	5	7	0
+tools & home improvement retailer	5	8	0
+tools & home improvement retailer	5	9	0
+tools & home improvement retailer	6	1	0
+tools & home improvement retailer	6	2	1
+tools & home improvement retailer	6	3	1
+tools & home improvement retailer	6	5	0
+tools & home improvement retailer	6	6	0
+tools & home improvement retailer	6	9	1
+tools & home improvement retailer	7	4	0
+tools & home improvement retailer	7	6	0
+tools & home improvement retailer	7	7	1
+tools & home improvement retailer	7	9	1
+tools & home improvement retailer	8	0	1
+tools & home improvement retailer	8	2	0
+tools & home improvement retailer	8	3	2
+tools & home improvement retailer	8	6	1
+tools & home improvement retailer	8	8	0
+tools & home improvement retailer	8	9	0
+tools & home improvement retailer	9	0	0
+tools & home improvement retailer	9	2	0
+tools & home improvement retailer	9	6	1
+tools & home improvement retailer	9	7	0
+tools & home improvement retailer	9	8	0
+tools & home improvement retailer	9	9	1
+toys & games retailer	0	3	0
+toys & games retailer	0	5	1
+toys & games retailer	0	8	0
+toys & games retailer	1	0	0
+toys & games retailer	1	1	0
+toys & games retailer	1	4	1
+toys & games retailer	1	6	1
+toys & games retailer	2	6	1
+toys & games retailer	2	7	1
+toys & games retailer	3	0	0
+toys & games retailer	3	1	1
+toys & games retailer	3	2	1
+toys & games retailer	3	7	0
+toys & games retailer	3	8	0
+toys & games retailer	3	9	1
+toys & games retailer	4	2	1
+toys & games retailer	4	4	0
+toys & games retailer	4	7	0
+toys & games retailer	4	8	1
+toys & games retailer	4	9	1
+toys & games retailer	5	0	0
+toys & games retailer	5	2	0
+toys & games retailer	5	4	0
+toys & games retailer	5	5	1
+toys & games retailer	6	3	0
+toys & games retailer	6	4	1
+toys & games retailer	6	5	0
+toys & games retailer	6	7	0
+toys & games retailer	6	8	0
+toys & games retailer	7	0	0
+toys & games retailer	7	2	1
+toys & games retailer	7	3	1
+toys & games retailer	7	4	1
+toys & games retailer	7	5	0
+toys & games retailer	7	6	1
+toys & games retailer	7	8	1
+toys & games retailer	8	0	0
+toys & games retailer	8	3	1
+toys & games retailer	8	4	1
+toys & games retailer	8	6	0
+toys & games retailer	8	8	1
+toys & games retailer	8	9	1
+toys & games retailer	9	0	1
+toys & games retailer	9	2	0
+toys & games retailer	9	3	0
+toys & games retailer	9	4	0
+toys & games retailer	9	5	0
+toys & games retailer	9	6	0
+toys & games retailer	9	9	0
+vehicles retailer	0	6	0
+vehicles retailer	0	7	0
+vehicles retailer	0	8	1
+vehicles retailer	0	9	0
+vehicles retailer	1	1	1
+vehicles retailer	1	4	1
+vehicles retailer	1	5	2
+vehicles retailer	1	6	0
+vehicles retailer	1	7	1
+vehicles retailer	2	0	2
+vehicles retailer	2	1	1
+vehicles retailer	2	2	1
+vehicles retailer	2	4	2
+vehicles retailer	2	6	0
+vehicles retailer	2	7	1
+vehicles retailer	2	8	1
+vehicles retailer	2	9	0
+vehicles retailer	3	0	0
+vehicles retailer	3	1	2
+vehicles retailer	3	6	2
+vehicles retailer	3	7	1
+vehicles retailer	3	9	2
+vehicles retailer	4	0	1
+vehicles retailer	4	1	2
+vehicles retailer	4	2	1
+vehicles retailer	4	3	2
+vehicles retailer	4	4	1
+vehicles retailer	4	6	2
+vehicles retailer	4	7	1
+vehicles retailer	4	8	1
+vehicles retailer	4	9	0
+vehicles retailer	5	0	0
+vehicles retailer	5	4	1
+vehicles retailer	5	5	1
+vehicles retailer	5	7	0
+vehicles retailer	5	8	2
+vehicles retailer	5	9	1
+vehicles retailer	6	1	1
+vehicles retailer	6	2	1
+vehicles retailer	6	3	1
+vehicles retailer	6	4	1
+vehicles retailer	6	5	2
+vehicles retailer	6	7	1
+vehicles retailer	6	8	1
+vehicles retailer	6	9	2
+vehicles retailer	7	1	0
+vehicles retailer	7	2	2
+vehicles retailer	7	3	1
+vehicles retailer	7	5	1
+vehicles retailer	7	6	1
+vehicles retailer	7	8	2
+vehicles retailer	7	9	1
+vehicles retailer	8	0	1
+vehicles retailer	8	1	1
+vehicles retailer	8	2	2
+vehicles retailer	8	4	2
+vehicles retailer	8	5	1
+vehicles retailer	8	6	1
+vehicles retailer	8	7	1
+vehicles retailer	8	8	1
+vehicles retailer	8	9	1
+vehicles retailer	9	1	1
+vehicles retailer	9	2	2
+vehicles retailer	9	3	1
+vehicles retailer	9	4	1
+vehicles retailer	9	5	2
+vehicles retailer	9	6	1
+vehicles retailer	9	7	1
+vehicles retailer	9	8	2
+vehicles retailer	9	9	1
+video games retailer	0	0	0
+video games retailer	0	4	0
+video games retailer	0	6	0
+video games retailer	0	8	0
+video games retailer	1	1	0
+video games retailer	1	2	0
+video games retailer	1	6	0
+video games retailer	1	7	0
+video games retailer	1	9	0
+video games retailer	2	0	0
+video games retailer	2	3	0
+video games retailer	2	5	0
+video games retailer	2	6	0
+video games retailer	2	7	0
+video games retailer	2	8	0
+video games retailer	2	9	0
+video games retailer	3	1	0
+video games retailer	3	4	0
+video games retailer	3	6	0
+video games retailer	3	7	1
+video games retailer	3	8	0
+video games retailer	4	0	0
+video games retailer	4	1	0
+video games retailer	4	2	0
+video games retailer	4	3	0
+video games retailer	4	6	0
+video games retailer	4	7	0
+video games retailer	5	0	0
+video games retailer	5	1	0
+video games retailer	5	2	0
+video games retailer	5	4	0
+video games retailer	5	5	0
+video games retailer	5	6	0
+video games retailer	5	7	0
+video games retailer	5	9	0
+video games retailer	6	0	0
+video games retailer	6	2	0
+video games retailer	6	3	0
+video games retailer	6	4	1
+video games retailer	6	5	0
+video games retailer	6	6	0
+video games retailer	6	8	1
+video games retailer	7	0	0
+video games retailer	7	2	1
+video games retailer	7	3	0
+video games retailer	7	5	0
+video games retailer	7	8	1
+video games retailer	7	9	1
+video games retailer	8	0	1
+video games retailer	8	2	0
+video games retailer	8	3	0
+video games retailer	8	4	0
+video games retailer	8	5	1
+video games retailer	8	9	0
+video games retailer	9	1	0
+video games retailer	9	2	0
+video games retailer	9	5	1
+video games retailer	9	6	1
+video games retailer	9	7	0
+video games retailer	9	8	0
+video games retailer	9	9	0
+wine retailer	0	0	1
+wine retailer	0	1	1
+wine retailer	0	2	1
+wine retailer	0	3	0
+wine retailer	0	4	0
+wine retailer	0	5	0
+wine retailer	0	8	0
+wine retailer	0	9	0
+wine retailer	1	0	0
+wine retailer	1	3	1
+wine retailer	1	5	1
+wine retailer	1	7	0
+wine retailer	1	9	1
+wine retailer	2	1	0
+wine retailer	2	4	0
+wine retailer	2	5	1
+wine retailer	2	6	0
+wine retailer	2	7	0
+wine retailer	2	8	0
+wine retailer	2	9	0
+wine retailer	3	2	0
+wine retailer	3	3	0
+wine retailer	3	5	1
+wine retailer	4	1	0
+wine retailer	4	3	0
+wine retailer	4	5	0
+wine retailer	4	6	0
+wine retailer	4	7	0
+wine retailer	4	8	0
+wine retailer	5	2	0
+wine retailer	5	4	1
+wine retailer	5	5	0
+wine retailer	5	9	1
+wine retailer	6	3	0
+wine retailer	6	6	0
+wine retailer	6	7	1
+wine retailer	6	9	0
+wine retailer	7	0	0
+wine retailer	7	1	0
+wine retailer	7	2	0
+wine retailer	7	3	0
+wine retailer	7	4	0
+wine retailer	8	4	0
+wine retailer	8	5	0
+wine retailer	8	6	0
+wine retailer	8	7	0
+wine retailer	8	8	2
+wine retailer	9	0	1
+wine retailer	9	1	0
+wine retailer	9	2	0
+wine retailer	9	3	0
+wine retailer	9	4	0
+wine retailer	9	6	2
+wine retailer	9	7	1
+cell phones & accessories retailer	0	0	1
+cell phones & accessories retailer	0	7	1
+cell phones & accessories retailer	0	8	1
+cell phones & accessories retailer	0	9	1
+cell phones & accessories retailer	1	0	1
+cell phones & accessories retailer	1	1	0
+cell phones & accessories retailer	1	3	1
+cell phones & accessories retailer	1	4	1
+cell phones & accessories retailer	1	6	0
+cell phones & accessories retailer	1	8	1
+cell phones & accessories retailer	1	9	1
+cell phones & accessories retailer	2	0	0
+cell phones & accessories retailer	2	2	0
+cell phones & accessories retailer	2	4	0
+cell phones & accessories retailer	2	5	0
+cell phones & accessories retailer	2	8	1
+cell phones & accessories retailer	3	0	1
+cell phones & accessories retailer	3	1	0
+cell phones & accessories retailer	3	2	1
+cell phones & accessories retailer	3	3	1
+cell phones & accessories retailer	3	4	0
+cell phones & accessories retailer	3	5	1
+cell phones & accessories retailer	3	7	0
+cell phones & accessories retailer	3	8	1
+cell phones & accessories retailer	3	9	1
+cell phones & accessories retailer	4	0	2
+cell phones & accessories retailer	4	1	0
+cell phones & accessories retailer	4	2	0
+cell phones & accessories retailer	4	5	1
+cell phones & accessories retailer	4	7	0
+cell phones & accessories retailer	4	8	1
+cell phones & accessories retailer	4	9	0
+cell phones & accessories retailer	5	0	1
+cell phones & accessories retailer	5	2	2
+cell phones & accessories retailer	5	5	2
+cell phones & accessories retailer	5	6	0
+cell phones & accessories retailer	5	7	0
+cell phones & accessories retailer	5	9	0
+cell phones & accessories retailer	6	1	0
+cell phones & accessories retailer	6	4	1
+cell phones & accessories retailer	6	5	1
+cell phones & accessories retailer	6	6	1
+cell phones & accessories retailer	6	8	0
+cell phones & accessories retailer	7	1	0
+cell phones & accessories retailer	7	2	1
+cell phones & accessories retailer	7	3	2
+cell phones & accessories retailer	7	5	1
+cell phones & accessories retailer	7	9	1
+cell phones & accessories retailer	8	0	1
+cell phones & accessories retailer	8	1	1
+cell phones & accessories retailer	8	2	1
+cell phones & accessories retailer	8	3	1
+cell phones & accessories retailer	8	5	1
+cell phones & accessories retailer	8	6	1
+cell phones & accessories retailer	9	3	0
+cell phones & accessories retailer	9	5	0
+cell phones & accessories retailer	9	6	0
+cell phones & accessories retailer	9	7	0
+cell phones & accessories retailer	9	8	0
+cell phones & accessories retailer	9	9	1
+refrigerators, freezers & ice makers retailer	0	0	2
+refrigerators, freezers & ice makers retailer	0	1	2
+refrigerators, freezers & ice makers retailer	0	3	1
+refrigerators, freezers & ice makers retailer	0	5	2
+refrigerators, freezers & ice makers retailer	1	2	1
+refrigerators, freezers & ice makers retailer	1	3	0
+refrigerators, freezers & ice makers retailer	1	4	1
+refrigerators, freezers & ice makers retailer	1	6	2
+refrigerators, freezers & ice makers retailer	1	7	1
+refrigerators, freezers & ice makers retailer	1	8	0
+refrigerators, freezers & ice makers retailer	2	4	0
+refrigerators, freezers & ice makers retailer	2	6	1
+refrigerators, freezers & ice makers retailer	2	8	1
+refrigerators, freezers & ice makers retailer	2	9	1
+refrigerators, freezers & ice makers retailer	3	1	2
+refrigerators, freezers & ice makers retailer	3	6	2
+refrigerators, freezers & ice makers retailer	3	9	0
+refrigerators, freezers & ice makers retailer	4	0	0
+refrigerators, freezers & ice makers retailer	4	1	1
+refrigerators, freezers & ice makers retailer	4	2	0
+refrigerators, freezers & ice makers retailer	4	7	2
+refrigerators, freezers & ice makers retailer	5	0	2
+refrigerators, freezers & ice makers retailer	5	5	1
+refrigerators, freezers & ice makers retailer	6	2	2
+refrigerators, freezers & ice makers retailer	6	5	1
+refrigerators, freezers & ice makers retailer	6	6	1
+refrigerators, freezers & ice makers retailer	7	1	2
+refrigerators, freezers & ice makers retailer	8	5	0
+refrigerators, freezers & ice makers retailer	9	2	1
+laundry appliances retailer	0	4	1
+laundry appliances retailer	0	5	0
+laundry appliances retailer	1	0	0
+laundry appliances retailer	1	1	0
+laundry appliances retailer	1	2	2
+laundry appliances retailer	1	3	2
+laundry appliances retailer	1	4	1
+laundry appliances retailer	1	7	1
+laundry appliances retailer	1	8	1
+laundry appliances retailer	1	9	1
+laundry appliances retailer	2	4	0
+laundry appliances retailer	2	5	1
+laundry appliances retailer	2	6	1
+laundry appliances retailer	2	8	0
+laundry appliances retailer	2	9	1
+laundry appliances retailer	3	1	1
+laundry appliances retailer	3	3	1
+laundry appliances retailer	3	4	1
+laundry appliances retailer	3	5	1
+laundry appliances retailer	3	8	1
+laundry appliances retailer	4	3	2
+laundry appliances retailer	4	7	1
+laundry appliances retailer	4	8	1
+laundry appliances retailer	4	9	0
+laundry appliances retailer	5	0	1
+laundry appliances retailer	5	5	1
+laundry appliances retailer	5	6	1
+laundry appliances retailer	5	7	1
+laundry appliances retailer	5	8	0
+laundry appliances retailer	6	0	1
+laundry appliances retailer	6	3	1
+laundry appliances retailer	6	5	1
+laundry appliances retailer	6	6	1
+laundry appliances retailer	6	8	0
+laundry appliances retailer	7	1	1
+laundry appliances retailer	7	3	0
+laundry appliances retailer	7	4	1
+laundry appliances retailer	7	7	1
+laundry appliances retailer	7	8	1
+laundry appliances retailer	8	0	1
+laundry appliances retailer	8	3	1
+laundry appliances retailer	8	4	1
+laundry appliances retailer	8	5	2
+laundry appliances retailer	8	6	1
+laundry appliances retailer	8	9	1
+laundry appliances retailer	9	2	1
+laundry appliances retailer	9	3	1
+laundry appliances retailer	9	4	1
+laundry appliances retailer	9	5	1
+laundry appliances retailer	9	9	1
+ranges, ovens & cooktops retailer	0	0	2
+ranges, ovens & cooktops retailer	0	2	2
+ranges, ovens & cooktops retailer	0	4	1
+ranges, ovens & cooktops retailer	0	6	2
+ranges, ovens & cooktops retailer	0	7	2
+ranges, ovens & cooktops retailer	0	8	2
+ranges, ovens & cooktops retailer	1	1	2
+ranges, ovens & cooktops retailer	1	2	2
+ranges, ovens & cooktops retailer	1	3	2
+ranges, ovens & cooktops retailer	1	4	1
+ranges, ovens & cooktops retailer	1	5	2
+ranges, ovens & cooktops retailer	1	7	0
+ranges, ovens & cooktops retailer	1	8	1
+ranges, ovens & cooktops retailer	2	0	2
+ranges, ovens & cooktops retailer	2	1	1
+ranges, ovens & cooktops retailer	2	3	1
+ranges, ovens & cooktops retailer	2	5	2
+ranges, ovens & cooktops retailer	3	2	1
+ranges, ovens & cooktops retailer	3	3	2
+ranges, ovens & cooktops retailer	3	5	0
+ranges, ovens & cooktops retailer	3	6	2
+ranges, ovens & cooktops retailer	3	8	2
+ranges, ovens & cooktops retailer	4	3	1
+ranges, ovens & cooktops retailer	4	4	2
+ranges, ovens & cooktops retailer	4	8	0
+ranges, ovens & cooktops retailer	4	9	0
+ranges, ovens & cooktops retailer	5	1	2
+ranges, ovens & cooktops retailer	5	2	1
+ranges, ovens & cooktops retailer	5	7	2
+ranges, ovens & cooktops retailer	5	9	2
+ranges, ovens & cooktops retailer	6	0	1
+ranges, ovens & cooktops retailer	6	2	1
+ranges, ovens & cooktops retailer	6	5	1
+ranges, ovens & cooktops retailer	6	8	2
+ranges, ovens & cooktops retailer	7	2	1
+ranges, ovens & cooktops retailer	7	3	0
+ranges, ovens & cooktops retailer	7	5	2
+ranges, ovens & cooktops retailer	7	7	2
+ranges, ovens & cooktops retailer	8	0	1
+ranges, ovens & cooktops retailer	8	1	1
+ranges, ovens & cooktops retailer	8	2	1
+ranges, ovens & cooktops retailer	8	3	1
+ranges, ovens & cooktops retailer	8	4	0
+ranges, ovens & cooktops retailer	8	5	2
+ranges, ovens & cooktops retailer	8	7	1
+ranges, ovens & cooktops retailer	8	8	1
+ranges, ovens & cooktops retailer	9	2	1
+ranges, ovens & cooktops retailer	9	3	2
+ranges, ovens & cooktops retailer	9	5	0
+ranges, ovens & cooktops retailer	9	6	2
+ranges, ovens & cooktops retailer	9	8	1
+microwave ovens retailer	0	2	2
+microwave ovens retailer	0	7	1
+microwave ovens retailer	1	0	0
+microwave ovens retailer	1	2	1
+microwave ovens retailer	1	6	0
+microwave ovens retailer	2	2	0
+microwave ovens retailer	2	4	2
+microwave ovens retailer	2	9	1
+microwave ovens retailer	3	5	1
+microwave ovens retailer	3	8	2
+microwave ovens retailer	3	9	0
+microwave ovens retailer	4	0	1
+microwave ovens retailer	4	2	2
+microwave ovens retailer	4	3	0
+microwave ovens retailer	4	5	0
+microwave ovens retailer	4	6	1
+microwave ovens retailer	4	7	0
+microwave ovens retailer	4	8	2
+microwave ovens retailer	5	3	0
+microwave ovens retailer	5	4	1
+microwave ovens retailer	5	5	1
+microwave ovens retailer	5	6	0
+microwave ovens retailer	5	7	0
+microwave ovens retailer	5	9	1
+microwave ovens retailer	6	0	0
+microwave ovens retailer	6	3	2
+microwave ovens retailer	7	2	1
+microwave ovens retailer	7	3	1
+microwave ovens retailer	7	5	2
+microwave ovens retailer	7	7	2
+microwave ovens retailer	7	9	1
+microwave ovens retailer	8	1	2
+microwave ovens retailer	8	2	1
+microwave ovens retailer	8	4	1
+microwave ovens retailer	8	8	1
+microwave ovens retailer	9	3	2
+microwave ovens retailer	9	9	0
+dishwashers retailer	0	1	2
+dishwashers retailer	0	2	2
+dishwashers retailer	1	2	0
+dishwashers retailer	1	4	0
+dishwashers retailer	2	0	1
+dishwashers retailer	2	4	1
+dishwashers retailer	3	3	1
+dishwashers retailer	3	4	1
+dishwashers retailer	3	6	1
+dishwashers retailer	4	1	1
+dishwashers retailer	4	4	2
+dishwashers retailer	4	5	0
+dishwashers retailer	4	6	1
+dishwashers retailer	4	8	0
+dishwashers retailer	5	0	1
+dishwashers retailer	5	2	2
+dishwashers retailer	5	5	1
+dishwashers retailer	5	6	1
+dishwashers retailer	6	0	1
+dishwashers retailer	6	3	1
+dishwashers retailer	6	4	0
+dishwashers retailer	6	5	2
+dishwashers retailer	6	6	1
+dishwashers retailer	6	7	0
+dishwashers retailer	7	0	0
+dishwashers retailer	7	5	2
+dishwashers retailer	7	6	1
+dishwashers retailer	7	7	1
+dishwashers retailer	7	8	1
+dishwashers retailer	8	1	0
+dishwashers retailer	8	2	2
+dishwashers retailer	8	3	1
+dishwashers retailer	8	5	2
+dishwashers retailer	8	7	1
+dishwashers retailer	9	0	0
+dishwashers retailer	9	3	2
+dishwashers retailer	9	6	1
+dishwashers retailer	9	8	1
+small kitchen appliances retailer	0	0	0
+small kitchen appliances retailer	0	3	1
+small kitchen appliances retailer	0	8	1
+small kitchen appliances retailer	0	9	0
+small kitchen appliances retailer	1	1	0
+small kitchen appliances retailer	1	4	1
+small kitchen appliances retailer	1	6	1
+small kitchen appliances retailer	1	8	1
+small kitchen appliances retailer	2	0	1
+small kitchen appliances retailer	2	2	1
+small kitchen appliances retailer	2	3	0
+small kitchen appliances retailer	2	6	0
+small kitchen appliances retailer	3	2	1
+small kitchen appliances retailer	3	3	1
+small kitchen appliances retailer	3	9	2
+small kitchen appliances retailer	4	0	0
+small kitchen appliances retailer	4	1	2
+small kitchen appliances retailer	4	2	1
+small kitchen appliances retailer	4	5	2
+small kitchen appliances retailer	4	7	1
+small kitchen appliances retailer	4	8	2
+small kitchen appliances retailer	5	0	0
+small kitchen appliances retailer	5	2	1
+small kitchen appliances retailer	5	3	2
+small kitchen appliances retailer	5	6	0
+small kitchen appliances retailer	5	7	0
+small kitchen appliances retailer	6	4	0
+small kitchen appliances retailer	6	5	1
+small kitchen appliances retailer	7	0	2
+small kitchen appliances retailer	7	3	2
+small kitchen appliances retailer	7	7	2
+small kitchen appliances retailer	8	0	2
+small kitchen appliances retailer	8	5	2
+small kitchen appliances retailer	8	6	1
+small kitchen appliances retailer	8	8	0
+small kitchen appliances retailer	9	0	1
+small kitchen appliances retailer	9	1	2
+small kitchen appliances retailer	9	9	1
+heating, cooling & air quality retailer	0	0	2
+heating, cooling & air quality retailer	0	1	2
+heating, cooling & air quality retailer	0	2	2
+heating, cooling & air quality retailer	0	4	2
+heating, cooling & air quality retailer	0	5	0
+heating, cooling & air quality retailer	0	8	2
+heating, cooling & air quality retailer	0	9	2
+heating, cooling & air quality retailer	1	1	1
+heating, cooling & air quality retailer	1	3	0
+heating, cooling & air quality retailer	1	4	0
+baby products retailer	0	9	0
+cell phones retailer	2	1	0
+cell phones retailer	2	2	0
+cell phones retailer	3	8	1
+cell phones retailer	4	3	0
+cell phones retailer	7	5	1
+clothing & accessories retailer	2	9	2
+clothing & accessories retailer	5	1	1
+clothing & accessories retailer	6	1	1
+electronics retailer	0	5	1
+electronics retailer	0	8	0
+electronics retailer	0	9	0
+electronics retailer	3	8	0
+electronics retailer	4	3	0
+electronics retailer	5	4	0
+electronics retailer	9	4	2
+fashion jewelry retailer	3	5	1
+fashion jewelry retailer	6	3	0
+fashion jewelry retailer	6	4	1
+fashion jewelry retailer	6	8	0
+fashion jewelry retailer	9	2	1
+fashion jewelry retailer	9	5	2
+grocery & gourmet food retailer	8	2	0
+handmade retailer	5	9	0
+health & personal care retailer	5	9	0
+health & personal care retailer	9	7	0
+cell phones retailer	5	0	1
+cell phones retailer	5	1	1
+cell phones retailer	5	2	0
+cell phones retailer	5	3	0
+cell phones retailer	5	7	1
+cell phones retailer	5	9	0
+home & garden retailer	0	1	0
+home & garden retailer	0	2	0
+home & garden retailer	0	3	0
+home & garden retailer	0	5	0
+home & garden retailer	0	6	1
+home & garden retailer	0	7	0
+home & garden retailer	0	8	0
+home & garden retailer	1	0	2
+home & garden retailer	1	1	0
+home & garden retailer	1	2	1
+home & garden retailer	1	3	0
+home & garden retailer	1	4	2
+home & garden retailer	1	5	0
+home & garden retailer	1	7	0
+home & garden retailer	1	9	2
+home & garden retailer	2	1	0
+home & garden retailer	2	2	0
+home & garden retailer	2	3	0
+home & garden retailer	2	4	1
+home & garden retailer	2	5	1
+home & garden retailer	2	6	1
+home & garden retailer	2	7	2
+home & garden retailer	3	0	1
+home & garden retailer	3	1	2
+home & garden retailer	3	4	1
+home & garden retailer	3	9	2
+home & garden retailer	4	3	0
+home & garden retailer	4	6	0
+home & garden retailer	4	7	1
+home & garden retailer	4	8	2
+home & garden retailer	4	9	0
+home & garden retailer	5	2	0
+home & garden retailer	5	3	0
+home & garden retailer	5	5	1
+home & garden retailer	5	6	0
+home & garden retailer	5	7	1
+home & garden retailer	5	8	1
+home & garden retailer	5	9	0
+home & garden retailer	6	1	0
+home & garden retailer	6	2	1
+home & garden retailer	6	3	0
+home & garden retailer	6	4	1
+home & garden retailer	6	6	1
+home & garden retailer	6	7	0
+home & garden retailer	6	8	1
+home & garden retailer	6	9	1
+home & garden retailer	7	4	0
+home & garden retailer	7	5	0
+home & garden retailer	7	6	0
+home & garden retailer	7	7	1
+home & garden retailer	7	9	0
+home & garden retailer	8	7	0
+home & garden retailer	8	8	0
+home & garden retailer	9	0	0
+home & garden retailer	9	7	1
+home & garden retailer	9	8	1
+home & garden retailer	9	9	1
+luggage & travel accessories retailer	0	0	1
+luggage & travel accessories retailer	0	2	1
+luggage & travel accessories retailer	0	3	1
+luggage & travel accessories retailer	0	4	1
+luggage & travel accessories retailer	0	6	0
+luggage & travel accessories retailer	0	7	1
+luggage & travel accessories retailer	0	8	0
+luggage & travel accessories retailer	0	9	1
+luggage & travel accessories retailer	1	0	1
+luggage & travel accessories retailer	1	2	1
+luggage & travel accessories retailer	1	3	1
+luggage & travel accessories retailer	1	5	0
+luggage & travel accessories retailer	1	6	1
+luggage & travel accessories retailer	1	7	1
+luggage & travel accessories retailer	1	8	2
+luggage & travel accessories retailer	1	9	1
+luggage & travel accessories retailer	2	0	0
+luggage & travel accessories retailer	2	1	0
+luggage & travel accessories retailer	2	2	2
+luggage & travel accessories retailer	2	3	1
+luggage & travel accessories retailer	2	6	0
+luggage & travel accessories retailer	2	7	2
+luggage & travel accessories retailer	2	8	1
+luggage & travel accessories retailer	2	9	1
+luggage & travel accessories retailer	3	0	1
+luggage & travel accessories retailer	3	1	1
+luggage & travel accessories retailer	3	2	1
+luggage & travel accessories retailer	3	3	1
+luggage & travel accessories retailer	3	5	1
+luggage & travel accessories retailer	3	6	1
+luggage & travel accessories retailer	4	1	2
+luggage & travel accessories retailer	4	2	0
+luggage & travel accessories retailer	4	3	2
+luggage & travel accessories retailer	4	4	2
+luggage & travel accessories retailer	4	5	2
+luggage & travel accessories retailer	4	6	1
+luggage & travel accessories retailer	4	9	2
+luggage & travel accessories retailer	5	4	0
+luggage & travel accessories retailer	5	5	2
+luggage & travel accessories retailer	5	6	2
+luggage & travel accessories retailer	5	7	2
+luggage & travel accessories retailer	5	8	2
+luggage & travel accessories retailer	6	0	1
+luggage & travel accessories retailer	6	2	1
+luggage & travel accessories retailer	6	3	2
+luggage & travel accessories retailer	6	4	0
+luggage & travel accessories retailer	6	5	2
+luggage & travel accessories retailer	6	6	1
+luggage & travel accessories retailer	6	7	0
+luggage & travel accessories retailer	6	8	2
+luggage & travel accessories retailer	7	0	1
+luggage & travel accessories retailer	7	1	1
+luggage & travel accessories retailer	7	2	2
+luggage & travel accessories retailer	7	3	1
+luggage & travel accessories retailer	7	4	1
+luggage & travel accessories retailer	7	5	1
+luggage & travel accessories retailer	7	7	1
+luggage & travel accessories retailer	7	9	0
+luggage & travel accessories retailer	8	0	2
+luggage & travel accessories retailer	8	1	1
+luggage & travel accessories retailer	8	3	1
+luggage & travel accessories retailer	8	4	2
+luggage & travel accessories retailer	8	6	1
+luggage & travel accessories retailer	8	7	1
+luggage & travel accessories retailer	8	8	1
+luggage & travel accessories retailer	8	9	1
+luggage & travel accessories retailer	9	0	1
+luggage & travel accessories retailer	9	1	0
+luggage & travel accessories retailer	9	2	2
+luggage & travel accessories retailer	9	3	1
+luggage & travel accessories retailer	9	4	0
+luggage & travel accessories retailer	9	5	1
+luggage & travel accessories retailer	9	6	0
+luggage & travel accessories retailer	9	7	1
+luggage & travel accessories retailer	9	9	0
+musical instruments retailer	0	0	0
+musical instruments retailer	0	1	1
+musical instruments retailer	0	3	0
+musical instruments retailer	0	4	1
+musical instruments retailer	0	5	1
+musical instruments retailer	0	6	1
+musical instruments retailer	0	7	1
+musical instruments retailer	0	8	0
+musical instruments retailer	0	9	0
+musical instruments retailer	1	0	0
+musical instruments retailer	1	1	1
+musical instruments retailer	1	2	1
+musical instruments retailer	1	3	1
+musical instruments retailer	1	4	0
+musical instruments retailer	1	5	1
+musical instruments retailer	1	6	0
+musical instruments retailer	1	7	0
+musical instruments retailer	2	0	0
+musical instruments retailer	2	2	1
+musical instruments retailer	2	4	0
+musical instruments retailer	2	6	0
+musical instruments retailer	2	8	0
+musical instruments retailer	2	9	0
+musical instruments retailer	3	0	0
+musical instruments retailer	3	1	0
+musical instruments retailer	3	2	0
+musical instruments retailer	3	3	1
+musical instruments retailer	3	5	1
+musical instruments retailer	3	6	0
+musical instruments retailer	3	7	1
+musical instruments retailer	4	0	0
+musical instruments retailer	4	1	1
+musical instruments retailer	4	2	0
+musical instruments retailer	4	3	1
+musical instruments retailer	4	4	1
+musical instruments retailer	4	5	1
+musical instruments retailer	4	6	1
+musical instruments retailer	4	7	0
+musical instruments retailer	4	9	1
+musical instruments retailer	5	2	1
+musical instruments retailer	5	3	0
+musical instruments retailer	5	4	1
+musical instruments retailer	5	5	0
+musical instruments retailer	5	6	1
+musical instruments retailer	5	9	0
+musical instruments retailer	6	2	0
+musical instruments retailer	6	3	0
+musical instruments retailer	6	4	0
+musical instruments retailer	6	5	1
+musical instruments retailer	6	6	0
+musical instruments retailer	6	7	1
+musical instruments retailer	6	8	0
+musical instruments retailer	6	9	1
+musical instruments retailer	7	2	0
+musical instruments retailer	7	3	0
+musical instruments retailer	7	4	0
+musical instruments retailer	7	5	0
+musical instruments retailer	7	6	0
+musical instruments retailer	7	7	0
+musical instruments retailer	7	9	1
+musical instruments retailer	8	0	1
+musical instruments retailer	8	1	1
+musical instruments retailer	8	2	2
+musical instruments retailer	8	3	2
+musical instruments retailer	8	4	0
+musical instruments retailer	8	7	1
+musical instruments retailer	8	9	1
+musical instruments retailer	9	1	0
+musical instruments retailer	9	2	0
+musical instruments retailer	9	3	1
+musical instruments retailer	9	4	0
+musical instruments retailer	9	5	1
+musical instruments retailer	9	6	1
+musical instruments retailer	9	7	0
+musical instruments retailer	9	8	1
+musical instruments retailer	9	9	0
+office products retailer	0	0	2
+office products retailer	0	2	1
+office products retailer	0	3	1
+office products retailer	0	7	0
+office products retailer	0	8	2
+office products retailer	1	0	0
+office products retailer	1	2	0
+office products retailer	1	4	0
+office products retailer	1	7	0
+office products retailer	1	8	0
+office products retailer	1	9	0
+office products retailer	2	0	0
+office products retailer	2	1	1
+office products retailer	2	2	0
+office products retailer	2	3	1
+office products retailer	2	5	1
+office products retailer	2	6	0
+office products retailer	2	7	0
+office products retailer	2	8	0
+office products retailer	2	9	1
+office products retailer	3	2	1
+office products retailer	3	4	1
+office products retailer	3	5	1
+office products retailer	3	6	1
+office products retailer	3	7	1
+office products retailer	3	8	1
+office products retailer	4	1	1
+office products retailer	4	2	1
+office products retailer	4	4	1
+office products retailer	4	5	2
+office products retailer	4	6	0
+office products retailer	4	7	1
+office products retailer	4	8	0
+office products retailer	4	9	1
+office products retailer	5	0	0
+office products retailer	5	1	0
+office products retailer	5	2	0
+office products retailer	5	3	2
+office products retailer	5	5	0
+office products retailer	5	7	0
+office products retailer	5	8	0
+office products retailer	5	9	0
+office products retailer	6	1	1
+office products retailer	6	2	1
+office products retailer	6	3	0
+office products retailer	6	4	1
+office products retailer	6	7	0
+office products retailer	6	9	0
+office products retailer	7	0	0
+office products retailer	7	1	2
+office products retailer	7	2	1
+office products retailer	7	4	1
+office products retailer	7	5	2
+office products retailer	7	6	0
+office products retailer	7	7	1
+office products retailer	7	8	0
+office products retailer	8	4	0
+office products retailer	8	6	2
+office products retailer	8	8	1
+office products retailer	9	0	1
+office products retailer	9	1	0
+office products retailer	9	2	0
+office products retailer	9	3	1
+office products retailer	9	4	1
+office products retailer	9	5	1
+office products retailer	9	6	0
+office products retailer	9	8	2
+office products retailer	9	9	0
+appliances retailer	0	2	0
+appliances retailer	0	3	2
+appliances retailer	0	4	0
+appliances retailer	0	5	0
+appliances retailer	0	6	2
+appliances retailer	0	7	2
+appliances retailer	1	1	2
+appliances retailer	1	3	0
+appliances retailer	1	4	1
+appliances retailer	1	5	0
+appliances retailer	1	7	0
+appliances retailer	2	0	0
+appliances retailer	2	1	1
+appliances retailer	2	5	1
+appliances retailer	2	9	1
+appliances retailer	3	3	0
+appliances retailer	3	8	2
+appliances retailer	4	4	2
+appliances retailer	4	6	0
+appliances retailer	4	7	2
+appliances retailer	5	1	1
+appliances retailer	5	3	0
+appliances retailer	5	4	1
+appliances retailer	5	5	1
+appliances retailer	5	6	1
+appliances retailer	5	7	2
+appliances retailer	5	8	2
+appliances retailer	5	9	1
+appliances retailer	6	0	1
+appliances retailer	6	1	1
+appliances retailer	6	2	0
+appliances retailer	6	3	0
+appliances retailer	6	4	1
+appliances retailer	6	6	0
+appliances retailer	6	8	0
+appliances retailer	7	0	1
+appliances retailer	7	1	2
+appliances retailer	7	4	0
+appliances retailer	7	6	2
+appliances retailer	7	7	0
+appliances retailer	7	9	2
+appliances retailer	8	0	2
+appliances retailer	8	2	1
+appliances retailer	8	5	2
+appliances retailer	8	7	0
+appliances retailer	8	9	0
+appliances retailer	9	2	2
+appliances retailer	9	3	2
+appliances retailer	9	4	0
+appliances retailer	9	7	1
+appliances retailer	9	8	1
+appliances retailer	9	9	0
+arts, crafts & sewing retailer	0	0	1
+arts, crafts & sewing retailer	0	1	0
+arts, crafts & sewing retailer	0	7	0
+arts, crafts & sewing retailer	0	8	0
+arts, crafts & sewing retailer	0	9	1
+arts, crafts & sewing retailer	1	1	0
+arts, crafts & sewing retailer	1	3	1
+arts, crafts & sewing retailer	1	5	2
+arts, crafts & sewing retailer	1	6	0
+arts, crafts & sewing retailer	1	7	2
+arts, crafts & sewing retailer	1	8	2
+arts, crafts & sewing retailer	2	2	1
+arts, crafts & sewing retailer	2	3	0
+arts, crafts & sewing retailer	2	5	0
+arts, crafts & sewing retailer	2	6	1
+arts, crafts & sewing retailer	2	7	1
+arts, crafts & sewing retailer	2	8	1
+arts, crafts & sewing retailer	2	9	2
+arts, crafts & sewing retailer	3	0	1
+arts, crafts & sewing retailer	3	1	2
+arts, crafts & sewing retailer	3	2	2
+arts, crafts & sewing retailer	3	3	0
+arts, crafts & sewing retailer	3	4	0
+arts, crafts & sewing retailer	3	5	1
+arts, crafts & sewing retailer	3	7	1
+arts, crafts & sewing retailer	3	8	1
+arts, crafts & sewing retailer	3	9	1
+arts, crafts & sewing retailer	4	0	1
+arts, crafts & sewing retailer	4	1	1
+arts, crafts & sewing retailer	4	2	0
+arts, crafts & sewing retailer	4	4	1
+arts, crafts & sewing retailer	4	5	2
+arts, crafts & sewing retailer	4	6	2
+arts, crafts & sewing retailer	4	7	1
+arts, crafts & sewing retailer	4	8	1
+arts, crafts & sewing retailer	5	2	2
+arts, crafts & sewing retailer	5	3	1
+arts, crafts & sewing retailer	5	4	1
+arts, crafts & sewing retailer	5	5	1
+arts, crafts & sewing retailer	5	6	1
+arts, crafts & sewing retailer	5	7	0
+arts, crafts & sewing retailer	5	8	2
+arts, crafts & sewing retailer	5	9	1
+arts, crafts & sewing retailer	6	1	0
+arts, crafts & sewing retailer	6	2	1
+arts, crafts & sewing retailer	6	3	1
+arts, crafts & sewing retailer	6	4	2
+arts, crafts & sewing retailer	6	6	1
+arts, crafts & sewing retailer	6	8	0
+arts, crafts & sewing retailer	7	0	0
+arts, crafts & sewing retailer	7	1	2
+arts, crafts & sewing retailer	7	2	0
+arts, crafts & sewing retailer	7	3	0
+arts, crafts & sewing retailer	7	4	2
+arts, crafts & sewing retailer	7	5	1
+arts, crafts & sewing retailer	7	7	1
+arts, crafts & sewing retailer	7	9	0
+arts, crafts & sewing retailer	8	3	1
+arts, crafts & sewing retailer	8	4	1
+arts, crafts & sewing retailer	8	6	2
+arts, crafts & sewing retailer	8	7	2
+arts, crafts & sewing retailer	9	0	0
+arts, crafts & sewing retailer	9	1	1
+arts, crafts & sewing retailer	9	2	0
+arts, crafts & sewing retailer	9	3	0
+arts, crafts & sewing retailer	9	4	1
+arts, crafts & sewing retailer	9	5	1
+arts, crafts & sewing retailer	9	6	1
+arts, crafts & sewing retailer	9	7	2
+arts, crafts & sewing retailer	9	8	1
+arts, crafts & sewing retailer	9	9	1
+automotive retailer	0	0	0
+automotive retailer	0	2	0
+automotive retailer	0	3	1
+automotive retailer	0	4	0
+automotive retailer	0	6	0
+automotive retailer	0	7	1
+automotive retailer	0	8	0
+automotive retailer	0	9	0
+automotive retailer	1	1	0
+automotive retailer	1	4	0
+automotive retailer	1	6	0
+automotive retailer	1	7	0
+automotive retailer	1	9	0
+automotive retailer	2	0	0
+automotive retailer	2	2	0
+automotive retailer	2	4	0
+automotive retailer	2	5	1
+automotive retailer	2	6	2
+automotive retailer	2	8	1
+automotive retailer	3	1	0
+automotive retailer	3	2	0
+automotive retailer	3	3	2
+automotive retailer	3	5	1
+automotive retailer	3	6	2
+automotive retailer	3	7	0
+automotive retailer	3	9	2
+automotive retailer	4	0	1
+automotive retailer	4	1	1
+automotive retailer	4	2	0
+automotive retailer	4	3	0
+automotive retailer	4	4	2
+automotive retailer	4	6	1
+automotive retailer	4	7	1
+automotive retailer	4	8	0
+automotive retailer	5	0	0
+automotive retailer	5	1	2
+automotive retailer	5	3	0
+automotive retailer	5	6	1
+automotive retailer	5	8	1
+automotive retailer	6	0	0
+automotive retailer	6	2	1
+automotive retailer	6	3	0
+automotive retailer	6	6	1
+automotive retailer	6	7	0
+automotive retailer	6	9	1
+automotive retailer	7	0	1
+automotive retailer	7	2	0
+automotive retailer	7	5	0
+automotive retailer	7	6	0
+automotive retailer	7	7	1
+automotive retailer	7	8	0
+automotive retailer	7	9	0
+automotive retailer	8	1	0
+automotive retailer	8	9	1
+automotive retailer	9	0	1
+automotive retailer	9	1	1
+automotive retailer	9	2	1
+automotive retailer	9	3	0
+automotive retailer	9	5	0
+automotive retailer	9	6	0
+automotive retailer	9	7	0
+automotive retailer	9	8	0
+automotive retailer	9	9	0
+baby retailer	0	0	1
+baby retailer	0	1	1
+baby retailer	0	2	2
+baby retailer	0	3	2
+baby retailer	0	5	1
+baby retailer	0	8	0
+baby retailer	1	2	1
+baby retailer	1	4	2
+baby retailer	1	5	2
+baby retailer	1	6	0
+baby retailer	1	7	0
+collectibles & fine arts retailer	9	0	1
+collectibles & fine arts retailer	9	1	0
+collectibles & fine arts retailer	9	2	0
+collectibles & fine arts retailer	9	3	1
+collectibles & fine arts retailer	9	4	0
+collectibles & fine arts retailer	9	6	0
+collectibles & fine arts retailer	9	7	1
+collectibles & fine arts retailer	9	8	0
+collectibles & fine arts retailer	9	9	0
+clothing, shoes & jewelry retailer	0	1	2
+clothing, shoes & jewelry retailer	0	5	1
+clothing, shoes & jewelry retailer	0	6	1
+clothing, shoes & jewelry retailer	0	7	1
+clothing, shoes & jewelry retailer	0	9	1
+clothing, shoes & jewelry retailer	1	0	1
+clothing, shoes & jewelry retailer	1	3	2
+clothing, shoes & jewelry retailer	1	4	1
+clothing, shoes & jewelry retailer	1	5	1
+clothing, shoes & jewelry retailer	1	8	1
+clothing, shoes & jewelry retailer	2	3	1
+clothing, shoes & jewelry retailer	2	5	1
+clothing, shoes & jewelry retailer	2	6	2
+clothing, shoes & jewelry retailer	3	1	0
+clothing, shoes & jewelry retailer	3	2	1
+clothing, shoes & jewelry retailer	3	3	1
+clothing, shoes & jewelry retailer	3	4	1
+clothing, shoes & jewelry retailer	3	6	2
+clothing, shoes & jewelry retailer	3	9	2
+clothing, shoes & jewelry retailer	4	0	1
+clothing, shoes & jewelry retailer	4	1	1
+clothing, shoes & jewelry retailer	4	3	2
+clothing, shoes & jewelry retailer	4	4	0
+clothing, shoes & jewelry retailer	4	5	1
+clothing, shoes & jewelry retailer	4	6	2
+clothing, shoes & jewelry retailer	5	0	2
+clothing, shoes & jewelry retailer	5	1	2
+clothing, shoes & jewelry retailer	5	2	2
+clothing, shoes & jewelry retailer	5	4	1
+clothing, shoes & jewelry retailer	5	5	1
+clothing, shoes & jewelry retailer	5	6	0
+clothing, shoes & jewelry retailer	5	8	1
+clothing, shoes & jewelry retailer	5	9	1
+clothing, shoes & jewelry retailer	6	1	1
+clothing, shoes & jewelry retailer	6	2	2
+clothing, shoes & jewelry retailer	6	3	2
+clothing, shoes & jewelry retailer	6	4	1
+clothing, shoes & jewelry retailer	6	5	1
+clothing, shoes & jewelry retailer	6	6	2
+clothing, shoes & jewelry retailer	6	8	0
+clothing, shoes & jewelry retailer	6	9	0
+clothing, shoes & jewelry retailer	7	0	1
+clothing, shoes & jewelry retailer	7	2	2
+clothing, shoes & jewelry retailer	7	4	1
+clothing, shoes & jewelry retailer	7	5	1
+clothing, shoes & jewelry retailer	7	7	2
+clothing, shoes & jewelry retailer	7	8	0
+clothing, shoes & jewelry retailer	7	9	0
+clothing, shoes & jewelry retailer	8	0	1
+clothing, shoes & jewelry retailer	8	1	1
+clothing, shoes & jewelry retailer	8	2	1
+clothing, shoes & jewelry retailer	8	3	2
+clothing, shoes & jewelry retailer	8	4	2
+clothing, shoes & jewelry retailer	8	5	0
+clothing, shoes & jewelry retailer	8	6	2
+clothing, shoes & jewelry retailer	8	7	2
+clothing, shoes & jewelry retailer	8	8	2
+clothing, shoes & jewelry retailer	8	9	1
+clothing, shoes & jewelry retailer	9	3	2
+clothing, shoes & jewelry retailer	9	4	1
+clothing, shoes & jewelry retailer	9	6	1
+clothing, shoes & jewelry retailer	9	7	2
+clothing, shoes & jewelry retailer	9	8	2
+clothing, shoes & jewelry retailer	9	9	2
+gift cards retailer	0	0	1
+gift cards retailer	0	1	0
+gift cards retailer	0	3	0
+gift cards retailer	0	4	0
+gift cards retailer	0	6	0
+gift cards retailer	0	7	0
+gift cards retailer	0	9	1
+gift cards retailer	1	0	0
+gift cards retailer	1	1	1
+gift cards retailer	1	2	0
+gift cards retailer	1	3	0
+gift cards retailer	1	4	1
+gift cards retailer	1	5	1
+gift cards retailer	1	6	0
+gift cards retailer	1	7	2
+gift cards retailer	1	8	0
+gift cards retailer	1	9	1
+gift cards retailer	2	2	0
+gift cards retailer	2	3	0
+gift cards retailer	2	5	0
+gift cards retailer	2	7	1
+gift cards retailer	2	9	2
+gift cards retailer	3	0	0
+gift cards retailer	3	1	0
+gift cards retailer	3	2	0
+gift cards retailer	3	3	0
+gift cards retailer	3	4	0
+gift cards retailer	3	6	0
+gift cards retailer	3	7	0
+gift cards retailer	3	8	0
+gift cards retailer	3	9	1
+gift cards retailer	4	5	0
+gift cards retailer	4	6	1
+gift cards retailer	4	8	0
+gift cards retailer	4	9	0
+gift cards retailer	5	1	0
+gift cards retailer	5	2	1
+gift cards retailer	5	3	0
+gift cards retailer	5	4	0
+gift cards retailer	5	5	0
+gift cards retailer	5	7	0
+gift cards retailer	5	8	2
+gift cards retailer	5	9	0
+gift cards retailer	6	1	0
+gift cards retailer	6	3	0
+gift cards retailer	6	6	0
+gift cards retailer	6	7	0
+gift cards retailer	6	8	0
+gift cards retailer	6	9	0
+gift cards retailer	7	0	0
+gift cards retailer	7	1	1
+gift cards retailer	7	2	2
+gift cards retailer	7	3	0
+gift cards retailer	7	5	0
+gift cards retailer	7	7	1
+gift cards retailer	7	8	0
+gift cards retailer	7	9	0
+gift cards retailer	8	1	2
+gift cards retailer	8	2	0
+gift cards retailer	8	3	0
+gift cards retailer	8	5	0
+gift cards retailer	8	6	0
+gift cards retailer	8	7	1
+gift cards retailer	8	8	1
+gift cards retailer	9	0	1
+gift cards retailer	9	1	0
+gift cards retailer	9	3	0
+gift cards retailer	9	5	0
+gift cards retailer	9	8	0
+home & kitchen retailer	0	0	2
+home & kitchen retailer	0	1	1
+home & kitchen retailer	0	3	0
+home & kitchen retailer	0	4	0
+home & kitchen retailer	0	9	1
+home & kitchen retailer	1	0	1
+home & kitchen retailer	1	1	1
+home & kitchen retailer	1	2	0
+home & kitchen retailer	1	3	0
+home & kitchen retailer	1	6	2
+home & kitchen retailer	1	7	2
+home & kitchen retailer	1	8	2
+home & kitchen retailer	2	3	2
+home & kitchen retailer	2	5	1
+home & kitchen retailer	2	6	1
+home & kitchen retailer	2	8	1
+home & kitchen retailer	3	2	2
+home & kitchen retailer	3	3	0
+home & kitchen retailer	3	4	2
+home & kitchen retailer	3	7	2
+home & kitchen retailer	3	8	2
+home & kitchen retailer	3	9	2
+home & kitchen retailer	4	0	0
+home & kitchen retailer	4	1	2
+home & kitchen retailer	4	2	2
+home & kitchen retailer	4	4	1
+home & kitchen retailer	4	6	2
+home & kitchen retailer	4	7	1
+home & kitchen retailer	4	8	1
+home & kitchen retailer	6	4	1
+home & kitchen retailer	6	7	2
+home & kitchen retailer	7	2	0
+home & kitchen retailer	7	4	0
+home & kitchen retailer	7	5	2
+home & kitchen retailer	7	6	2
+home & kitchen retailer	7	7	1
+home & kitchen retailer	7	8	1
+home & kitchen retailer	7	9	1
+home & kitchen retailer	8	0	0
+home & kitchen retailer	8	2	2
+home & kitchen retailer	8	3	1
+home & kitchen retailer	8	5	0
+home & kitchen retailer	8	6	2
+home & kitchen retailer	8	8	1
+home & kitchen retailer	8	9	0
+home & kitchen retailer	9	0	1
+home & kitchen retailer	9	2	1
+home & kitchen retailer	9	3	0
+industrial & scientific retailer	0	0	0
+industrial & scientific retailer	0	2	0
+industrial & scientific retailer	0	6	2
+industrial & scientific retailer	1	2	0
+industrial & scientific retailer	1	4	0
+industrial & scientific retailer	2	4	0
+industrial & scientific retailer	2	5	2
+industrial & scientific retailer	2	7	2
+industrial & scientific retailer	2	8	2
+industrial & scientific retailer	2	9	0
+industrial & scientific retailer	3	0	2
+industrial & scientific retailer	3	2	0
+industrial & scientific retailer	3	3	2
+industrial & scientific retailer	3	4	1
+industrial & scientific retailer	3	6	2
+industrial & scientific retailer	3	7	0
+industrial & scientific retailer	3	8	0
+industrial & scientific retailer	3	9	2
+industrial & scientific retailer	4	1	2
+industrial & scientific retailer	4	2	0
+industrial & scientific retailer	4	3	2
+industrial & scientific retailer	4	4	0
+industrial & scientific retailer	4	5	0
+industrial & scientific retailer	4	8	2
+industrial & scientific retailer	5	0	0
+industrial & scientific retailer	5	1	0
+industrial & scientific retailer	5	2	0
+industrial & scientific retailer	5	5	0
+industrial & scientific retailer	5	7	1
+industrial & scientific retailer	5	8	0
+industrial & scientific retailer	6	0	0
+industrial & scientific retailer	6	4	2
+industrial & scientific retailer	6	5	0
+industrial & scientific retailer	6	6	0
+industrial & scientific retailer	6	7	0
+industrial & scientific retailer	6	8	1
+industrial & scientific retailer	6	9	2
+industrial & scientific retailer	7	1	0
+industrial & scientific retailer	7	4	0
+industrial & scientific retailer	7	5	0
+industrial & scientific retailer	7	9	1
+industrial & scientific retailer	8	0	0
+industrial & scientific retailer	8	2	0
+industrial & scientific retailer	8	3	2
+industrial & scientific retailer	8	4	0
+industrial & scientific retailer	8	5	2
+industrial & scientific retailer	8	6	0
+industrial & scientific retailer	8	8	1
+industrial & scientific retailer	8	9	2
+industrial & scientific retailer	9	1	2
+industrial & scientific retailer	9	2	0
+industrial & scientific retailer	9	4	0
+industrial & scientific retailer	9	6	2
+industrial & scientific retailer	9	8	0
+industrial & scientific retailer	9	9	1
+patio, lawn & garden retailer	0	0	0
+patio, lawn & garden retailer	0	2	2
+patio, lawn & garden retailer	0	4	2
+patio, lawn & garden retailer	0	5	0
+patio, lawn & garden retailer	0	6	1
+patio, lawn & garden retailer	0	8	2
+patio, lawn & garden retailer	1	0	2
+patio, lawn & garden retailer	1	4	1
+patio, lawn & garden retailer	1	5	1
+patio, lawn & garden retailer	1	9	1
+patio, lawn & garden retailer	2	4	1
+patio, lawn & garden retailer	2	7	1
+patio, lawn & garden retailer	2	8	1
+patio, lawn & garden retailer	2	9	2
+patio, lawn & garden retailer	3	0	2
+patio, lawn & garden retailer	3	2	0
+patio, lawn & garden retailer	3	3	1
+patio, lawn & garden retailer	3	4	1
+patio, lawn & garden retailer	3	5	0
+patio, lawn & garden retailer	3	6	2
+patio, lawn & garden retailer	3	7	0
+patio, lawn & garden retailer	3	8	1
+patio, lawn & garden retailer	3	9	0
+patio, lawn & garden retailer	4	1	1
+patio, lawn & garden retailer	4	3	1
+patio, lawn & garden retailer	4	4	1
+patio, lawn & garden retailer	4	5	1
+patio, lawn & garden retailer	4	6	1
+patio, lawn & garden retailer	4	7	2
+patio, lawn & garden retailer	4	8	2
+patio, lawn & garden retailer	5	0	2
+patio, lawn & garden retailer	5	2	1
+patio, lawn & garden retailer	5	3	1
+patio, lawn & garden retailer	5	4	2
+patio, lawn & garden retailer	5	6	1
+patio, lawn & garden retailer	5	9	2
+patio, lawn & garden retailer	6	0	1
+patio, lawn & garden retailer	6	1	2
+patio, lawn & garden retailer	6	2	1
+patio, lawn & garden retailer	6	3	1
+patio, lawn & garden retailer	6	5	2
+patio, lawn & garden retailer	6	6	2
+patio, lawn & garden retailer	6	8	0
+patio, lawn & garden retailer	7	4	0
+patio, lawn & garden retailer	7	5	2
+patio, lawn & garden retailer	7	6	1
+patio, lawn & garden retailer	7	8	1
+patio, lawn & garden retailer	8	1	1
+patio, lawn & garden retailer	8	2	2
+patio, lawn & garden retailer	8	3	2
+patio, lawn & garden retailer	8	4	2
+patio, lawn & garden retailer	8	5	2
+patio, lawn & garden retailer	8	6	2
+patio, lawn & garden retailer	8	8	1
+patio, lawn & garden retailer	8	9	1
+patio, lawn & garden retailer	9	0	1
+patio, lawn & garden retailer	9	1	1
+patio, lawn & garden retailer	9	2	2
+patio, lawn & garden retailer	9	3	1
+patio, lawn & garden retailer	9	5	2
+patio, lawn & garden retailer	9	6	1
+patio, lawn & garden retailer	9	7	1
+patio, lawn & garden retailer	9	8	1
+patio, lawn & garden retailer	9	9	2
+luggage & travel gear retailer	0	3	0
+luggage & travel gear retailer	1	1	2
+luggage & travel gear retailer	2	0	2
+luggage & travel gear retailer	2	2	1
+luggage & travel gear retailer	2	7	1
+luggage & travel gear retailer	3	0	0
+luggage & travel gear retailer	3	6	2
+luggage & travel gear retailer	4	3	0
+luggage & travel gear retailer	4	4	1
+luggage & travel gear retailer	4	6	2
+luggage & travel gear retailer	4	8	2
+luggage & travel gear retailer	4	9	1
+luggage & travel gear retailer	5	2	2
+luggage & travel gear retailer	5	4	2
+luggage & travel gear retailer	5	5	2
+luggage & travel gear retailer	6	1	1
+luggage & travel gear retailer	6	2	2
+luggage & travel gear retailer	6	3	1
+luggage & travel gear retailer	6	7	2
+luggage & travel gear retailer	6	8	2
+luggage & travel gear retailer	7	7	1
+luggage & travel gear retailer	7	8	1
+luggage & travel gear retailer	8	1	2
+luggage & travel gear retailer	8	4	2
+luggage & travel gear retailer	8	6	2
+luggage & travel gear retailer	9	0	2
+luggage & travel gear retailer	9	2	2
+luggage & travel gear retailer	9	5	2
+luggage & travel gear retailer	9	7	2
+luggage & travel gear retailer	9	8	2
+magazine subscriptions retailer	0	0	0
+magazine subscriptions retailer	0	1	2
+magazine subscriptions retailer	0	7	1
+magazine subscriptions retailer	0	9	1
+magazine subscriptions retailer	1	0	2
+magazine subscriptions retailer	1	3	1
+magazine subscriptions retailer	1	5	1
+magazine subscriptions retailer	1	6	1
+magazine subscriptions retailer	1	7	1
+magazine subscriptions retailer	1	8	1
+magazine subscriptions retailer	1	9	1
+magazine subscriptions retailer	2	0	1
+magazine subscriptions retailer	2	1	2
+magazine subscriptions retailer	2	2	2
+magazine subscriptions retailer	2	3	2
+magazine subscriptions retailer	2	4	2
+magazine subscriptions retailer	2	7	2
+magazine subscriptions retailer	3	0	1
+magazine subscriptions retailer	3	2	0
+magazine subscriptions retailer	3	4	2
+magazine subscriptions retailer	3	5	1
+magazine subscriptions retailer	3	6	2
+magazine subscriptions retailer	3	8	0
+magazine subscriptions retailer	3	9	1
+magazine subscriptions retailer	4	1	0
+magazine subscriptions retailer	4	2	0
+magazine subscriptions retailer	4	3	1
+magazine subscriptions retailer	4	4	2
+magazine subscriptions retailer	4	5	1
+magazine subscriptions retailer	4	7	1
+magazine subscriptions retailer	4	8	0
+magazine subscriptions retailer	4	9	2
+magazine subscriptions retailer	5	0	2
+magazine subscriptions retailer	5	4	2
+magazine subscriptions retailer	5	8	1
+magazine subscriptions retailer	6	0	1
+magazine subscriptions retailer	6	1	1
+magazine subscriptions retailer	6	2	1
+magazine subscriptions retailer	6	3	0
+magazine subscriptions retailer	6	5	0
+magazine subscriptions retailer	6	6	0
+magazine subscriptions retailer	6	7	0
+magazine subscriptions retailer	6	9	0
+magazine subscriptions retailer	7	0	2
+magazine subscriptions retailer	7	2	0
+magazine subscriptions retailer	7	3	1
+magazine subscriptions retailer	7	5	1
+magazine subscriptions retailer	7	7	1
+magazine subscriptions retailer	7	8	0
+magazine subscriptions retailer	7	9	0
+magazine subscriptions retailer	8	1	2
+magazine subscriptions retailer	8	2	2
+magazine subscriptions retailer	8	3	2
+magazine subscriptions retailer	8	4	1
+magazine subscriptions retailer	8	6	2
+magazine subscriptions retailer	9	1	2
+magazine subscriptions retailer	9	3	0
+apps & games retailer	0	0	0
+apps & games retailer	0	1	2
+apps & games retailer	0	3	0
+apps & games retailer	0	4	0
+apps & games retailer	0	5	0
+apps & games retailer	0	6	0
+apps & games retailer	0	7	0
+apps & games retailer	0	8	0
+apps & games retailer	0	9	1
+apps & games retailer	1	2	0
+apps & games retailer	1	3	0
+apps & games retailer	1	4	0
+apps & games retailer	1	5	2
+apps & games retailer	1	6	1
+apps & games retailer	1	9	1
+apps & games retailer	2	0	0
+apps & games retailer	2	2	0
+apps & games retailer	2	3	0
+apps & games retailer	2	4	0
+apps & games retailer	2	5	0
+apps & games retailer	2	7	0
+apps & games retailer	2	9	2
+apps & games retailer	3	0	0
+apps & games retailer	3	1	0
+apps & games retailer	3	2	0
+apps & games retailer	3	3	0
+apps & games retailer	3	5	0
+apps & games retailer	3	6	1
+apps & games retailer	3	7	1
+apps & games retailer	3	9	2
+apps & games retailer	4	0	2
+apps & games retailer	4	2	0
+apps & games retailer	4	3	0
+apps & games retailer	4	5	2
+apps & games retailer	4	6	2
+apps & games retailer	4	7	0
+apps & games retailer	4	9	1
+apps & games retailer	5	0	1
+apps & games retailer	5	1	0
+apps & games retailer	5	3	1
+apps & games retailer	5	4	1
+apps & games retailer	5	5	0
+apps & games retailer	5	6	0
+apps & games retailer	5	7	1
+apps & games retailer	5	8	0
+apps & games retailer	5	9	0
+apps & games retailer	6	0	0
+apps & games retailer	6	1	2
+apps & games retailer	6	3	0
+apps & games retailer	6	8	2
+apps & games retailer	7	0	0
+apps & games retailer	7	1	1
+apps & games retailer	7	2	2
+apps & games retailer	7	4	0
+apps & games retailer	7	7	0
+apps & games retailer	7	8	0
+apps & games retailer	7	9	0
+apps & games retailer	8	4	0
+apps & games retailer	8	6	0
+apps & games retailer	8	8	0
+apps & games retailer	8	9	0
+apps & games retailer	9	0	0
+apps & games retailer	9	1	0
+apps & games retailer	9	3	0
+apps & games retailer	9	6	0
+apps & games retailer	9	7	0
+apps & games retailer	9	8	0
+movies & tv retailer	0	0	1
+movies & tv retailer	0	1	0
+movies & tv retailer	0	2	1
+movies & tv retailer	0	3	0
+movies & tv retailer	0	4	0
+movies & tv retailer	0	6	1
+movies & tv retailer	0	7	0
+movies & tv retailer	0	9	0
+movies & tv retailer	1	1	0
+movies & tv retailer	1	3	0
+movies & tv retailer	1	4	1
+movies & tv retailer	1	5	1
+movies & tv retailer	1	7	0
+movies & tv retailer	1	8	0
+movies & tv retailer	2	0	0
+movies & tv retailer	2	1	0
+movies & tv retailer	2	2	1
+movies & tv retailer	2	3	1
+movies & tv retailer	2	4	0
+movies & tv retailer	2	6	0
+movies & tv retailer	2	7	1
+movies & tv retailer	2	9	1
+movies & tv retailer	3	0	0
+movies & tv retailer	3	1	1
+movies & tv retailer	3	2	1
+movies & tv retailer	3	5	0
+movies & tv retailer	3	8	2
+movies & tv retailer	4	1	1
+movies & tv retailer	4	2	1
+movies & tv retailer	4	3	1
+movies & tv retailer	4	5	0
+movies & tv retailer	4	6	1
+heating, cooling & air quality retailer	1	5	1
+heating, cooling & air quality retailer	1	6	0
+heating, cooling & air quality retailer	1	7	0
+heating, cooling & air quality retailer	2	0	0
+heating, cooling & air quality retailer	2	1	0
+heating, cooling & air quality retailer	2	2	1
+heating, cooling & air quality retailer	2	4	0
+heating, cooling & air quality retailer	2	5	1
+heating, cooling & air quality retailer	2	6	2
+heating, cooling & air quality retailer	2	7	0
+heating, cooling & air quality retailer	2	9	2
+heating, cooling & air quality retailer	3	1	0
+heating, cooling & air quality retailer	3	2	0
+heating, cooling & air quality retailer	3	3	0
+heating, cooling & air quality retailer	3	5	0
+heating, cooling & air quality retailer	3	6	0
+heating, cooling & air quality retailer	3	7	2
+heating, cooling & air quality retailer	3	9	1
+heating, cooling & air quality retailer	4	1	1
+heating, cooling & air quality retailer	4	3	0
+heating, cooling & air quality retailer	4	4	0
+heating, cooling & air quality retailer	4	6	1
+heating, cooling & air quality retailer	4	7	1
+heating, cooling & air quality retailer	4	8	0
+heating, cooling & air quality retailer	4	9	1
+heating, cooling & air quality retailer	5	0	0
+heating, cooling & air quality retailer	5	1	1
+heating, cooling & air quality retailer	5	2	2
+heating, cooling & air quality retailer	5	3	0
+heating, cooling & air quality retailer	5	4	1
+heating, cooling & air quality retailer	5	5	1
+heating, cooling & air quality retailer	5	6	1
+heating, cooling & air quality retailer	5	7	0
+heating, cooling & air quality retailer	5	8	1
+heating, cooling & air quality retailer	5	9	1
+heating, cooling & air quality retailer	6	0	0
+heating, cooling & air quality retailer	6	1	1
+heating, cooling & air quality retailer	6	2	1
+heating, cooling & air quality retailer	6	3	0
+heating, cooling & air quality retailer	6	4	1
+heating, cooling & air quality retailer	6	5	1
+heating, cooling & air quality retailer	6	6	1
+heating, cooling & air quality retailer	7	1	0
+heating, cooling & air quality retailer	7	3	1
+heating, cooling & air quality retailer	7	4	1
+heating, cooling & air quality retailer	7	6	0
+heating, cooling & air quality retailer	7	7	0
+heating, cooling & air quality retailer	7	9	1
+heating, cooling & air quality retailer	8	0	0
+heating, cooling & air quality retailer	8	1	0
+heating, cooling & air quality retailer	8	2	1
+heating, cooling & air quality retailer	8	4	1
+heating, cooling & air quality retailer	8	5	0
+heating, cooling & air quality retailer	8	7	1
+heating, cooling & air quality retailer	8	8	1
+heating, cooling & air quality retailer	8	9	0
+heating, cooling & air quality retailer	9	1	1
+heating, cooling & air quality retailer	9	3	2
+heating, cooling & air quality retailer	9	6	0
+heating, cooling & air quality retailer	9	7	1
+heating, cooling & air quality retailer	9	9	1
+vacuums & floor care retailer	0	7	1
+vacuums & floor care retailer	0	8	1
+vacuums & floor care retailer	2	2	2
+vacuums & floor care retailer	2	3	2
+vacuums & floor care retailer	2	4	2
+vacuums & floor care retailer	2	5	2
+vacuums & floor care retailer	2	6	1
+vacuums & floor care retailer	2	7	1
+vacuums & floor care retailer	2	8	2
+vacuums & floor care retailer	3	0	1
+vacuums & floor care retailer	3	2	2
+vacuums & floor care retailer	3	4	0
+vacuums & floor care retailer	3	6	2
+vacuums & floor care retailer	3	7	2
+vacuums & floor care retailer	4	0	1
+vacuums & floor care retailer	4	2	2
+vacuums & floor care retailer	4	4	1
+vacuums & floor care retailer	4	5	3
+vacuums & floor care retailer	4	6	0
+vacuums & floor care retailer	4	8	2
+vacuums & floor care retailer	5	0	1
+vacuums & floor care retailer	5	1	1
+vacuums & floor care retailer	5	2	2
+vacuums & floor care retailer	5	3	0
+vacuums & floor care retailer	5	5	1
+vacuums & floor care retailer	5	6	1
+vacuums & floor care retailer	5	7	0
+vacuums & floor care retailer	5	8	1
+vacuums & floor care retailer	5	9	1
+vacuums & floor care retailer	6	5	2
+vacuums & floor care retailer	6	6	1
+vacuums & floor care retailer	6	7	1
+vacuums & floor care retailer	6	9	1
+vacuums & floor care retailer	7	1	2
+vacuums & floor care retailer	7	2	2
+vacuums & floor care retailer	7	3	2
+vacuums & floor care retailer	7	4	1
+vacuums & floor care retailer	7	5	1
+vacuums & floor care retailer	7	6	1
+vacuums & floor care retailer	8	0	0
+vacuums & floor care retailer	8	2	0
+vacuums & floor care retailer	8	3	1
+vacuums & floor care retailer	8	5	1
+vacuums & floor care retailer	8	7	2
+vacuums & floor care retailer	8	9	0
+vacuums & floor care retailer	9	1	0
+vacuums & floor care retailer	9	3	2
+vacuums & floor care retailer	9	5	0
+vacuums & floor care retailer	9	6	1
+vacuums & floor care retailer	9	9	2
+garbage disposals & compactors retailer	1	1	1
+garbage disposals & compactors retailer	1	4	1
+garbage disposals & compactors retailer	1	5	2
+garbage disposals & compactors retailer	1	9	1
+garbage disposals & compactors retailer	2	1	1
+garbage disposals & compactors retailer	2	2	0
+garbage disposals & compactors retailer	2	4	1
+garbage disposals & compactors retailer	2	6	1
+garbage disposals & compactors retailer	2	7	2
+garbage disposals & compactors retailer	2	8	0
+garbage disposals & compactors retailer	3	1	1
+garbage disposals & compactors retailer	3	2	1
+garbage disposals & compactors retailer	3	4	0
+garbage disposals & compactors retailer	3	7	2
+garbage disposals & compactors retailer	4	0	0
+garbage disposals & compactors retailer	4	2	1
+garbage disposals & compactors retailer	4	3	0
+garbage disposals & compactors retailer	4	4	2
+garbage disposals & compactors retailer	4	5	1
+garbage disposals & compactors retailer	4	7	1
+garbage disposals & compactors retailer	4	8	1
+garbage disposals & compactors retailer	4	9	1
+garbage disposals & compactors retailer	5	0	1
+garbage disposals & compactors retailer	5	1	1
+garbage disposals & compactors retailer	5	3	2
+garbage disposals & compactors retailer	5	4	0
+garbage disposals & compactors retailer	5	5	0
+garbage disposals & compactors retailer	5	6	2
+garbage disposals & compactors retailer	5	8	1
+garbage disposals & compactors retailer	5	9	0
+garbage disposals & compactors retailer	6	0	1
+garbage disposals & compactors retailer	6	1	0
+garbage disposals & compactors retailer	6	2	0
+garbage disposals & compactors retailer	6	7	1
+garbage disposals & compactors retailer	6	8	1
+garbage disposals & compactors retailer	6	9	1
+garbage disposals & compactors retailer	7	3	0
+garbage disposals & compactors retailer	7	4	0
+garbage disposals & compactors retailer	7	7	0
+garbage disposals & compactors retailer	7	8	1
+garbage disposals & compactors retailer	8	0	2
+garbage disposals & compactors retailer	8	2	0
+garbage disposals & compactors retailer	8	3	1
+garbage disposals & compactors retailer	8	4	1
+garbage disposals & compactors retailer	8	5	1
+garbage disposals & compactors retailer	8	6	1
+garbage disposals & compactors retailer	8	7	0
+garbage disposals & compactors retailer	8	8	1
+garbage disposals & compactors retailer	8	9	0
+garbage disposals & compactors retailer	9	1	1
+garbage disposals & compactors retailer	9	2	1
+garbage disposals & compactors retailer	9	3	1
+garbage disposals & compactors retailer	9	4	1
+garbage disposals & compactors retailer	9	5	1
+garbage disposals & compactors retailer	9	6	1
+garbage disposals & compactors retailer	9	8	1
+garbage disposals & compactors retailer	9	9	0
+beading & jewelry making retailer	0	1	2
+beading & jewelry making retailer	0	2	1
+beading & jewelry making retailer	0	4	1
+beading & jewelry making retailer	0	5	1
+beading & jewelry making retailer	0	7	1
+beading & jewelry making retailer	1	2	1
+beading & jewelry making retailer	1	3	1
+beading & jewelry making retailer	1	4	1
+beading & jewelry making retailer	1	5	1
+beading & jewelry making retailer	1	6	1
+beading & jewelry making retailer	1	7	1
+beading & jewelry making retailer	1	8	1
+beading & jewelry making retailer	1	9	1
+beading & jewelry making retailer	2	1	1
+beading & jewelry making retailer	2	2	1
+beading & jewelry making retailer	2	5	1
+beading & jewelry making retailer	2	6	1
+beading & jewelry making retailer	2	7	1
+beading & jewelry making retailer	2	8	0
+beading & jewelry making retailer	2	9	0
+beading & jewelry making retailer	3	0	1
+beading & jewelry making retailer	3	1	1
+beading & jewelry making retailer	3	2	1
+beading & jewelry making retailer	3	3	0
+beading & jewelry making retailer	3	5	1
+beading & jewelry making retailer	3	6	0
+beading & jewelry making retailer	3	7	1
+beading & jewelry making retailer	3	8	1
+beading & jewelry making retailer	3	9	1
+beading & jewelry making retailer	4	0	1
+beading & jewelry making retailer	4	3	1
+beading & jewelry making retailer	4	5	0
+beading & jewelry making retailer	4	7	0
+beading & jewelry making retailer	4	8	1
+beading & jewelry making retailer	4	9	1
+beading & jewelry making retailer	5	0	1
+beading & jewelry making retailer	5	1	1
+beading & jewelry making retailer	5	2	1
+beading & jewelry making retailer	5	3	1
+beading & jewelry making retailer	5	5	1
+beading & jewelry making retailer	5	6	0
+beading & jewelry making retailer	5	9	1
+beading & jewelry making retailer	6	1	1
+beading & jewelry making retailer	6	2	1
+beading & jewelry making retailer	6	3	1
+beading & jewelry making retailer	6	5	1
+beading & jewelry making retailer	6	7	1
+beading & jewelry making retailer	6	8	0
+beading & jewelry making retailer	7	2	1
+beading & jewelry making retailer	7	3	1
+beading & jewelry making retailer	7	4	1
+beading & jewelry making retailer	7	5	1
+beading & jewelry making retailer	7	7	1
+beading & jewelry making retailer	7	9	1
+beading & jewelry making retailer	8	2	0
+beading & jewelry making retailer	8	3	1
+beading & jewelry making retailer	8	4	0
+beading & jewelry making retailer	8	6	1
+beading & jewelry making retailer	8	7	0
+beading & jewelry making retailer	8	8	1
+beading & jewelry making retailer	8	9	1
+beading & jewelry making retailer	9	3	1
+beading & jewelry making retailer	9	4	1
+beading & jewelry making retailer	9	5	1
+beading & jewelry making retailer	9	6	1
+beading & jewelry making retailer	9	9	0
+crafting retailer	0	1	0
+crafting retailer	0	5	0
+crafting retailer	0	6	0
+crafting retailer	0	7	0
+crafting retailer	0	8	0
+crafting retailer	1	5	1
+crafting retailer	1	8	0
+crafting retailer	2	0	1
+crafting retailer	2	1	0
+crafting retailer	2	2	0
+crafting retailer	2	7	0
+crafting retailer	2	8	0
+crafting retailer	2	9	0
+crafting retailer	3	6	1
+crafting retailer	3	7	0
+crafting retailer	3	8	2
+crafting retailer	3	9	1
+crafting retailer	4	1	0
+crafting retailer	4	5	0
+crafting retailer	4	6	0
+crafting retailer	4	7	0
+crafting retailer	5	7	2
+crafting retailer	5	8	0
+crafting retailer	6	0	1
+crafting retailer	6	9	0
+crafting retailer	7	0	0
+crafting retailer	7	4	1
+crafting retailer	7	5	1
+crafting retailer	7	7	1
+crafting retailer	7	9	0
+crafting retailer	8	2	0
+crafting retailer	8	5	0
+crafting retailer	8	7	1
+crafting retailer	9	0	0
+crafting retailer	9	1	0
+crafting retailer	9	3	1
+crafting retailer	9	4	1
+crafting retailer	9	5	0
+crafting retailer	9	6	0
+crafting retailer	9	7	0
+crafting retailer	9	8	0
+crafting retailer	9	9	0
+fabric decorating retailer	0	1	1
+fabric decorating retailer	0	2	1
+fabric decorating retailer	0	4	0
+fabric decorating retailer	0	5	1
+fabric decorating retailer	0	6	1
+fabric decorating retailer	0	7	1
+fabric decorating retailer	0	9	1
+fabric decorating retailer	1	2	1
+fabric decorating retailer	1	3	0
+fabric decorating retailer	1	4	1
+fabric decorating retailer	1	5	1
+fabric decorating retailer	1	6	0
+fabric decorating retailer	1	7	0
+fabric decorating retailer	1	8	0
+fabric decorating retailer	1	9	1
+fabric decorating retailer	2	2	1
+fabric decorating retailer	2	3	1
+fabric decorating retailer	2	6	1
+fabric decorating retailer	2	8	1
+fabric decorating retailer	2	9	1
+fabric decorating retailer	3	1	1
+fabric decorating retailer	3	2	1
+fabric decorating retailer	3	5	0
+fabric decorating retailer	3	6	2
+fabric decorating retailer	3	9	1
+fabric decorating retailer	4	3	1
+fabric decorating retailer	4	5	0
+fabric decorating retailer	5	0	0
+fabric decorating retailer	5	2	0
+fabric decorating retailer	5	3	0
+fabric decorating retailer	5	5	0
+fabric decorating retailer	5	6	0
+fabric decorating retailer	6	2	0
+fabric decorating retailer	6	4	1
+fabric decorating retailer	6	7	1
+fabric decorating retailer	6	8	0
+fabric decorating retailer	7	1	1
+fabric decorating retailer	7	2	0
+fabric decorating retailer	7	4	1
+fabric decorating retailer	7	8	1
+fabric decorating retailer	8	2	0
+fabric decorating retailer	8	5	1
+fabric decorating retailer	8	6	1
+fabric decorating retailer	8	7	1
+fabric decorating retailer	8	8	1
+fabric decorating retailer	8	9	1
+fabric decorating retailer	9	0	0
+fabric decorating retailer	9	1	0
+fabric decorating retailer	9	2	2
+fabric decorating retailer	9	3	1
+fabric decorating retailer	9	5	1
+fabric decorating retailer	9	7	1
+fabric decorating retailer	9	9	1
+makeup retailer	0	4	2
+makeup retailer	0	5	0
+makeup retailer	0	6	2
+makeup retailer	0	7	0
+makeup retailer	1	2	2
+makeup retailer	1	4	0
+makeup retailer	1	5	0
+makeup retailer	1	7	2
+makeup retailer	1	8	0
+makeup retailer	1	9	2
+makeup retailer	2	2	2
+makeup retailer	2	4	2
+makeup retailer	2	5	0
+makeup retailer	2	6	0
+makeup retailer	2	9	0
+makeup retailer	3	2	0
+makeup retailer	3	3	2
+makeup retailer	3	7	0
+makeup retailer	3	9	0
+makeup retailer	4	2	2
+makeup retailer	4	3	0
+makeup retailer	4	5	0
+makeup retailer	4	7	2
+makeup retailer	4	9	0
+makeup retailer	5	1	2
+makeup retailer	5	2	0
+makeup retailer	5	3	0
+makeup retailer	5	7	0
+makeup retailer	5	8	2
+makeup retailer	5	9	0
+makeup retailer	6	4	1
+makeup retailer	6	5	2
+makeup retailer	6	7	0
+makeup retailer	6	8	2
+makeup retailer	6	9	1
+makeup retailer	7	0	0
+makeup retailer	7	1	0
+makeup retailer	7	2	2
+makeup retailer	7	3	0
+makeup retailer	7	4	0
+makeup retailer	7	5	0
+makeup retailer	7	6	0
+makeup retailer	7	7	0
+makeup retailer	8	6	0
+makeup retailer	8	9	2
+makeup retailer	9	1	2
+makeup retailer	9	3	0
+makeup retailer	9	4	1
+makeup retailer	9	7	2
+makeup retailer	9	8	2
+makeup retailer	9	9	0
+skin care retailer	0	2	0
+skin care retailer	0	3	2
+skin care retailer	0	4	2
+skin care retailer	0	6	2
+skin care retailer	0	7	2
+skin care retailer	0	9	1
+skin care retailer	1	2	2
+skin care retailer	1	3	2
+skin care retailer	1	4	2
+skin care retailer	1	5	2
+skin care retailer	1	6	0
+skin care retailer	1	7	2
+skin care retailer	1	8	2
+skin care retailer	1	9	0
+skin care retailer	2	0	0
+skin care retailer	2	1	2
+skin care retailer	2	3	1
+skin care retailer	2	5	2
+skin care retailer	2	6	2
+skin care retailer	2	7	2
+skin care retailer	2	8	2
+skin care retailer	2	9	0
+skin care retailer	3	1	2
+skin care retailer	3	3	0
+skin care retailer	3	4	2
+skin care retailer	3	5	0
+skin care retailer	3	9	2
+skin care retailer	4	0	2
+skin care retailer	4	1	2
+skin care retailer	4	2	2
+skin care retailer	4	3	0
+skin care retailer	4	4	0
+skin care retailer	4	5	1
+skin care retailer	4	6	2
+skin care retailer	4	8	2
+skin care retailer	5	1	2
+skin care retailer	5	3	0
+skin care retailer	5	4	2
+skin care retailer	5	5	2
+skin care retailer	5	6	1
+skin care retailer	5	7	0
+skin care retailer	5	8	0
+skin care retailer	5	9	1
+skin care retailer	6	0	2
+skin care retailer	6	3	1
+skin care retailer	6	6	1
+skin care retailer	6	8	2
+skin care retailer	6	9	2
+skin care retailer	7	1	2
+skin care retailer	7	2	2
+skin care retailer	7	3	2
+skin care retailer	7	4	0
+skin care retailer	7	5	2
+skin care retailer	7	6	2
+skin care retailer	7	7	0
+skin care retailer	7	8	0
+skin care retailer	7	9	0
+skin care retailer	8	0	1
+skin care retailer	8	1	2
+skin care retailer	8	3	0
+skin care retailer	8	4	1
+skin care retailer	8	5	2
+skin care retailer	8	6	2
+skin care retailer	8	8	0
+skin care retailer	8	9	1
+skin care retailer	9	0	2
+skin care retailer	9	1	1
+skin care retailer	9	2	0
+skin care retailer	9	3	2
+skin care retailer	9	4	2
+skin care retailer	9	6	2
+skin care retailer	9	7	2
+skin care retailer	9	8	2
+skin care retailer	9	9	2
+hair care retailer	0	1	2
+hair care retailer	0	2	0
+hair care retailer	0	3	2
+hair care retailer	0	4	0
+hair care retailer	0	5	2
+hair care retailer	0	8	0
+hair care retailer	1	0	2
+hair care retailer	1	1	2
+hair care retailer	1	2	0
+hair care retailer	1	4	2
+hair care retailer	1	5	0
+hair care retailer	1	8	2
+hair care retailer	1	9	1
+hair care retailer	2	1	0
+hair care retailer	2	4	2
+hair care retailer	2	6	1
+hair care retailer	2	8	1
+hair care retailer	2	9	2
+hair care retailer	3	0	0
+hair care retailer	3	1	0
+hair care retailer	3	3	2
+hair care retailer	3	4	0
+hair care retailer	3	9	0
+hair care retailer	4	0	2
+hair care retailer	4	2	1
+hair care retailer	4	3	0
+hair care retailer	4	6	0
+hair care retailer	4	8	0
+hair care retailer	4	9	1
+hair care retailer	5	0	1
+hair care retailer	5	3	2
+hair care retailer	5	4	0
+hair care retailer	5	5	2
+hair care retailer	5	6	2
+hair care retailer	5	8	1
+hair care retailer	5	9	2
+hair care retailer	6	0	1
+hair care retailer	6	1	0
+hair care retailer	6	2	2
+hair care retailer	6	3	2
+hair care retailer	6	5	2
+hair care retailer	6	6	1
+hair care retailer	6	8	0
+hair care retailer	6	9	1
+hair care retailer	7	0	1
+hair care retailer	7	1	1
+hair care retailer	7	2	1
+hair care retailer	7	3	0
+hair care retailer	7	4	0
+hair care retailer	7	5	2
+hair care retailer	7	6	2
+hair care retailer	7	7	0
+hair care retailer	7	8	2
+hair care retailer	7	9	0
+hair care retailer	8	4	2
+hair care retailer	8	6	2
+hair care retailer	8	7	1
+hair care retailer	8	9	0
+hair care retailer	9	0	1
+hair care retailer	9	1	2
+hair care retailer	9	3	0
+hair care retailer	9	4	2
+hair care retailer	9	7	2
+hair care retailer	9	8	0
+hair care retailer	9	9	1
+fragrance retailer	0	1	2
+fragrance retailer	0	2	1
+fragrance retailer	0	3	2
+fragrance retailer	0	4	0
+fragrance retailer	0	5	0
+fragrance retailer	0	8	2
+fragrance retailer	1	0	1
+fragrance retailer	1	2	0
+fragrance retailer	1	3	0
+fragrance retailer	1	5	1
+fragrance retailer	2	0	2
+fragrance retailer	2	6	2
+fragrance retailer	2	7	0
+fragrance retailer	2	9	2
+fragrance retailer	3	0	2
+fragrance retailer	3	1	0
+fragrance retailer	3	2	0
+fragrance retailer	3	4	0
+fragrance retailer	3	5	1
+fragrance retailer	3	7	2
+fragrance retailer	3	9	0
+fragrance retailer	4	2	1
+fragrance retailer	4	7	2
+fragrance retailer	4	8	0
+fragrance retailer	4	9	0
+fragrance retailer	5	0	2
+fragrance retailer	5	1	2
+fragrance retailer	5	4	0
+fragrance retailer	5	7	0
+fragrance retailer	5	9	0
+fragrance retailer	6	0	0
+fragrance retailer	6	4	1
+fragrance retailer	6	6	2
+fragrance retailer	6	7	0
+fragrance retailer	6	8	0
+fragrance retailer	6	9	2
+fragrance retailer	7	3	0
+fragrance retailer	7	4	0
+fragrance retailer	7	6	1
+fragrance retailer	7	7	2
+fragrance retailer	7	8	0
+fragrance retailer	7	9	0
+fragrance retailer	8	0	2
+fragrance retailer	8	2	0
+fragrance retailer	8	5	2
+fragrance retailer	8	7	0
+fragrance retailer	8	8	0
+fragrance retailer	9	1	0
+fragrance retailer	9	3	2
+fragrance retailer	9	4	0
+fragrance retailer	9	5	0
+fragrance retailer	9	6	0
+fragrance retailer	9	7	0
+fragrance retailer	9	8	1
+fragrance retailer	9	9	2
+foot, hand & nail care retailer	0	0	2
+foot, hand & nail care retailer	0	1	2
+foot, hand & nail care retailer	0	3	2
+foot, hand & nail care retailer	0	4	2
+foot, hand & nail care retailer	0	5	0
+foot, hand & nail care retailer	0	6	0
+foot, hand & nail care retailer	0	7	1
+foot, hand & nail care retailer	0	9	1
+foot, hand & nail care retailer	1	0	1
+foot, hand & nail care retailer	1	1	2
+foot, hand & nail care retailer	1	2	2
+foot, hand & nail care retailer	1	3	2
+foot, hand & nail care retailer	1	4	2
+foot, hand & nail care retailer	1	5	2
+foot, hand & nail care retailer	1	6	2
+foot, hand & nail care retailer	1	7	2
+foot, hand & nail care retailer	1	9	0
+foot, hand & nail care retailer	2	0	1
+foot, hand & nail care retailer	2	1	1
+foot, hand & nail care retailer	2	2	2
+foot, hand & nail care retailer	2	3	0
+foot, hand & nail care retailer	2	4	1
+foot, hand & nail care retailer	2	5	0
+foot, hand & nail care retailer	2	6	0
+foot, hand & nail care retailer	2	8	1
+foot, hand & nail care retailer	2	9	2
+foot, hand & nail care retailer	3	4	0
+foot, hand & nail care retailer	3	6	1
+foot, hand & nail care retailer	3	9	2
+foot, hand & nail care retailer	4	1	2
+foot, hand & nail care retailer	4	3	2
+foot, hand & nail care retailer	4	4	1
+foot, hand & nail care retailer	4	5	0
+foot, hand & nail care retailer	4	6	1
+foot, hand & nail care retailer	4	7	1
+foot, hand & nail care retailer	4	9	0
+foot, hand & nail care retailer	5	0	2
+foot, hand & nail care retailer	5	1	1
+foot, hand & nail care retailer	5	2	0
+foot, hand & nail care retailer	5	4	1
+foot, hand & nail care retailer	5	7	2
+foot, hand & nail care retailer	5	9	0
+foot, hand & nail care retailer	6	6	1
+foot, hand & nail care retailer	6	7	0
+foot, hand & nail care retailer	6	8	1
+foot, hand & nail care retailer	7	0	0
+foot, hand & nail care retailer	7	1	2
+foot, hand & nail care retailer	7	2	2
+foot, hand & nail care retailer	7	3	2
+foot, hand & nail care retailer	7	4	0
+foot, hand & nail care retailer	7	7	2
+foot, hand & nail care retailer	7	8	0
+foot, hand & nail care retailer	8	0	0
+foot, hand & nail care retailer	8	4	2
+foot, hand & nail care retailer	8	5	0
+foot, hand & nail care retailer	8	7	1
+foot, hand & nail care retailer	9	1	1
+foot, hand & nail care retailer	9	2	0
+foot, hand & nail care retailer	9	3	0
+foot, hand & nail care retailer	9	4	0
+foot, hand & nail care retailer	9	5	1
+foot, hand & nail care retailer	9	6	1
+foot, hand & nail care retailer	9	7	1
+foot, hand & nail care retailer	9	9	0
+shave & hair removal retailer	0	3	0
+shave & hair removal retailer	0	6	2
+shave & hair removal retailer	1	9	0
+shave & hair removal retailer	3	2	2
+shave & hair removal retailer	3	3	0
+shave & hair removal retailer	3	5	1
+shave & hair removal retailer	3	7	0
+shave & hair removal retailer	3	8	2
+shave & hair removal retailer	3	9	0
+shave & hair removal retailer	4	4	1
+shave & hair removal retailer	4	8	1
+shave & hair removal retailer	4	9	1
+shave & hair removal retailer	5	1	1
+shave & hair removal retailer	5	2	0
+shave & hair removal retailer	5	8	1
+shave & hair removal retailer	5	9	1
+shave & hair removal retailer	6	0	0
+shave & hair removal retailer	6	1	1
+shave & hair removal retailer	6	2	2
+shave & hair removal retailer	6	5	0
+shave & hair removal retailer	6	7	1
+shave & hair removal retailer	6	9	2
+shave & hair removal retailer	7	0	1
+shave & hair removal retailer	7	1	1
+shave & hair removal retailer	7	2	0
+shave & hair removal retailer	7	3	0
+shave & hair removal retailer	7	4	1
+shave & hair removal retailer	7	5	1
+shave & hair removal retailer	7	6	1
+shave & hair removal retailer	8	8	2
+shave & hair removal retailer	8	9	0
+shave & hair removal retailer	9	1	0
+shave & hair removal retailer	9	2	2
+shave & hair removal retailer	9	4	0
+shave & hair removal retailer	9	6	0
+shave & hair removal retailer	9	8	1
+personal care retailer	0	0	0
+personal care retailer	0	5	0
+personal care retailer	0	8	0
+personal care retailer	0	9	1
+personal care retailer	1	0	1
+personal care retailer	1	4	0
+personal care retailer	1	5	0
+personal care retailer	1	6	0
+personal care retailer	1	8	0
+personal care retailer	1	9	1
+personal care retailer	2	0	1
+personal care retailer	2	3	2
+personal care retailer	2	7	0
+personal care retailer	2	9	0
+personal care retailer	3	2	2
+personal care retailer	3	5	2
+personal care retailer	3	6	0
+personal care retailer	3	9	0
+personal care retailer	4	4	1
+personal care retailer	4	5	0
+personal care retailer	4	8	0
+personal care retailer	4	9	0
+personal care retailer	5	1	2
+personal care retailer	5	2	2
+personal care retailer	5	3	2
+personal care retailer	5	7	2
+personal care retailer	6	3	2
+personal care retailer	6	4	2
+personal care retailer	6	8	1
+personal care retailer	6	9	2
+personal care retailer	7	3	2
+personal care retailer	7	6	2
+personal care retailer	7	9	0
+personal care retailer	8	1	0
+personal care retailer	8	3	0
+personal care retailer	8	5	0
+personal care retailer	8	6	0
+personal care retailer	8	8	2
+personal care retailer	8	9	0
+personal care retailer	9	0	2
+personal care retailer	9	1	0
+personal care retailer	9	4	1
+car & vehicle electronics retailer	0	4	2
+car & vehicle electronics retailer	0	6	1
+car & vehicle electronics retailer	0	9	1
+car & vehicle electronics retailer	1	1	1
+car & vehicle electronics retailer	1	2	1
+car & vehicle electronics retailer	1	4	2
+car & vehicle electronics retailer	1	8	1
+car & vehicle electronics retailer	2	0	1
+car & vehicle electronics retailer	2	2	1
+car & vehicle electronics retailer	2	4	2
+car & vehicle electronics retailer	2	5	2
+car & vehicle electronics retailer	2	6	2
+car & vehicle electronics retailer	2	9	0
+car & vehicle electronics retailer	3	0	1
+car & vehicle electronics retailer	3	1	0
+car & vehicle electronics retailer	3	2	2
+car & vehicle electronics retailer	3	4	0
+car & vehicle electronics retailer	3	5	2
+car & vehicle electronics retailer	3	6	1
+car & vehicle electronics retailer	3	7	1
+car & vehicle electronics retailer	3	8	0
+car & vehicle electronics retailer	4	0	0
+car & vehicle electronics retailer	4	1	1
+car & vehicle electronics retailer	4	2	0
+car & vehicle electronics retailer	4	3	1
+car & vehicle electronics retailer	4	5	0
+car & vehicle electronics retailer	4	6	0
+car & vehicle electronics retailer	4	7	0
+car & vehicle electronics retailer	4	8	0
+car & vehicle electronics retailer	5	0	1
+car & vehicle electronics retailer	5	1	2
+car & vehicle electronics retailer	5	3	1
+car & vehicle electronics retailer	5	4	1
+car & vehicle electronics retailer	5	5	1
+car & vehicle electronics retailer	5	7	2
+car & vehicle electronics retailer	5	8	2
+car & vehicle electronics retailer	5	9	0
+car & vehicle electronics retailer	6	1	2
+car & vehicle electronics retailer	6	2	2
+car & vehicle electronics retailer	6	3	2
+car & vehicle electronics retailer	6	4	0
+car & vehicle electronics retailer	6	5	2
+car & vehicle electronics retailer	6	6	1
+car & vehicle electronics retailer	6	7	1
+car & vehicle electronics retailer	6	8	1
+car & vehicle electronics retailer	6	9	2
+car & vehicle electronics retailer	7	2	0
+car & vehicle electronics retailer	7	3	0
+car & vehicle electronics retailer	7	4	1
+car & vehicle electronics retailer	7	5	2
+car & vehicle electronics retailer	7	6	2
+car & vehicle electronics retailer	7	7	0
+car & vehicle electronics retailer	7	8	1
+car & vehicle electronics retailer	7	9	2
+car & vehicle electronics retailer	8	0	1
+car & vehicle electronics retailer	8	1	1
+car & vehicle electronics retailer	8	3	2
+car & vehicle electronics retailer	8	4	2
+car & vehicle electronics retailer	8	5	0
+car & vehicle electronics retailer	8	6	0
+car & vehicle electronics retailer	8	8	1
+car & vehicle electronics retailer	8	9	0
+car & vehicle electronics retailer	9	2	1
+car & vehicle electronics retailer	9	3	0
+car & vehicle electronics retailer	9	4	1
+car & vehicle electronics retailer	9	5	1
+car & vehicle electronics retailer	9	7	0
+car & vehicle electronics retailer	9	9	0
+gps, finders & accessories retailer	0	1	2
+gps, finders & accessories retailer	0	5	1
+gps, finders & accessories retailer	0	8	2
+gps, finders & accessories retailer	1	2	1
+gps, finders & accessories retailer	1	3	2
+gps, finders & accessories retailer	1	4	2
+gps, finders & accessories retailer	1	5	2
+gps, finders & accessories retailer	1	7	2
+gps, finders & accessories retailer	1	9	2
+gps, finders & accessories retailer	2	0	1
+gps, finders & accessories retailer	2	1	2
+gps, finders & accessories retailer	2	2	2
+gps, finders & accessories retailer	2	3	1
+gps, finders & accessories retailer	2	4	1
+gps, finders & accessories retailer	2	5	0
+gps, finders & accessories retailer	2	6	1
+gps, finders & accessories retailer	2	7	1
+gps, finders & accessories retailer	2	9	2
+gps, finders & accessories retailer	3	0	2
+gps, finders & accessories retailer	3	1	2
+gps, finders & accessories retailer	3	2	1
+gps, finders & accessories retailer	3	4	2
+gps, finders & accessories retailer	3	5	2
+gps, finders & accessories retailer	3	6	2
+gps, finders & accessories retailer	3	7	1
+gps, finders & accessories retailer	3	8	1
+gps, finders & accessories retailer	3	9	1
+gps, finders & accessories retailer	5	0	1
+gps, finders & accessories retailer	5	1	2
+gps, finders & accessories retailer	5	3	2
+gps, finders & accessories retailer	5	4	1
+gps, finders & accessories retailer	6	1	0
+gps, finders & accessories retailer	6	8	2
+gps, finders & accessories retailer	6	9	2
+gps, finders & accessories retailer	7	0	0
+gps, finders & accessories retailer	7	2	1
+gps, finders & accessories retailer	7	5	1
+gps, finders & accessories retailer	7	6	2
+gps, finders & accessories retailer	7	7	2
+gps, finders & accessories retailer	7	8	1
+gps, finders & accessories retailer	7	9	2
+gps, finders & accessories retailer	8	0	2
+gps, finders & accessories retailer	8	1	2
+gps, finders & accessories retailer	8	2	2
+gps, finders & accessories retailer	8	3	1
+gps, finders & accessories retailer	8	4	1
+gps, finders & accessories retailer	8	6	2
+gps, finders & accessories retailer	8	8	1
+gps, finders & accessories retailer	8	9	1
+gps, finders & accessories retailer	9	0	1
+gps, finders & accessories retailer	9	2	2
+gps, finders & accessories retailer	9	3	2
+gps, finders & accessories retailer	9	4	1
+gps, finders & accessories retailer	9	5	1
+gps, finders & accessories retailer	9	6	1
+gps, finders & accessories retailer	9	8	1
+gps, finders & accessories retailer	9	9	1
+headphones retailer	0	0	2
+headphones retailer	0	1	2
+headphones retailer	0	2	2
+headphones retailer	0	3	2
+headphones retailer	0	4	1
+headphones retailer	0	5	2
+headphones retailer	0	8	0
+headphones retailer	0	9	2
+headphones retailer	1	0	2
+headphones retailer	1	4	2
+headphones retailer	1	5	2
+headphones retailer	1	6	2
+headphones retailer	1	7	2
+headphones retailer	1	8	0
+headphones retailer	1	9	2
+headphones retailer	2	1	2
+headphones retailer	2	2	0
+headphones retailer	2	5	2
+headphones retailer	2	7	0
+headphones retailer	2	8	0
+headphones retailer	2	9	2
+headphones retailer	3	0	0
+headphones retailer	3	3	2
+headphones retailer	3	4	2
+headphones retailer	3	5	0
+headphones retailer	3	9	2
+headphones retailer	4	0	0
+headphones retailer	4	1	2
+headphones retailer	4	4	0
+headphones retailer	4	5	2
+headphones retailer	4	6	2
+headphones retailer	5	3	1
+headphones retailer	5	4	2
+headphones retailer	5	6	2
+headphones retailer	5	9	2
+headphones retailer	6	1	2
+headphones retailer	6	2	1
+headphones retailer	6	3	2
+headphones retailer	6	4	1
+headphones retailer	6	6	2
+headphones retailer	6	8	2
+headphones retailer	6	9	2
+headphones retailer	7	0	2
+headphones retailer	7	2	1
+headphones retailer	7	5	1
+headphones retailer	7	8	2
+headphones retailer	7	9	2
+headphones retailer	8	0	2
+headphones retailer	8	2	2
+headphones retailer	8	3	2
+headphones retailer	8	4	0
+headphones retailer	8	6	1
+headphones retailer	8	8	2
+headphones retailer	9	3	1
+headphones retailer	9	5	0
+headphones retailer	9	6	2
+headphones retailer	9	9	0
+home audio retailer	0	0	1
+home audio retailer	0	1	1
+home audio retailer	0	2	1
+home audio retailer	0	3	1
+home audio retailer	0	5	2
+home audio retailer	0	6	0
+home audio retailer	0	7	1
+home audio retailer	0	8	1
+home audio retailer	0	9	1
+home audio retailer	1	0	1
+home audio retailer	1	1	1
+home audio retailer	1	3	1
+home audio retailer	1	4	2
+home audio retailer	1	6	1
+home audio retailer	1	7	1
+home audio retailer	1	8	2
+home audio retailer	1	9	2
+home audio retailer	2	2	2
+home audio retailer	2	3	2
+home audio retailer	2	4	1
+home audio retailer	2	6	2
+home audio retailer	2	8	2
+home audio retailer	2	9	1
+home audio retailer	3	0	1
+home audio retailer	3	1	1
+home audio retailer	4	1	1
+home audio retailer	4	4	1
+home audio retailer	4	5	2
+home audio retailer	4	6	0
+home audio retailer	4	8	2
+home audio retailer	5	0	2
+home audio retailer	5	2	2
+home audio retailer	5	3	0
+home audio retailer	5	4	0
+home audio retailer	5	5	0
+home audio retailer	5	7	1
+home audio retailer	5	8	1
+home audio retailer	6	1	1
+home audio retailer	6	6	1
+home audio retailer	6	7	1
+home audio retailer	7	8	1
+home audio retailer	7	9	1
+home audio retailer	8	3	1
+home audio retailer	8	5	0
+home audio retailer	8	6	0
+home audio retailer	8	7	1
+home audio retailer	9	1	1
+home audio retailer	9	5	2
+home audio retailer	9	7	2
+home audio retailer	9	8	1
+television & video retailer	0	0	1
+television & video retailer	0	2	1
+television & video retailer	0	8	0
+television & video retailer	1	1	1
+television & video retailer	1	7	1
+television & video retailer	1	9	1
+television & video retailer	2	1	0
+television & video retailer	2	2	2
+television & video retailer	2	3	1
+television & video retailer	2	5	1
+television & video retailer	2	8	1
+television & video retailer	3	0	0
+television & video retailer	3	1	0
+television & video retailer	3	4	0
+television & video retailer	3	9	1
+television & video retailer	4	1	0
+television & video retailer	4	6	1
+television & video retailer	4	7	1
+television & video retailer	5	0	2
+television & video retailer	5	2	1
+television & video retailer	5	7	0
+television & video retailer	5	8	0
+television & video retailer	5	9	2
+television & video retailer	6	1	1
+television & video retailer	6	4	2
+television & video retailer	6	5	2
+television & video retailer	6	6	2
+television & video retailer	6	7	1
+television & video retailer	7	2	2
+television & video retailer	7	3	2
+television & video retailer	7	4	1
+television & video retailer	7	5	1
+television & video retailer	7	7	2
+television & video retailer	7	8	1
+television & video retailer	8	1	0
+television & video retailer	8	3	1
+television & video retailer	8	5	1
+television & video retailer	8	7	0
+television & video retailer	8	9	1
+television & video retailer	9	1	2
+television & video retailer	9	2	0
+television & video retailer	9	3	0
+television & video retailer	9	4	0
+television & video retailer	9	5	2
+television & video retailer	9	6	0
+television & video retailer	9	7	1
+television & video retailer	9	9	2
+wearable technology retailer	0	0	0
+wearable technology retailer	0	1	0
+wearable technology retailer	0	2	2
+wearable technology retailer	0	3	0
+wearable technology retailer	0	4	0

@@ -66,18 +66,18 @@ def get_search_data():
     #
     # x_train, x_test, y_train, y_test  = train_test_split(x_data, y_data, train_size=0.8)
 
-    data_1 = np.load('../../data/results.npy')
-    data_2 = np.load('../../data/descriptions.npy')
-    labels_all = to_categorical(np.load('../../data/labels_3_cat.npy'))
+    data_1 = np.load('../../data/results_big.npy')
+    data_2 = np.load('../../data/descriptions_big.npy')
+    labels_all = to_categorical(np.load('../../data/labels_3_cat_big.npy'))
     con_data=np.concatenate([data_1,data_2],axis=-1)
 
     split = int(len(data_1) * 4 / 5)
-    # facet_train = facet_all[0:3000]
+
     data_1_train = data_1[0:split]
     data_2_train = data_2[0:split]
     con_data_train = con_data[0:split]
 
-    # facet_test = facet_all[3000:]
+
     data_1_test = data_1[split:]
     data_2_test = data_2[split:]
     con_data_test = con_data[split:]
@@ -86,6 +86,7 @@ def get_search_data():
     y_test = labels_all[split:]
 
     return [con_data_train, con_data_test],[y_train, y_test]
+
     
 #---------------------------metrics---------------------------------------------#
 def recall_m(y_true, y_pred):
@@ -118,7 +119,9 @@ model = BiLSTM(x_train, y_train)
 print('Train...')
 history=model.fit(x_train, y_train,
           epochs=15,
-          validation_data=[x_test, y_test])
+          validation_data=[x_test, y_test],
+            batch_size=512,
+                  )
 with open('history_params.sav', 'wb') as f:
     pickle.dump(history.history, f, -1)
 model.save('BiLSTM_3_cat.h5')

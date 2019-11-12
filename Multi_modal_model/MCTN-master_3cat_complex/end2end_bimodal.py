@@ -18,7 +18,7 @@ from sklearn.metrics import classification_report,accuracy_score
 
 def draw_loss_pic(history):
     import matplotlib.pyplot as plt
-    with open('trainHistoryDict', 'wb') as file_pi:
+    with open('history_params.sav', 'wb') as file_pi:
         pickle.dump(history, file_pi)
     history_dict = history
     loss_values = history_dict['loss']
@@ -68,23 +68,37 @@ weights_path = os.path.join(output_dir, filename)
 if not os.path.exists(output_dir):
   os.mkdir(output_dir)
 
-callbacks = [
-  EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
-  ModelCheckpoint(weights_path, monitor='val_loss', save_best_only=True,
-                  verbose=1),
-]
+# callbacks = [
+#   EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
+#   ModelCheckpoint(weights_path, monitor='val_loss', save_best_only=True,
+#                   verbose=1),
+# ]
+
+try:
+    end2end_model.model.load_weights(weights_path)
+    print("\nWeights loaded from {}\n".format(weights_path))
+except:
+    print("\nCannot load weight. Training from scratch\n")
+
+
 
 print("TRAINING NOW...")
 history=end2end_model.train(weights_path=weights_path,
                     n_epochs=args.train_epoch,
                     val_split=args.val_split,
                     batch_size=args.batch_size,
-                    callbacks=callbacks)
+                    # callbacks=callbacks
+                            )
+
+
 with open('history_params.sav', 'wb') as f:
     pickle.dump(history.history, f, -1)
+
+
 
 print("PREDICTING...")
 predictions = end2end_model.predict()
 # predictions = predictions.reshape(-1, )
 get_preds_statistics(predictions, feats_dict['test_labels'])
+
 

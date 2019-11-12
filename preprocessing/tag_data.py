@@ -107,6 +107,6 @@ if __name__=='__main__':
     # gen_excel()
     pass
     # check_label()
-    tag_data()
+    # tag_data()
     # creat_excel_for_labeled()
-    # read_excel_to_label('../data/labeled_excel/label_2.xlsx','../data/label_data_retailer_categories.csv')
+    # read_excel_to_label('../data/labeled_excel/label3_.xlsx','../data/label_data_retailer_categories.csv')

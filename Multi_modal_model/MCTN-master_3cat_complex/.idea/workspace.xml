@@ -8,37 +8,17 @@
       <change beforePath="$PROJECT_DIR$/../../Experiments/get_bert_embeding.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Experiments/get_bert_embeding.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_2cat/end2end_bimodal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat/end2end_bimodal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/MCTN-master.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/configs/hierarchical_mctn.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/configs/mctn.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/end2end_bimodal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/end2end_trimodal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/history_params.sav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/models/bimodals.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/models/optimizers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/models/regression_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/models/trimodals.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/preprocess/create_word_embedding_and_ix.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/preprocess/fs_mask.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/seq2seq/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/seq2seq/cells.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/seq2seq/mctn_models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/seq2seq/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/utils/args.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/utils/data_loader.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/utils/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_2mod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_2mod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_2mod/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_2mod/end2end_bimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/MCTN-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/MCTN-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/end2end_bimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/history_params.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/history_params.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/models/bimodals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/utils/args.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/utils/args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/utils/data_loader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Reports/report3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Reports/report3.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../data/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../data/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../data/label_data_retailer_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../data/label_data_retailer_categories.csv" afterDir="false" />
@@ -59,7 +39,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1TMQdAj6uVjthZjoua4TSgAnhFV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -121,9 +103,12 @@
       <workItem from="1573317567763" duration="1025000" />
       <workItem from="1573355211622" duration="1493000" />
       <workItem from="1573377425061" duration="3232000" />
-      <workItem from="1573382021532" duration="2228000" />
-      <workItem from="1573385619016" duration="4654000" />
-      <workItem from="1573479919757" duration="16000" />
+      <workItem from="1573382021532" duration="2887000" />
+      <workItem from="1573398263156" duration="7804000" />
+      <workItem from="1573440330644" duration="1362000" />
+      <workItem from="1573443338633" duration="618000" />
+      <workItem from="1573463731584" duration="594000" />
+      <workItem from="1573474321255" duration="4532000" />
     </task>
     <servers />
   </component>
@@ -144,7 +129,9 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MCTN_master_3cat_complex$end2end_bimodal.coverage" NAME="end2end_bimodal Coverage Results" MODIFIED="1573482163519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MCTN_master$end2end_bimodal.coverage" NAME="end2end_bimodal Coverage Results" MODIFIED="1573307015259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MCTN_master_3cat_simple$end2end_bimodal.coverage" NAME="end2end_bimodal Coverage Results" MODIFIED="1573402507380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MCTN_master_3cat$end2end_bimodal.coverage" NAME="end2end_bimodal Coverage Results" MODIFIED="1573383404692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

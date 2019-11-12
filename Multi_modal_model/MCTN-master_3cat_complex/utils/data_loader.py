@@ -168,9 +168,9 @@ def load_word_level_features(max_seq_len, train_split):
   return train, test
 
 def load_search_data():
-  data_1 = np.load('../../data/results.npy')
-  data_2=np.load('../../data/descriptions.npy')
-  labels_all=to_categorical(np.load('../../data/labels_3_cat.npy'))
+  data_1 = np.load('../../data/results_big.npy')
+  data_2=np.load('../../data/descriptions_big.npy')
+  labels_all=to_categorical(np.load('../../data/labels_3_cat_big.npy'))
   split = int(len(data_1) * 4 / 5)
   # facet_train = facet_all[0:3000]
   data_1_train = data_1[0:split]

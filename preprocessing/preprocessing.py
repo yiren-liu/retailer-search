@@ -6,6 +6,10 @@ import collections
 import re
 import os
 from preprocessing_funs import *
+import pickle
+import matplotlib.pyplot as plt
+
+import seaborn as sns
 def handle_search_result(search_result):
     title=search_result[0].translate(str.maketrans('', '',string.punctuation))
     description=search_result[2].translate(str.maketrans('', '',string.punctuation))
@@ -150,13 +154,12 @@ def rem_dup():
             f.write(key[0]+'\t'+key[1]+'\t'+key[2]+'\t'+labels[key]+'\n')
 
 def draw_pic():
-    import pickle
-    import matplotlib.pyplot as plt
+
     with open('history_params.sav', 'rb') as f:
         tmp = pickle.load(f)
     history_dict = tmp
-    loss_values = history_dict['loss']
-    val_loss_values = history_dict['val_loss']
+    loss_values = history_dict['regression_output_loss']
+    val_loss_values = history_dict['val_regression_output_loss']
 
     epochs = range(1, len(loss_values) + 1)
 
@@ -184,9 +187,31 @@ def draw_pic():
     plt.show()
 
 
+def draw_word_num_pic():
+
+    with open('descriptions_results_num_params.sav', 'rb') as f:
+        tmp = pickle.load(f)
+    des_num=tmp[0]
+    resu_num=tmp[1]
+
+    # sns.kdeplot(des_num,shade=True)#bins=60,histtype="stepfilled", alpha=.8
+    # plt.title('Words number distribution of website desriptions')
+    # plt.xlabel('Number of words ')
+    # plt.ylabel('Probability')
+    plt.show()
+    plt.clf()
+
+    # sns.kdeplot(resu_num,shade=True)
+    # plt.title('Words number distribution of search results')
+    # plt.xlabel('Number of words ')
+    # plt.ylabel('Probability')
+    plt.show()
+    print(len(des_num))
+
 if __name__=='__main__':
     # remove_dup_query('../data/search_query_categories.csv')
     pass
     draw_pic()
     # replace_npy()
     # remove_dup_description('../data/description_categories.csv')
+    # draw_word_num_pic()

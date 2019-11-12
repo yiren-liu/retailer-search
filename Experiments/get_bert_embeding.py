@@ -63,11 +63,49 @@ def creat_2_cat_label(out_label):
             ult_label.append(0)
         else:
             ult_label.append(1)
-    np.save('../data/labels_2_cat.npy', np.array(ult_label))
+    np.save('../data/labels_2_cat_big.npy', np.array(ult_label))
 
 def creat_3_cat_label(out_label):
-    np.save('../data/labels_3_cat.npy', out_label)
+    np.save('../data/labels_3_cat_big.npy', out_label)
 
+def get_batch_encoding(data,split_num):
+
+    split=int(len(data)/split_num)
+    out_data=[]
+    for i in range(split_num):
+        bc = BertClient()
+        if i == split_num-1:
+            temp=bc.encode(descriptions[i*split:])
+        else:
+            temp=bc.encode(descriptions[i*split:(i+1)*split])
+
+        out_data.append(temp)
+    maxlen=0
+    for i in out_data:
+        if len(i[0])>maxlen:
+            maxlen=len(i[0])
+    return maxlen
+
+def clean_sentence(sentence):
+    fil = re.compile(u'[^0-9a-zA-Z ]+', re.UNICODE)
+    x=fil.sub('', sentence)
+
+    print(sentence)
+    print(x)
+    return x
+
+def stat_words(descriptions,results):
+    descriptions_num=[]
+    for sen in descriptions:
+        descriptions_num.append(len(sen.split(' ')))
+
+    results_num = []
+    for sen in results:
+        results_num.append(len(sen.split(' ')))
+
+    import pickle
+    with open('descriptions_results_num_params.sav', 'wb') as f:
+        pickle.dump([descriptions_num,results_num], f, -1)
 
 
 if __name__=='__main__':
@@ -87,12 +125,15 @@ if __name__=='__main__':
         if all_title[key]+all_description[key]=='  ':
             continue
 
-
-        if int(labels[key])==1:
+        desc=clean_sentence(all_title[key] + all_description[key])
+        res=clean_sentence(all_search_results[key])
+        if desc.strip()=='' or res.strip()=='':
+            continue
+        if labels[key]=='1':
             out_label.append(1)
-        elif int(labels[key])==0:
+        elif labels[key]=='0':
             out_label.append(0)
-        elif int(labels[key])==2:
+        elif labels[key]=='2':
             out_label.append(2)
         else:
             continue
@@ -100,28 +141,54 @@ if __name__=='__main__':
         descriptions.append(all_title[key] + all_description[key])
         results.append(all_search_results[key])
 
+    # stat_words(descriptions,results)
     d=list(zip(descriptions,results,out_label))
-    random.seed(90)
+    random.seed(34)
     random.shuffle(d)
     descriptions, results, out_label=zip(*d)
     descriptions=list(descriptions)
     results=list(results)
-
-
+    num=0
+    split_num=16
+    split = int(len(descriptions) / split_num)
     bc = BertClient()
-    descriptions.extend(results)
+    # for num in range(split_num):
+    #     # if num<=1:
+    #     #     continue
+    #
+    #     if num == split_num-1:#from 0 to 3
+    #         description = bc.encode(descriptions[num * split:])
+    #     else:
+    #         description = bc.encode(descriptions[num * split:(num + 1) * split])
+    #
+    #     if num == split_num-1:#from 0 to 3
+    #         result = bc.encode(results[num * split:])
+    #     else:
+    #         result = bc.encode(results[num * split:(num + 1) * split])
 
-    all=bc.encode(descriptions)
-    descriptions=all[:len(results)]
-    results = all[len(results):]
-    np.save('../data/descriptions.npy',descriptions)
-    np.save('../data/results.npy', results)
+
+    descriptions.extend(results)
+    # split=int(len(descriptions)/16)
+
+
+    descriptions=bc.encode(descriptions)
+    results=descriptions[len(results):]
+    descriptions=descriptions[:len(results)]
+    # descriptions_1=bc.encode(descriptions[:split])
+    # results = bc.encode(results)
+    # get_batch_encoding(descriptions,16)
+    # get_batch_encoding(results,16)
+
+
+
+    np.save('../data/descriptions_big.npy',descriptions)
+    np.save('../data/results_big.npy', results)
     out_label=np.array(out_label)
     creat_2_cat_label(out_label)
     creat_3_cat_label(out_label)
 
-
+    print('sample num: ',len(descriptions))
     print('max_seq_len: ',len(descriptions[0]))
-
+    print('num %d finished'%num)
     # print(bc.encode(['First do it', 'then do it right', 'then do it better']).shape)
 

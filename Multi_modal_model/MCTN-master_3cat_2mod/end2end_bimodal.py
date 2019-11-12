@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.extend(['/home/zhengjie/Projects/Search/Multi_modal_model/MCTN-master_3cat/models'])
+sys.path.extend(['models'])
 import numpy as np
 import tensorflow as tf
 from keras.callbacks import EarlyStopping
