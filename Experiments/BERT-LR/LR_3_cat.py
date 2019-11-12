@@ -24,6 +24,10 @@ class Logger(object):
         self.terminal.write(message)
         self.log.write(message)  
 
+    def flush(): 
+        self.terminal.flush() 
+        self.log.flush()
+
 sys.stdout = Logger()
 
 def LR(x_train, y_train):
