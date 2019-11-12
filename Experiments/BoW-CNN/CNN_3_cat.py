@@ -42,8 +42,7 @@ def CNN(x_train, y_train):
 
     model = Sequential()
 #     model.add(Embedding(x_train.shape[-1], 100, input_length=maxlen))
-    model.add(Conv1D(filters = int(np.round(maxlen/3)),kernel_size = 3, input_shape = (1, maxlen)))
-    model.add(MaxPooling1D(2))
+    model.add(Conv1D(filters = int(np.round(maxlen/3)),kernel_size = 3, input_shape = (None, maxlen)))
     model.add(Flatten())
     model.add(Dropout(0.2))
     model.add(Dense(128))
