@@ -200,28 +200,12 @@ if __name__=='__main__':
     np.save('../data/descriptions_big_one_hot.npy',des_one_hot)
     np.save('../data/results_big_one_hot.npy', res_one_hot)
 
-    # max_len = 200
-    # one_hot_dict = get_one_hot_dict(descriptions, results)
+    #get BoW encoding
+    BoW_des = tokenier.texts_to_matrix(descriptions)
+    BoW_res = tokenier.texts_to_matrix(results)
 
-    # des_one_hot = []
-    # for sentence in descriptions:
-    #     temp = np.zeros([max_len, len(one_hot_dict)]).tolist()
-    #     for idx, word in enumerate(sentence.split(" ")):
-    #         temp[idx]= one_hot_dict[word]
-    #     des_one_hot.append(temp)
-
-    # res_one_hot = []
-    # for sentence in results:
-    #     temp = np.zeros([max_len, len(one_hot_dict)]).tolist()
-    #     for idx, word in enumerate(sentence.split(" ")):
-    #         temp[idx]= one_hot_dict[word]
-    #     res_one_hot.append(temp)
-
-    # des_one_hot = np.array(des_one_hot)
-    # res_one_hot = np.array(res_one_hot)
-
-    # np.save('../data/descriptions_big_one_hot.npy',des_one_hot)
-    # np.save('../data/results_big_one_hot.npy', res_one_hot)
+    np.save('../data/descriptions_big_BoW.npy',BoW_des)
+    np.save('../data/results_big_BoW.npy', BoW_res)    
 
 
     num=0
