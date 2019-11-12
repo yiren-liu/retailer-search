@@ -55,7 +55,7 @@ def get_search_data():
 
     data_1 = np.load('../../data/results.npy')
     data_2 = np.load('../../data/descriptions.npy')
-    labels_all = to_categorical(np.load('../../data/labels_3_cat.npy')+1)
+    labels_all = to_categorical(np.load('../../data/labels_3_cat.npy'))
     con_data=np.concatenate([data_1,data_2],axis=-1)
 
     split = int(len(data_1) * 4 / 5)
