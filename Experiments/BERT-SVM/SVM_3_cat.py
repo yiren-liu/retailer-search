@@ -11,6 +11,10 @@ from sklearn.metrics import classification_report
 from sklearn import svm
 #from keras.utils import to_categorical
 
+log = open("log.txt", "a")
+sys.stdout = log
+
+
 def SVM():
 
     model = svm.SVC()

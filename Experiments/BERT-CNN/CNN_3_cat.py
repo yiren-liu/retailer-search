@@ -5,6 +5,7 @@
 
 import pickle
 import numpy as np
+import sys
 
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Conv1D, MaxPooling1D, Flatten
@@ -12,6 +13,9 @@ from sklearn.model_selection import train_test_split
 from keras import backend as K
 from sklearn.metrics import classification_report
 from keras.utils import to_categorical
+
+log = open("log.txt", "a")
+sys.stdout = log
 
 def CNN(x_train, y_train):
 #     max_features = 20000

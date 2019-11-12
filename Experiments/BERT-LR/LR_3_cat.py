@@ -5,6 +5,7 @@
 
 import pickle
 import numpy as np
+import sys
 
 from keras.regularizers import l1_l2
 from keras.models import Sequential
@@ -13,6 +14,9 @@ from sklearn.model_selection import train_test_split
 from keras import backend as K
 from sklearn.metrics import classification_report
 from keras.utils import to_categorical
+
+log = open("log.txt", "a")
+sys.stdout = log
 
 def LR(x_train, y_train):
 #     max_features = 20000
@@ -111,7 +115,7 @@ history=model.fit(x_train, y_train,
           validation_data=[x_test, y_test])
 with open('history_params.sav', 'wb') as f:
     pickle.dump(history.history, f, -1)
-model.save('CNN_3_cat.h5')
+model.save('LR_3_cat.h5')
 
 
 y_pred = model.predict(x_test)
