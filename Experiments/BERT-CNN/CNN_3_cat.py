@@ -7,6 +7,7 @@ import pickle
 import numpy as np
 import sys
 
+from sklearn.metrics import accuracy_score
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Conv1D, MaxPooling1D, Flatten
 from sklearn.model_selection import train_test_split

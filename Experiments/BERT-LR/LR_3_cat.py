@@ -7,6 +7,7 @@ import pickle
 import numpy as np
 import sys
 
+from sklearn.metrics import accuracy_score
 from keras.regularizers import l1_l2
 from keras.models import Sequential
 from keras.layers import Dense, Flatten
