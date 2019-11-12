@@ -23,9 +23,9 @@ class Logger(object):
         self.terminal.write(message)
         self.log.write(message)  
 
-    def flush(): 
-        self.terminal.flush() 
-        self.log.flush()
+    def flush(self, message): 
+        self.terminal.flush(message) 
+        self.log.flush(message)
 
 sys.stdout = Logger()
 
