@@ -15,8 +15,16 @@ from keras import backend as K
 from sklearn.metrics import classification_report
 from keras.utils import to_categorical
 
-log = open("log.txt", "a")
-sys.stdout = log
+class Logger(object):
+    def __init__(self):
+        self.terminal = sys.stdout
+        self.log = open("log.txt", "a")
+
+    def write(self, message):
+        self.terminal.write(message)
+        self.log.write(message)  
+
+sys.stdout = Logger()
 
 def LR(x_train, y_train):
 #     max_features = 20000
@@ -122,6 +130,8 @@ y_pred = model.predict(x_test)
 y_pred_cat = np.round(y_pred)
 
 print(classification_report(y_test, y_pred_cat))
+print("accuracy {:.2f}".format(accuracy_score(y_test, y_pred_cat)))
+
 
 
 
