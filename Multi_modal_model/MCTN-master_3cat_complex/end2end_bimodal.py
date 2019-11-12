@@ -1,6 +1,10 @@
 import os
 import sys
+<<<<<<< HEAD:Multi_modal_model/MCTN-master_3cat_complex/end2end_bimodal.py
 sys.path.extend(['models'])
+=======
+sys.path.extend(['/home/yirenl2/retailer-search/Multi_modal_model/MCTN-master_3cat_simple/models/'])
+>>>>>>> bd6a2240682cf1e9ebb14e627c1fc86e9381ae00:Multi_modal_model/MCTN-master_3cat_simple/end2end_bimodal.py
 import numpy as np
 import tensorflow as tf
 from keras.callbacks import EarlyStopping

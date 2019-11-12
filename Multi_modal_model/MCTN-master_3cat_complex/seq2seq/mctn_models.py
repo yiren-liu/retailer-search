@@ -3,6 +3,7 @@ from __future__ import absolute_import
 from keras.layers import Bidirectional
 from keras.layers import Dropout
 from keras.layers import Input
+from keras import backend as K
 from recurrentshop import LSTMCell
 from recurrentshop import RecurrentSequential
 
