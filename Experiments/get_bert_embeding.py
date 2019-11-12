@@ -1,4 +1,6 @@
 from bert_serving.client import BertClient
+from keras.preprocessing.text import Tokenizer
+from copy import deepcopy
 import ast
 import csv
 import json
@@ -107,17 +109,17 @@ def stat_words(descriptions,results):
     with open('descriptions_results_num_params.sav', 'wb') as f:
         pickle.dump([descriptions_num,results_num], f, -1)
 
-def get_one_hot_dict(descriptions, results):
-    des_one_hot = []
-    res_one_hot = []
-    all_word_set = set([word for sentence in descriptions for word in sentence.split(" ")])
-    all_word_set.update([word for sentence in results for word in sentence.split(" ")])
-    one_hot_set = []
-    for idx, word in enumerate(all_word_set):
-        one_hot = [0 for _ in range(len(all_word_set))]
-        one_hot[idx] = 1
-        one_hot_set.append(one_hot)
-    return dict(zip(all_word_set,one_hot_set))
+# def get_one_hot_dict(descriptions, results):
+#     des_one_hot = []
+#     res_one_hot = []
+#     all_word_set = set([word for sentence in descriptions for word in sentence.split(" ")])
+#     all_word_set.update([word for sentence in results for word in sentence.split(" ")])
+#     one_hot_set = []
+#     for idx, word in enumerate(all_word_set):
+#         one_hot = [0 for _ in range(len(all_word_set))]
+#         one_hot[idx] = 1
+#         one_hot_set.append(one_hot)
+#     return dict(zip(all_word_set,one_hot_set))
 
 
 
@@ -163,28 +165,60 @@ if __name__=='__main__':
     results=list(results)
 
     #get one-hot
-    max_len = 200
-    one_hot_dict = get_one_hot_dict(descriptions, results)
+    all_text = deepcopy(descriptions)
+    all_text.extend(results)
+    tokenier = Tokenizer(num_words = 1000)
+    tokenier.fit_on_texts(all_text)
+    #one_hot_all = tokenier.texts_to_matrix(all_text)
 
+    max_len = 200
     des_one_hot = []
     for sentence in descriptions:
-        temp = np.zeros([max_len, len(one_hot_dict)]).tolist()
+        temp = np.zeros([max_len, 1000]).tolist()
         for idx, word in enumerate(sentence.split(" ")):
-            temp[idx]= one_hot_dict[word]
+            temp[idx]= tokenier.texts_to_matrix([word])[0]
         des_one_hot.append(temp)
 
     res_one_hot = []
     for sentence in results:
-        temp = np.zeros([max_len, len(one_hot_dict)]).tolist()
+        temp = np.zeros([max_len, 1000]).tolist()
         for idx, word in enumerate(sentence.split(" ")):
-            temp[idx]= one_hot_dict[word]
+            temp[idx]= tokenier.texts_to_matrix([word])[0]
         res_one_hot.append(temp)
 
     des_one_hot = np.array(des_one_hot)
     res_one_hot = np.array(res_one_hot)
 
+
+    # des_one_hot = one_hot_all[:len(descriptions)]
+    # res_one_hot = one_hot_all[len(descriptions):]
+
     np.save('../data/descriptions_big_one_hot.npy',des_one_hot)
     np.save('../data/results_big_one_hot.npy', res_one_hot)
+
+    # max_len = 200
+    # one_hot_dict = get_one_hot_dict(descriptions, results)
+
+    # des_one_hot = []
+    # for sentence in descriptions:
+    #     temp = np.zeros([max_len, len(one_hot_dict)]).tolist()
+    #     for idx, word in enumerate(sentence.split(" ")):
+    #         temp[idx]= one_hot_dict[word]
+    #     des_one_hot.append(temp)
+
+    # res_one_hot = []
+    # for sentence in results:
+    #     temp = np.zeros([max_len, len(one_hot_dict)]).tolist()
+    #     for idx, word in enumerate(sentence.split(" ")):
+    #         temp[idx]= one_hot_dict[word]
+    #     res_one_hot.append(temp)
+
+    # des_one_hot = np.array(des_one_hot)
+    # res_one_hot = np.array(res_one_hot)
+
+    # np.save('../data/descriptions_big_one_hot.npy',des_one_hot)
+    # np.save('../data/results_big_one_hot.npy', res_one_hot)
+
 
     num=0
     split_num=16
