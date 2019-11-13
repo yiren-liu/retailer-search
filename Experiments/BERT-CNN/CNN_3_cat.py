@@ -14,6 +14,8 @@ from sklearn.model_selection import train_test_split
 from keras import backend as K
 from sklearn.metrics import classification_report
 from keras.utils import to_categorical
+from keras.callbacks import ModelCheckpoint
+from keras.models import load_model
 
 class Logger(object):
     def __init__(self):
@@ -131,13 +133,18 @@ def f1_m(y_true, y_pred):
 model = CNN(x_train, y_train)
 # model.summary()
 print('Train...')
+callbacks = [
+  # EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
+  ModelCheckpoint('model.h5', monitor='val_loss', save_best_only=True,
+                  verbose=1),
+]
 history=model.fit(x_train, y_train,
           epochs=15,
-          validation_data=[x_test, y_test])
+          validation_data=[x_test, y_test], callbacks=callbacks)
 with open('history_params.sav', 'wb') as f:
     pickle.dump(history.history, f, -1)
-model.save('CNN_3_cat.h5')
 
+model = load_model('model.h5')
 
 y_pred = model.predict(x_test)
 y_pred_cat = np.round(y_pred)

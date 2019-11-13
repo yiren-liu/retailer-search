@@ -5,12 +5,15 @@
 import pickle
 import numpy as np
 
+from sklearn.metrics import accuracy_score
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Embedding, LSTM, Bidirectional
 from sklearn.model_selection import train_test_split
 from keras import backend as K
 from sklearn.metrics import classification_report
 from keras.utils import to_categorical
+from keras.callbacks import ModelCheckpoint
+from keras.models import load_model
 
 def BiLSTM(x_train, y_train):
 #     max_features = 20000
@@ -110,20 +113,26 @@ x_test = np.argmax(x_test, -1).squeeze()
 model = BiLSTM(x_train, y_train)
 # model.summary()
 print('Train...')
+callbacks = [
+  # EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
+  ModelCheckpoint('model.h5', monitor='val_loss', save_best_only=True,
+                  verbose=1),
+]
 history=model.fit(x_train, y_train,
           epochs=15,
           validation_data=[x_test, y_test],
             batch_size=512,
-                  )
+            callbacks=callbacks)
 with open('history_params.sav', 'wb') as f:
     pickle.dump(history.history, f, -1)
-model.save('BiLSTM_3_cat.h5')
 
+model = load_model('model.h5')
 
 y_pred = model.predict(x_test)
 y_pred_cat = np.round(y_pred)
 
 print(classification_report(y_test, y_pred_cat))
+print("accuracy {:.2f}".format(accuracy_score(y_test, y_pred_cat)))
 
 
 
