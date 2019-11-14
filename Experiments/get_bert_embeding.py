@@ -237,7 +237,7 @@ def create_n_gram(descriptions,results,out_label,n):
     all_text = deepcopy(descriptions)
     all_text.extend(results)
     bigram_vectorizer = CountVectorizer(ngram_range=(n, n),
-                            token_pattern = r'\b\w+\b', min_df = 1,max_features=10000)
+                            token_pattern = r'\b\w+\b', min_df = 1,max_features=500)
     all_vec=bigram_vectorizer.fit_transform(all_text).toarray()
 
     split=len(results)
@@ -289,14 +289,13 @@ if __name__=='__main__':
     results=list(results)
 
     create_one_hot_embeding(descriptions, results, out_label)
-    # create_n_gram(descriptions, results, out_label, 1)
-    # create_n_gram(descriptions, results, out_label, 2)
-    # create_n_gram(descriptions, results, out_label, 3)
+    create_n_gram(descriptions, results, out_label, 1)
+    create_n_gram(descriptions, results, out_label, 2)
+    create_n_gram(descriptions, results, out_label, 3)
 
-    # create_bert_embeding(descriptions, results, out_label)
+    create_bert_embeding(descriptions, results, out_label)
 
-    '''
-     #get one-hot
+    #get one-hot
     all_text = deepcopy(descriptions)
     all_text.extend(results)
     tokenier = Tokenizer(num_words = 100)
@@ -331,4 +330,3 @@ if __name__=='__main__':
 
     np.save('../data/descriptions_big_one_hot.npy',des_one_hot)
     np.save('../data/results_big_one_hot.npy', res_one_hot)
-    '''
