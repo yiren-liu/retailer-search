@@ -10,15 +10,14 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, Embedding, LSTM, Bidirectional
 from sklearn.model_selection import train_test_split
 from keras import backend as K
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report,accuracy_score
 from keras.utils import to_categorical
 from keras.callbacks import ModelCheckpoint
-<<<<<<< HEAD
-=======
+
 from keras.models import load_model
 
 
->>>>>>> 7c9005eb4c9d8ead7123068329e12e5e7c9bd250
+
 def BiLSTM(x_train, y_train):
 #     max_features = 20000
 #     # cut texts after this number of words
@@ -55,17 +54,13 @@ def get_search_data():
     #
     # x_train, x_test, y_train, y_test  = train_test_split(x_data, y_data, train_size=0.8)
 
-<<<<<<< HEAD
+
 
     data_1 = np.load('../../data/results_big.npy')
     data_2 = np.load('../../data/descriptions_big.npy')
     labels_all = to_categorical(np.load('../../data/labels_3_cat_big.npy'))
 
-=======
-    data_1 = np.load('../../data/results_big.npy')
-    data_2 = np.load('../../data/descriptions_big.npy')
-    labels_all = to_categorical(np.load('../../data/labels_3_cat_big.npy'))
->>>>>>> 7c9005eb4c9d8ead7123068329e12e5e7c9bd250
+
     con_data=np.concatenate([data_1,data_2],axis=-1)
 
     split = int(len(data_1) * 9 / 10)
@@ -77,26 +72,23 @@ def get_search_data():
 
     data_1_test = data_1[split:]
     data_2_test = data_2[split:]
-    # con_data_test = con_data[split:]
-    con_data_test=np.concatenate([data_1_test,np.zeros(data_2_test.shape)],axis=-1)
+    con_data_test = con_data[split:]
+    # con_data_test=np.concatenate([data_1_test,np.zeros(data_2_test.shape)],axis=-1)
 
     y_train = labels_all[:split]
     y_test = labels_all[split:]
     print(y_test.shape)
 
-<<<<<<< HEAD
-
-    return [con_data_train, con_data_test],[y_train, y_test]
 
 
+    return [data_1_train, data_1_test],[y_train, y_test]
 
 
-=======
-    #only use results for testing
-    data_1_test = np.concatenate([data_1_test,np.zeros(data_2_test.shape)],axis=-1)
 
-    return [con_data_train, data_1_test],[y_train, y_test]
->>>>>>> 7c9005eb4c9d8ead7123068329e12e5e7c9bd250
+
+
+
+
     
 #---------------------------metrics---------------------------------------------#
 def recall_m(y_true, y_pred):
@@ -126,7 +118,7 @@ def f1_m(y_true, y_pred):
 #y_test = to_categorical(y_test)
 model = BiLSTM(x_train, y_train)
 # model.summary()
-<<<<<<< HEAD
+
 callbacks = [
   # EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
   ModelCheckpoint('BiLSTM_3_cat.h5', monitor='val_loss', save_best_only=True,
@@ -155,37 +147,18 @@ callbacks = [
 
 
 
-for i in range(15):
-    history = model.fit(x_train, y_train,
-                        epochs=1,
-                        validation_data=[x_test, y_test],
-                        batch_size=256,
-                        callbacks=callbacks)
-    y_pred = model.predict(x_test)
-    y_pred_cat = np.round(y_pred)
 
-    print(classification_report(y_test, y_pred_cat))
-=======
-print('Train...')
-callbacks = [
-  # EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
-  ModelCheckpoint('model.h5', monitor='val_loss', save_best_only=True,
-                  verbose=1),
-]
-history=model.fit(x_train, y_train,
-          epochs=15,
-          validation_data=[x_test, y_test],
-            batch_size=512, callbacks=callbacks)
-with open('history_params.sav', 'wb') as f:
-    pickle.dump(history.history, f, -1)
-
-model = load_model('model.h5')
-
+history = model.fit(x_train, y_train,
+                    epochs=15,
+                    validation_data=[x_test, y_test],
+                    batch_size=256,
+                    callbacks=callbacks)
+model=load_model('BiLSTM_3_cat.h5')
 y_pred = model.predict(x_test)
 y_pred_cat = np.round(y_pred)
 
 print(classification_report(y_test, y_pred_cat))
-print("accuracy {:.2f}".format(accuracy_score(y_test, y_pred_cat)))
 
 
->>>>>>> 7c9005eb4c9d8ead7123068329e12e5e7c9bd250
+
+

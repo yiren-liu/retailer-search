@@ -3,3 +3,4 @@ bert_base_dir/
 *.h5
 *.pyc
 .vscode/
+.idea/
