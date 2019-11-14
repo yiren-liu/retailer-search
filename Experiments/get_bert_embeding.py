@@ -8,7 +8,8 @@ import string
 import re
 import numpy as np
 import random
-
+from sklearn.feature_extraction.text import CountVectorizer
+from keras.preprocessing.sequence import pad_sequences
 def handle_search_result(search_result):
     title=search_result[0].translate(str.maketrans('', '',string.punctuation))
     description=search_result[2].translate(str.maketrans('', '',string.punctuation))
@@ -122,95 +123,11 @@ def stat_words(descriptions,results):
 #     return dict(zip(all_word_set,one_hot_set))
 
 
+def create_bert_embeding(descriptions,results,out_label):
 
-if __name__=='__main__':
-    all_title, all_description = read_description_file()
-    labels = read_label_file()
-    all_search_results = read_result_file()
-
-    descriptions=[]
-    results=[]
-    out_label=[]
-    for key in labels.keys():
-        if labels[key]=='3':
-            continue
-
-        if key not in all_title.keys():
-            continue
-        if all_title[key]+all_description[key]=='  ':
-            continue
-
-        desc=clean_sentence(all_title[key] + all_description[key])
-        res=clean_sentence(all_search_results[key])
-        if desc.strip()=='' or res.strip()=='':
-            continue
-        if labels[key]=='1':
-            out_label.append(1)
-        elif labels[key]=='0':
-            out_label.append(0)
-        elif labels[key]=='2':
-            out_label.append(2)
-        else:
-            continue
-
-        descriptions.append(all_title[key] + all_description[key])
-        results.append(all_search_results[key])
-
-    # stat_words(descriptions,results)
-    d=list(zip(descriptions,results,out_label))
-    random.seed(34)
-    random.shuffle(d)
-    descriptions, results, out_label=zip(*d)
-    descriptions=list(descriptions)
-    results=list(results)
-
-    #get one-hot
-    all_text = deepcopy(descriptions)
-    all_text.extend(results)
-    tokenier = Tokenizer(num_words = 100)
-    tokenier.fit_on_texts(all_text)
-    #one_hot_all = tokenier.texts_to_matrix(all_text)
-
-    max_len = 200
-    des_one_hot = []
-    for sentence in descriptions:
-        temp = np.zeros([max_len, 100]).tolist()
-        for idx, word in enumerate(sentence.split(" ")):
-            if idx > max_len - 1:
-                break
-            temp[idx]= tokenier.texts_to_matrix([word])[0]
-        des_one_hot.append(temp)
-
-    res_one_hot = []
-    for sentence in results:
-        temp = np.zeros([max_len, 100]).tolist()
-        for idx, word in enumerate(sentence.split(" ")):
-            if idx > max_len - 1:
-                break
-            temp[idx]= tokenier.texts_to_matrix([word])[0]
-        res_one_hot.append(temp)
-
-    des_one_hot = np.array(des_one_hot)
-    res_one_hot = np.array(res_one_hot)
-
-
-    # des_one_hot = one_hot_all[:len(descriptions)]
-    # res_one_hot = one_hot_all[len(descriptions):]
-
-    np.save('../data/descriptions_big_one_hot.npy',des_one_hot)
-    np.save('../data/results_big_one_hot.npy', res_one_hot)
-
-    #get BoW encoding
-    BoW_des = tokenier.texts_to_matrix(descriptions)
-    BoW_res = tokenier.texts_to_matrix(results)
-
-    np.save('../data/descriptions_big_BoW.npy',BoW_des)
-    np.save('../data/results_big_BoW.npy', BoW_res)    
-
-
-    num=0
-    split_num=16
-    split = int(len(descriptions) / split_num)
+    # num=0
+    # split_num=16
+    # split = int(len(descriptions) / split_num)
     bc = BertClient()
     # for num in range(split_num):
     #     # if num<=1:
@@ -249,6 +166,169 @@ if __name__=='__main__':
 
     print('sample num: ',len(descriptions))
     print('max_seq_len: ',len(descriptions[0]))
-    print('num %d finished'%num)
+
     # print(bc.encode(['First do it', 'then do it right', 'then do it better']).shape)
 
+
+def create_one_hot_embeding(descriptions,results,out_label):
+    # get one-hot
+    all_text = deepcopy(descriptions)
+    all_text.extend(results)
+    tokenizer = Tokenizer(num_words=20000)
+    tokenizer.fit_on_texts(all_text)
+
+    descriptions = pad_sequences(tokenizer.texts_to_sequences(descriptions),maxlen=100)
+    results = pad_sequences(tokenizer.texts_to_sequences(results),maxlen=100)
+
+    np.save('../data/descriptions_big_one_hot_index.npy', descriptions)
+    np.save('../data/results_big_one_hot_index.npy', results)
+
+
+
+
+def create_ngram_list(input_list, ngram_value=2):
+    """
+    Extract a set of n-grams from a list of integers.
+
+    >>> create_ngram_set([1, 4, 9, 4, 1, 4], ngram_value=2)
+    {(4, 9), (4, 1), (1, 4), (9, 4)}
+
+    >>> create_ngram_set([1, 4, 9, 4, 1, 4], ngram_value=3)
+    [(1, 4, 9), (4, 9, 4), (9, 4, 1), (4, 1, 4)]
+    """
+    return list(zip(*[input_list[i:] for i in range(ngram_value)]))
+
+def create_1_gram_embeding(descriptions,results,out_labe):
+
+
+    # get one-hot
+    all_text = deepcopy(descriptions)
+    all_text.extend(results)
+    tokenizer = Tokenizer(num_words=1000)
+    tokenizer.fit_on_texts(all_text)
+    descriptions_seq = tokenizer.texts_to_sequences(descriptions)
+    results_seq = tokenizer.texts_to_sequences(results)
+    all_seq=deepcopy(descriptions_seq)
+    all_seq.extend(results_seq)
+    # one_hot_all = tokenier.texts_to_matrix(all_text)
+    # get BoW encoding
+
+    BoW_des = tokenizer.texts_to_matrix(descriptions,mode='count')
+    BoW_res = tokenizer.texts_to_matrix(results,mode='count')
+
+
+    np.save('../data/descriptions_big_BoW_1_gram.npy', BoW_des)
+    np.save('../data/results_big_BoW_1_gram.npy', BoW_res)
+
+
+def tuple_to_index(ngram_set, all_seq_gram):
+    start_index = 0
+    token_indice = {v: k + start_index for k, v in enumerate(ngram_set)}
+    # indice_token = {token_indice[k]: k for k in token_indice}
+    all_seq_indice = []
+    for x in all_seq_gram:
+        sent=[]
+        for i in x:
+            sent.append(token_indice[i])
+        all_seq_indice.append(sent)
+    return all_seq_indice
+
+def create_n_gram(descriptions,results,out_label,n):
+    all_text = deepcopy(descriptions)
+    all_text.extend(results)
+    bigram_vectorizer = CountVectorizer(ngram_range=(n, n),
+                            token_pattern = r'\b\w+\b', min_df = 1,max_features=10000)
+    all_vec=bigram_vectorizer.fit_transform(all_text).toarray()
+
+    split=len(results)
+    results=all_vec[split:]
+    descriptions=all_vec[:split]
+    np.save('../data/descriptions_big_BoW_%d_gram.npy'%n, descriptions)
+    np.save('../data/results_big_BoW_%d_gram.npy'%n, results)
+
+
+if __name__=='__main__':
+    all_title, all_description = read_description_file()
+    labels = read_label_file()
+    all_search_results = read_result_file()
+
+    descriptions=[]
+    results=[]
+    out_label=[]
+    for key in labels.keys():
+        if labels[key]=='3':
+            continue
+
+        if key not in all_title.keys():
+            continue
+        if all_title[key]+all_description[key]=='  ':
+            continue
+
+        desc=clean_sentence(all_title[key] + all_description[key])
+        res=clean_sentence(all_search_results[key])
+        if desc.strip()=='' or res.strip()=='':
+            continue
+        if labels[key]=='1':
+            out_label.append(1)
+        elif labels[key]=='0':
+            out_label.append(0)
+        elif labels[key]=='2':
+            out_label.append(2)
+        else:
+            continue
+
+        descriptions.append(all_title[key] + all_description[key])
+        results.append(all_search_results[key])
+
+    # stat_words(descriptions,results)
+    d=list(zip(descriptions,results,out_label))
+    random.seed(59)
+    random.shuffle(d)
+    descriptions, results, out_label=zip(*d)
+    descriptions=list(descriptions)
+    results=list(results)
+
+    create_one_hot_embeding(descriptions, results, out_label)
+    # create_n_gram(descriptions, results, out_label, 1)
+    # create_n_gram(descriptions, results, out_label, 2)
+    # create_n_gram(descriptions, results, out_label, 3)
+
+    # create_bert_embeding(descriptions, results, out_label)
+
+    '''
+     #get one-hot
+    all_text = deepcopy(descriptions)
+    all_text.extend(results)
+    tokenier = Tokenizer(num_words = 100)
+    tokenier.fit_on_texts(all_text)
+    #one_hot_all = tokenier.texts_to_matrix(all_text)
+
+    max_len = 200
+    des_one_hot = []
+    for sentence in descriptions:
+        temp = np.zeros([max_len, 100]).tolist()
+        for idx, word in enumerate(sentence.split(" ")):
+            if idx > max_len - 1:
+                break
+            temp[idx]= tokenier.texts_to_matrix([word])[0]
+        des_one_hot.append(temp)
+
+    res_one_hot = []
+    for sentence in results:
+        temp = np.zeros([max_len, 100]).tolist()
+        for idx, word in enumerate(sentence.split(" ")):
+            if idx > max_len - 1:
+                break
+            temp[idx]= tokenier.texts_to_matrix([word])[0]
+        res_one_hot.append(temp)
+
+    des_one_hot = np.array(des_one_hot)
+    res_one_hot = np.array(res_one_hot)
+
+
+    # des_one_hot = one_hot_all[:len(descriptions)]
+    # res_one_hot = one_hot_all[len(descriptions):]
+
+    np.save('../data/descriptions_big_one_hot.npy',des_one_hot)
+    np.save('../data/results_big_one_hot.npy', res_one_hot)
+    '''
