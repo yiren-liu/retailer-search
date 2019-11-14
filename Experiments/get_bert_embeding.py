@@ -329,4 +329,4 @@ if __name__=='__main__':
     np.save('../data/descriptions_big_one_hot.npy',des_one_hot)
     np.save('../data/results_big_one_hot.npy', res_one_hot)
     
-    create_bert_embeding(descriptions, results, out_label)
+    #create_bert_embeding(descriptions, results, out_label)
