@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
 
 import pickle
 import numpy as np
@@ -53,13 +52,12 @@ def get_search_data():
     #
     # x_train, x_test, y_train, y_test  = train_test_split(x_data, y_data, train_size=0.8)
 
-
-    data_1 = np.load('../../data/results_big.npy')
-    data_2 = np.load('../../data/descriptions_big.npy')
+    data_1 = np.load('../../data/results_big_BoW.npy')
+    data_2 = np.load('../../data/descriptions_big_BoW.npy')
     labels_all = np.load('../../data/labels_3_cat_big.npy')
     con_data=np.concatenate([data_1,data_2],axis=-1)
 
-    split = int(len(data_1) * 9 / 10)
+    split = int(len(data_1) *9 / 10)
     # facet_train = facet_all[0:3000]
     data_1_train = data_1[0:split]
     data_2_train = data_2[0:split]
@@ -80,12 +78,9 @@ def get_search_data():
     return [con_data_train, data_1_test],[y_train, y_test]
 
 
-
 [x_train, x_test],[y_train, y_test] = get_search_data()
 #[x_train, x_test],[y_train, y_test] = gen_dummy_data()
 
-x_train = np.reshape(x_train, [x_train.shape[0],x_train.shape[-1]*x_train.shape[-2]])
-x_test = np.reshape(x_test, [x_test.shape[0],x_test.shape[-1]*x_test.shape[-2]])
 
 #y_train = to_categorical(y_train)
 #y_test = to_categorical(y_test)

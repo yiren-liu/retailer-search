@@ -1,4 +1,6 @@
 from bert_serving.client import BertClient
+from keras.preprocessing.text import Tokenizer
+from copy import deepcopy
 import ast
 import csv
 import json
@@ -10,9 +12,9 @@ import random
 def handle_search_result(search_result):
     title=search_result[0].translate(str.maketrans('', '',string.punctuation))
     description=search_result[2].translate(str.maketrans('', '',string.punctuation))
-    print(search_result[1])
+    #print(search_result[1])
     link=' '.join(re.split('\.|/|-|\?|=|&',search_result[1].split('//')[1]))
-    print(link)
+    #print(link)
     return title+' '+link+' '+description
 
 
@@ -90,8 +92,8 @@ def clean_sentence(sentence):
     fil = re.compile(u'[^0-9a-zA-Z ]+', re.UNICODE)
     x=fil.sub('', sentence)
 
-    print(sentence)
-    print(x)
+    #print(sentence)
+    #print(x)
     return x
 
 def stat_words(descriptions,results):
@@ -106,6 +108,19 @@ def stat_words(descriptions,results):
     import pickle
     with open('descriptions_results_num_params.sav', 'wb') as f:
         pickle.dump([descriptions_num,results_num], f, -1)
+
+# def get_one_hot_dict(descriptions, results):
+#     des_one_hot = []
+#     res_one_hot = []
+#     all_word_set = set([word for sentence in descriptions for word in sentence.split(" ")])
+#     all_word_set.update([word for sentence in results for word in sentence.split(" ")])
+#     one_hot_set = []
+#     for idx, word in enumerate(all_word_set):
+#         one_hot = [0 for _ in range(len(all_word_set))]
+#         one_hot[idx] = 1
+#         one_hot_set.append(one_hot)
+#     return dict(zip(all_word_set,one_hot_set))
+
 
 
 if __name__=='__main__':
@@ -148,6 +163,51 @@ if __name__=='__main__':
     descriptions, results, out_label=zip(*d)
     descriptions=list(descriptions)
     results=list(results)
+
+    #get one-hot
+    all_text = deepcopy(descriptions)
+    all_text.extend(results)
+    tokenier = Tokenizer(num_words = 100)
+    tokenier.fit_on_texts(all_text)
+    #one_hot_all = tokenier.texts_to_matrix(all_text)
+
+    max_len = 200
+    des_one_hot = []
+    for sentence in descriptions:
+        temp = np.zeros([max_len, 100]).tolist()
+        for idx, word in enumerate(sentence.split(" ")):
+            if idx > max_len - 1:
+                break
+            temp[idx]= tokenier.texts_to_matrix([word])[0]
+        des_one_hot.append(temp)
+
+    res_one_hot = []
+    for sentence in results:
+        temp = np.zeros([max_len, 100]).tolist()
+        for idx, word in enumerate(sentence.split(" ")):
+            if idx > max_len - 1:
+                break
+            temp[idx]= tokenier.texts_to_matrix([word])[0]
+        res_one_hot.append(temp)
+
+    des_one_hot = np.array(des_one_hot)
+    res_one_hot = np.array(res_one_hot)
+
+
+    # des_one_hot = one_hot_all[:len(descriptions)]
+    # res_one_hot = one_hot_all[len(descriptions):]
+
+    np.save('../data/descriptions_big_one_hot.npy',des_one_hot)
+    np.save('../data/results_big_one_hot.npy', res_one_hot)
+
+    #get BoW encoding
+    BoW_des = tokenier.texts_to_matrix(descriptions)
+    BoW_res = tokenier.texts_to_matrix(results)
+
+    np.save('../data/descriptions_big_BoW.npy',BoW_des)
+    np.save('../data/results_big_BoW.npy', BoW_res)    
+
+
     num=0
     split_num=16
     split = int(len(descriptions) / split_num)
