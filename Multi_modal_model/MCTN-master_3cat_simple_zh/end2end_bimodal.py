@@ -70,7 +70,7 @@ if not os.path.exists(output_dir):
 
 callbacks = [
   # EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
-  ModelCheckpoint(weights_path, monitor='val_loss', save_best_only=False,
+  ModelCheckpoint(weights_path, monitor='val_loss', save_best_only=True,
                   verbose=1),
 ]
 
@@ -81,18 +81,20 @@ except:
     print("\nCannot load weight. Training from scratch\n")
 
 
-
+#
 print("TRAINING NOW...")
-history=end2end_model.train(weights_path=weights_path,
-                    n_epochs=args.train_epoch,
-                    val_split=args.val_split,
-                    batch_size=args.batch_size,
-                    callbacks=callbacks
-                            )
+train=1
 
+if train==1:
+    history=end2end_model.train(weights_path=weights_path,
+                        n_epochs=args.train_epoch,
+                        val_split=args.val_split,
+                        batch_size=args.batch_size,
+                        callbacks=callbacks
+                                )
 
-with open('history_params.sav', 'wb') as f:
-    pickle.dump(history.history, f, -1)
+    with open('history_params.sav', 'wb') as f:
+        pickle.dump(history.history, f, -1)
 
 
 

@@ -3,31 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b8fdb0a3-6f37-4a32-835e-0571f870b371" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Experiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Experiments/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Experiments/BERT-BiLSTM/BiLSTM_3_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Experiments/BERT-BiLSTM/BiLSTM_3_cat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Experiments/BERT-BiLSTM/history_params.sav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Experiments/get_bert_embeding.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Experiments/get_bert_embeding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_2cat/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_2cat/end2end_bimodal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat/end2end_bimodal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_2mod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_2mod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_2mod/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_2mod/end2end_bimodal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/MCTN-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/MCTN-master.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/end2end_bimodal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/history_params.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/history_params.sav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/models/bimodals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/utils/args.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/utils/args.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple/utils/data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Reports/report3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Reports/report3.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../data/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../data/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../data/label_data_retailer_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../data/label_data_retailer_categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../data/labeled_excel/label_1_re.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../data/labeled_excel/label_2.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../preprocessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../preprocessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../preprocessing/history_params.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../../preprocessing/history_params.sav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../preprocessing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../preprocessing/preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../preprocessing/tag_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../preprocessing/tag_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/.idea/MCTN-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/.idea/MCTN-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/configs/mctn.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/configs/mctn.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/models/bimodals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/models/optimizers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/models/optimizers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/utils/args.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh/utils/args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Reports/report4.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Reports/report4.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MCTN-master_3cat_simple_zh" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -109,6 +93,7 @@
       <workItem from="1573443338633" duration="618000" />
       <workItem from="1573463731584" duration="594000" />
       <workItem from="1573474321255" duration="4532000" />
+      <workItem from="1573526541430" duration="3638000" />
     </task>
     <servers />
   </component>

@@ -36,7 +36,7 @@ if __name__=='__main__':
         'AIzaSyD347p7XvYk0xnXXdRBbylQN_itAx4Byes',
         'AIzaSyB17dVlruLqRRPpg6GUdaLE7Gom82FK3nI'
     ]
-    key_num=6
+    key_num=0
     my_api_key = api_keys[key_num]
     my_cse_id = '014747323697270263614:ogs0sc5goyq'
     result_file='../data/result_categories_retailer.csv'

@@ -51,8 +51,9 @@ def mctn_model(output_dim,
   # encoder phase
   encoder = RecurrentSequential(unroll=unroll, stateful=stateful,
                                 return_sequences=True)
-  encoder.add(LSTMCell(hidden_dim, batch_input_shape=(shape[0], shape[2])))
 
+  encoder.add(LSTMCell(hidden_dim, batch_input_shape=(shape[0], shape[2])))
+  encoder.add(Dropout(dropout))
   for _ in range(1, depth[0]):
     encoder.add(Dropout(dropout))
     encoder.add(LSTMCell(hidden_dim))

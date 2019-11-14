@@ -62,7 +62,9 @@ class E2E_MCTN_Model(BaseModel):
                  input_length=input_length,
                  depth=self.configs['translation']['depth'],
                  bidirectional=self.configs['translation']['is_bidirectional'],
-                 is_cycled=self.is_cycled)
+                 is_cycled=self.is_cycled,
+                 dropout=0.5
+                 )
 
     # ---------------- MODEL REGRESSION DEFINITION -----------------------------
     print("Creating REGRESSION model ...")
@@ -131,7 +133,7 @@ class E2E_MCTN_Model(BaseModel):
     return  self.model.fit(x=[self.input_train],
                    y=output_feeds,
                    epochs=n_epochs,
-                   validation_data=[self.input_test,[self.output_test,self.input_test,self.feats_dict['test_labels']]],
+                   validation_data=[self.input_test,[self.output_test,self.feats_dict['test_labels']]],#self.input_test,
                    batch_size=batch_size,
                    verbose=is_verbose,
                    callbacks=callbacks)

@@ -1,6 +1,6 @@
 from keras import backend as K
 from keras.layers import Activation
-from keras.layers import Dense
+from keras.layers import Dense, Dropout, Embedding, LSTM, Bidirectional
 from keras.layers import Flatten
 from keras.layers import LSTM
 from keras.layers import Lambda
@@ -30,22 +30,29 @@ def create_regression_model(n_hidden, input, l2_factor):
   # x=layers.Dropout(0.2)(x)
   # regression_score=Dense(3, activation='softmax')(x)
 
-  activations = LSTM(n_hidden,
-                     name='lstm_layer',
-                     trainable=True,
-                     return_sequences=True)(input)
-  attention = TimeDistributed(Dense(1, activation='tanh'))(activations)
-  attention = Flatten()(attention)
-  attention = Activation('softmax')(attention)
-  attention = RepeatVector(n_hidden)(attention)
-  attention = Permute([2, 1])(attention)
-  # apply the attention
-  sent_representation = multiply([activations, attention])
-  sent_representation = Lambda(lambda xin: K.sum(xin, axis=1)
-                               )(sent_representation)
-  regression_score = Dense(3,activation='softmax',
-                           name='regression_output',
-                           kernel_regularizer=l2(l2_factor))(
-    sent_representation)
+  # activations = LSTM(n_hidden,
+  #                    name='lstm_layer',
+  #                    trainable=True,
+  #                    return_sequences=True)(input)
+  # attention = TimeDistributed(Dense(1, activation='tanh'))(activations)
+  # attention = Flatten()(attention)
+  # attention = Activation('softmax')(attention)
+  # attention = RepeatVector(n_hidden)(attention)
+  # attention = Permute([2, 1])(attention)
+  # # apply the attention
+  # sent_representation = multiply([activations, attention])
+  # sent_representation = Lambda(lambda xin: K.sum(xin, axis=1)
+  #                              )(sent_representation)
+  # regression_score = Dense(3,activation='softmax',
+  #                          name='regression_output',
+  #                          kernel_regularizer=l2(l2_factor))(
+  #   sent_representation)
+
+  x=Bidirectional(LSTM(n_hidden))(input)
+  x=Dropout(0.5)(x)
+  x=Dense(100)(x)
+  x=Dropout(0.5)(x)
+  regression_score=Dense(3, activation='softmax')(x)
+
 
   return regression_score

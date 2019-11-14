@@ -2,15 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67e4dfc2-766b-4bfc-aa5c-16d01d0995ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Scrapy_website_description/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scrapy_website_description/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scrapy_website_description/SearchEngineScrapy/spiders/searchenginespider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Scrapy_website_description/SearchEngineScrapy/spiders/searchenginespider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multi_modal_model/seq2seq/.idea/seq2seq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Other models/Multimodal-Transformer-master/.idea/Multimodal-Transformer-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Experiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Experiments/BERT-BiLSTM/BiLSTM_3_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/BERT-BiLSTM/BiLSTM_3_cat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Experiments/BERT-BiLSTM/history_params.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/BERT-BiLSTM/history_params.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_complex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_complex/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_complex/configs/mctn.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_complex/configs/mctn.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_complex/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_complex/end2end_bimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/configs/mctn.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/configs/mctn.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/end2end_bimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/history_params.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/history_params.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/models/bimodals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/models/optimizers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/models/optimizers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/models/regression_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/models/regression_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/seq2seq/mctn_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/seq2seq/mctn_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/utils/args.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/utils/args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_zh/utils/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reports/report4.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Reports/report4.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/description_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/description_categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/google_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/index_label_excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../data/index_label_excel.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/label_data_retailer_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/label_data_retailer_categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/result_categories_retailer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/result_categories_retailer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/search_query_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/search_query_categories.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../preprocessing/label.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../preprocessing/preprocessing_funs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/preprocessing_funs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/history_params.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/history_params.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/preprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../preprocessing/tag_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/tag_data.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +54,7 @@
   <component name="ProjectId" id="1SwzWrqRVwkR2pcOpmplSWspruC" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Experiments" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RunDashboard">
@@ -122,6 +141,7 @@
       <workItem from="1573174483678" duration="5603000" />
       <workItem from="1573195807705" duration="3746000" />
       <workItem from="1573259581227" duration="61000" />
+      <workItem from="1573621824176" duration="1835000" />
     </task>
     <servers />
   </component>
@@ -186,6 +206,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SearchEngineScrapy$exec.coverage" NAME="exec Coverage Results" MODIFIED="1572601811140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SearchEngineScrapy$google_api.coverage" NAME="google_api Coverage Results" MODIFIED="1573195923983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SearchEngineScrapy$google_api.coverage" NAME="google_api Coverage Results" MODIFIED="1573623007843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

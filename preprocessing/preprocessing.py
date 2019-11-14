@@ -158,8 +158,8 @@ def draw_pic():
     with open('history_params.sav', 'rb') as f:
         tmp = pickle.load(f)
     history_dict = tmp
-    loss_values = history_dict['regression_output_loss']
-    val_loss_values = history_dict['val_regression_output_loss']
+    loss_values = history_dict['loss']#regression_output_loss
+    val_loss_values = history_dict['val_loss']#val_regression_output_loss
 
     epochs = range(1, len(loss_values) + 1)
 
@@ -174,8 +174,8 @@ def draw_pic():
 
     plt.show()
     plt.clf()  # ←------ 清空图像
-    acc = history_dict['regression_output_categorical_accuracy']
-    val_acc = history_dict['val_regression_output_categorical_accuracy']
+    acc = history_dict['categorical_accuracy']#regression_output_categorical_accuracy
+    val_acc = history_dict['val_categorical_accuracy']#val_regression_output_categorical_accuracy
 
     plt.plot(epochs, acc, 'bo', label='Training acc')
     plt.plot(epochs, val_acc, 'b', label='Validation acc')
