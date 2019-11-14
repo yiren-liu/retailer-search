@@ -9,7 +9,7 @@ import sys
 
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
-from sklearn import svm
+from thundersvm import SVC
 #from keras.utils import to_categorical
 
 class Logger(object):
@@ -30,7 +30,7 @@ sys.stdout = Logger()
 
 def SVM():
 
-    model = svm.SVC()
+    model = SVC()
 
     return model
 
@@ -54,8 +54,8 @@ def get_search_data():
     # x_train, x_test, y_train, y_test  = train_test_split(x_data, y_data, train_size=0.8)
 
 
-    data_1 = np.load('../../data/results_big_one_hot.npy')
-    data_2 = np.load('../../data/descriptions_big_one_hot.npy')
+    data_1 = np.load('../../data/results_big.npy')
+    data_2 = np.load('../../data/descriptions_big.npy')
     labels_all = np.load('../../data/labels_3_cat_big.npy')
     con_data=np.concatenate([data_1,data_2],axis=-1)
 
