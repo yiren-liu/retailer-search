@@ -288,12 +288,10 @@ if __name__=='__main__':
     descriptions=list(descriptions)
     results=list(results)
 
-    create_one_hot_embeding(descriptions, results, out_label)
-    create_n_gram(descriptions, results, out_label, 1)
-    create_n_gram(descriptions, results, out_label, 2)
-    create_n_gram(descriptions, results, out_label, 3)
-
-    create_bert_embeding(descriptions, results, out_label)
+    # create_one_hot_embeding(descriptions, results, out_label)
+    # create_n_gram(descriptions, results, out_label, 1)
+    # create_n_gram(descriptions, results, out_label, 2)
+    # create_n_gram(descriptions, results, out_label, 3)
 
     #get one-hot
     all_text = deepcopy(descriptions)
@@ -330,3 +328,5 @@ if __name__=='__main__':
 
     np.save('../data/descriptions_big_one_hot.npy',des_one_hot)
     np.save('../data/results_big_one_hot.npy', res_one_hot)
+    
+    create_bert_embeding(descriptions, results, out_label)
