@@ -16,11 +16,13 @@ from sklearn.metrics import classification_report
 from keras.utils import to_categorical
 from keras.callbacks import ModelCheckpoint
 from keras.models import load_model
+from sklearn.model_selection import StratifiedKFold
+
 
 class Logger(object):
     def __init__(self):
         self.terminal = sys.stdout
-        self.log = open("log.txt", "a")
+        self.log = open("log.txt", "w")
 
     def write(self, message):
         self.terminal.write(message)
@@ -58,7 +60,12 @@ def CNN(x_train, y_train):
     model.compile('adam', 'categorical_crossentropy', metrics=['categorical_accuracy'])
     return model
 
-
+def get_10_fold_data(X, Y):
+    seed = 7
+    
+    kfold = StratifiedKFold(n_splits=10, shuffle=True, random_state=seed)
+    
+    return kfold.split(X, Y)
 
 def gen_dummy_data(x=761,y=128,z=768):
     x_train = np.random.rand(x,y,z)
@@ -125,33 +132,140 @@ def f1_m(y_true, y_pred):
 
 
 
-[x_train, x_test],[y_train, y_test] = get_search_data()
-#[x_train, x_test],[y_train, y_test] = gen_dummy_data()
+# [x_train, x_test],[y_train, y_test] = get_search_data()
+# #[x_train, x_test],[y_train, y_test] = gen_dummy_data()
 
-#y_train = to_categorical(y_train)
-#y_test = to_categorical(y_test)
-model = CNN(x_train, y_train)
-# model.summary()
-print('Train...')
-callbacks = [
-  # EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
-  ModelCheckpoint('model.h5', monitor='val_loss', save_best_only=True,
-                  verbose=1),
-]
-history=model.fit(x_train, y_train,
-          epochs=15,
-          validation_data=[x_test, y_test])
-with open('history_params.sav', 'wb') as f:
-    pickle.dump(history.history, f, -1)
+# #y_train = to_categorical(y_train)
+# #y_test = to_categorical(y_test)
+# model = CNN(x_train, y_train)
+# # model.summary()
+# print('Train...')
+# callbacks = [
+#   # EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
+#   ModelCheckpoint('model.h5', monitor='val_loss', save_best_only=True,
+#                   verbose=1),
+# ]
+# history=model.fit(x_train, y_train,
+#           epochs=15,
+#           validation_data=[x_test, y_test])
+# with open('history_params.sav', 'wb') as f:
+#     pickle.dump(history.history, f, -1)
 
-model = load_model('model.h5')
+# model = load_model('model.h5')
 
-y_pred = model.predict(x_test)
-y_pred_cat = np.round(y_pred)
+# y_pred = model.predict(x_test)
+# y_pred_cat = np.round(y_pred)
 
-print(classification_report(y_test, y_pred_cat))
-print("accuracy {:.2f}".format(accuracy_score(y_test, y_pred_cat)))
+# print(classification_report(y_test, y_pred_cat))
+# print("accuracy {:.2f}".format(accuracy_score(y_test, y_pred_cat)))
 
+
+data_1 = np.load('../../data/results_big_one_hot.npy')
+data_2 = np.load('../../data/descriptions_big_one_hot.npy')
+labels_all = np.load('../../data/labels_3_cat_big.npy')
+con_data=np.concatenate([data_1,data_2],axis=-1)
+
+
+flag = 0
+avg_dict = {'micro avg': {'precision': 0,'recall': 0,'f1-score':0}, 'micro avg': {'precision': 0,'recall': 0,'f1-score':0}}
+for train, test in get_10_fold_data(con_data, labels_all):
+    flag+=1
+
+    x_train = con_data[train]
+    y_train = to_categorical(labels_all[train])
+    x_test = con_data[test]
+    y_test = to_categorical(labels_all[test])
+
+    #y_train = to_categorical(y_train)
+    #y_test = to_categorical(y_test)
+    model = CNN(x_train, y_train)
+    # model.summary()
+    print('fold: '+ str(flag))
+    print('results + descriptions ---> results + descriptions')
+    # model.summary()
+    print('Train...')
+    callbacks = [
+      # EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
+      ModelCheckpoint('model.h5', monitor='val_loss', save_best_only=True,
+                      verbose=1),
+    ]
+    history=model.fit(x_train, y_train,
+              epochs=15,
+              validation_data=[x_test, y_test])
+    with open('history_params.sav', 'wb') as f:
+        pickle.dump(history.history, f, -1)
+
+    model = load_model('model.h5')
+
+    y_pred = model.predict(x_test)
+    y_pred_cat = np.round(y_pred)
+
+    print(classification_report(y_test, y_pred_cat))
+    print("accuracy {:.2f}".format(accuracy_score(y_test.argmax(-1), y_pred_cat.argmax(-1))))
+
+    temp_dict = classification_report(y_test, y_pred_cat, output_dict = True) 
+    for key1 in avg_dict:
+        for key2 in avg_dict[key1]:
+            avg_dict[key1][key2] += temp_dict[key1][key2]
+            
+for key1 in avg_dict:
+    for key2 in avg_dict[key1]:
+        avg_dict[key1][key2] = avg_dict[key1][key2]/10
+
+print("average score for results + descriptions ---> results + descriptions:")
+print(avg_dict)
+
+
+
+flag = 0
+avg_dict = {'micro avg': {'precision': 0,'recall': 0,'f1-score':0}, 'micro avg': {'precision': 0,'recall': 0,'f1-score':0}}
+for train, test in get_10_fold_data(con_data, labels_all):
+    flag+=1
+
+    x_train = con_data[train]
+    y_train = to_categorical(labels_all[train])
+
+
+    x_test = np.concatenate([data_1[test],np.zeros(data_2[test].shape)],axis=-1)
+    y_test = to_categorical(labels_all[test])
+
+    #y_train = to_categorical(y_train)
+    #y_test = to_categorical(y_test)
+    model = CNN(x_train, y_train)
+    # model.summary()
+    print('fold: '+ str(flag))
+    print('results + descriptions ---> results')
+    # model.summary()
+    print('Train...')
+    callbacks = [
+      # EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
+      ModelCheckpoint('model.h5', monitor='val_loss', save_best_only=True,
+                      verbose=1),
+    ]
+    history=model.fit(x_train, y_train,
+              epochs=15,
+              validation_data=[x_test, y_test])
+    with open('history_params.sav', 'wb') as f:
+        pickle.dump(history.history, f, -1)
+
+    model = load_model('model.h5')
+
+    y_pred = model.predict(x_test)
+    y_pred_cat = np.round(y_pred)
+
+    print(classification_report(y_test, y_pred_cat))
+    print("accuracy {:.2f}".format(accuracy_score(y_test.argmax(-1), y_pred_cat.argmax(-1))))
+
+    for key1 in avg_dict:
+        for key2 in avg_dict[key1]:
+            avg_dict[key1][key2] += temp_dict[key1][key2]
+        
+for key1 in avg_dict:
+    for key2 in avg_dict[key1]:
+        avg_dict[key1][key2] = avg_dict[key1][key2]/10
+
+print("average score for results + descriptions ---> results + descriptions:")
+print(avg_dict)
 
 
 

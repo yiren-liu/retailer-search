@@ -11,13 +11,14 @@ import sys
 
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
-from sklearn import svm
+from thundersvm import SVC
+from sklearn.model_selection import StratifiedKFold
 #from keras.utils import to_categorical
 
 class Logger(object):
     def __init__(self):
         self.terminal = sys.stdout
-        self.log = open("log.txt", "a")
+        self.log = open("log.txt", "w")
 
     def write(self, message):
         self.terminal.write(message)
@@ -32,11 +33,16 @@ sys.stdout = Logger()
 
 def SVM():
 
-    model = svm.SVC()
+    model = SVC()
 
     return model
 
-
+def get_10_fold_data(X, Y):
+    seed = 7
+    
+    kfold = StratifiedKFold(n_splits=10, shuffle=True, random_state=seed)
+    
+    return kfold.split(X, Y)
 
 def gen_dummy_data(x=100,y=128,z=768):
     x_train = np.random.rand(x,y,z)
@@ -81,32 +87,118 @@ def get_search_data():
     return [data_1_train, data_1_test],[y_train, y_test]
 
 
-[x_train, x_test],[y_train, y_test] = get_search_data()
-#[x_train, x_test],[y_train, y_test] = gen_dummy_data()
+# [x_train, x_test],[y_train, y_test] = get_search_data()
+# #[x_train, x_test],[y_train, y_test] = gen_dummy_data()
 
 
-#y_train = to_categorical(y_train)
-#y_test = to_categorical(y_test)
-model = SVM()
+# #y_train = to_categorical(y_train)
+# #y_test = to_categorical(y_test)
+# model = SVM()
+
+
+# # model.summary()
+# print('Train...')
+# #print(x_train, y_train)
+
+# model.fit(x_train, y_train)
+
+
+# y_pred_cat = model.predict(x_test)
+
+# print(classification_report(y_test, y_pred_cat))
+# print("accuracy {:.2f}".format(accuracy_score(y_test, y_pred_cat)))
+
+
+n=1
+data_1 = np.load('../../data/results_big_BoW_%d_gram.npy'%n)
+data_2 = np.load('../../data/descriptions_big_BoW_%d_gram.npy'%n)
+labels_all = np.load('../../data/labels_3_cat_big.npy')#to_categorical
+con_data=np.concatenate([data_1,data_2],axis=-1)
+
+
+flag = 0
+avg_dict = {'micro avg': {'precision': 0,'recall': 0,'f1-score':0}, 'micro avg': {'precision': 0,'recall': 0,'f1-score':0}}
+for train, test in get_10_fold_data(con_data, labels_all):
+    flag+=1
+
+    x_train = con_data[train]
+    y_train = labels_all[train]
+    x_test = con_data[test]
+    y_test = labels_all[test]
+
+
+    #y_train = to_categorical(y_train)
+    #y_test = to_categorical(y_test)
+    model = SVM()
+
+    print('fold: '+ str(flag))
+    print('results + descriptions ---> results + descriptions')
+    # model.summary()
+    print('Train...')
+    #print(x_train, y_train)
+
+    model.fit(x_train, y_train)
+
+
+    y_pred_cat = model.predict(x_test)
+
+    print(classification_report(y_test, y_pred_cat))
+    print("accuracy {:.2f}".format(accuracy_score(y_test, y_pred_cat)))
+
+    temp_dict = classification_report(y_test, y_pred_cat, output_dict = True) 
+    for key1 in avg_dict:
+        for key2 in avg_dict[key1]:
+            avg_dict[key1][key2] += temp_dict[key1][key2]
+            
+for key1 in avg_dict:
+    for key2 in avg_dict[key1]:
+        avg_dict[key1][key2] = avg_dict[key1][key2]/10
+
+print("average score for results + descriptions ---> results + descriptions:")
+print(avg_dict)
 
 
 
+flag = 0
+avg_dict = {'micro avg': {'precision': 0,'recall': 0,'f1-score':0}, 'micro avg': {'precision': 0,'recall': 0,'f1-score':0}}
+for train, test in get_10_fold_data(con_data, labels_all):
+    flag+=1
 
-svm_clf = Pipeline((
-        ("scaler", StandardScaler()),
-        ("linear_svc", LinearSVC(C=1, loss="hinge")),
-    ))
-
-# model.summary()
-print('Train...')
-#print(x_train, y_train)
-
-svm_clf.fit(x_train, y_train)
+    x_train = con_data[train]
+    y_train = labels_all[train]
 
 
-y_pred_cat = model.predict(x_test)
+    x_test = np.concatenate([data_1[test],np.zeros(data_2[test].shape)],axis=-1)
+    y_test = labels_all[test]
 
-print(classification_report(y_test, y_pred_cat))
-print("accuracy {:.2f}".format(accuracy_score(y_test, y_pred_cat)))
+    #y_train = to_categorical(y_train)
+    #y_test = to_categorical(y_test)
+    #y_train = to_categorical(y_train)
+    #y_test = to_categorical(y_test)
+    model = SVM()
+
+    print('fold: '+ str(flag))
+    print('results + descriptions ---> results')
+    # model.summary()
+    print('Train...')
+    #print(x_train, y_train)
+
+    model.fit(x_train, y_train)
 
 
+    y_pred_cat = model.predict(x_test)
+
+    print(classification_report(y_test, y_pred_cat))
+    print("accuracy {:.2f}".format(accuracy_score(y_test, y_pred_cat)))
+
+    temp_dict = classification_report(y_test, y_pred_cat, output_dict = True) 
+    for key1 in avg_dict:
+        for key2 in avg_dict[key1]:
+            avg_dict[key1][key2] += temp_dict[key1][key2]
+
+for key1 in avg_dict:
+    for key2 in avg_dict[key1]:
+        avg_dict[key1][key2] = avg_dict[key1][key2]/10
+
+print("average score for results + descriptions ---> results:")
+print(avg_dict)
