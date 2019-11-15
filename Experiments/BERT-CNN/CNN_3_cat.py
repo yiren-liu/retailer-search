@@ -100,7 +100,7 @@ def get_search_data():
     #only use results for testing
     data_1_test = np.concatenate([data_1_test,np.zeros(data_2_test.shape)],axis=-1)
 
-    return [con_data_train, data_1_test],[y_train, y_test]
+    return [con_data_train, con_data_test],[y_train, y_test]
     
 #---------------------------metrics---------------------------------------------#
 def recall_m(y_true, y_pred):
@@ -150,7 +150,7 @@ y_pred = model.predict(x_test)
 y_pred_cat = np.round(y_pred)
 
 print(classification_report(y_test, y_pred_cat))
-print("accuracy {:.2f}".format(accuracy_score(y_test, y_pred_cat)))
+print("accuracy {:.2f}".format(accuracy_score(y_test.argmax(-1), y_pred_cat.argmax(-1))))
 
 
 

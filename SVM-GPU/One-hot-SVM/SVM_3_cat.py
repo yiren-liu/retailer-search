@@ -9,7 +9,7 @@ import sys
 
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
-from sklearn import svm
+from thundersvm import SVC
 #from keras.utils import to_categorical
 
 class Logger(object):
@@ -30,7 +30,7 @@ sys.stdout = Logger()
 
 def SVM():
 
-    model = svm.SVC()
+    model = SVC()
 
     return model
 

@@ -9,7 +9,7 @@ import sys
 
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
-from sklearn import svm
+from thundersvm import SVC
 #from keras.utils import to_categorical
 
 class Logger(object):
@@ -30,7 +30,7 @@ sys.stdout = Logger()
 
 def SVM():
 
-    model = svm.SVC()
+    model = SVC()
 
     return model
 
@@ -54,9 +54,14 @@ def get_search_data():
     # x_train, x_test, y_train, y_test  = train_test_split(x_data, y_data, train_size=0.8)
 
 
-    data_1 = np.load('../../data/results_big_one_hot.npy')
-    data_2 = np.load('../../data/descriptions_big_one_hot.npy')
+    data_1 = np.load('../../data/results_big.npy')
+    data_2 = np.load('../../data/descriptions_big.npy')
     labels_all = np.load('../../data/labels_3_cat_big.npy')
+    p = np.random.permutation(len(labels_all))
+    data_1 = data_1[p]
+    data_2 = data_2[p]
+    labels_all = labels_all[p]
+    
     con_data=np.concatenate([data_1,data_2],axis=-1)
 
     split = int(len(data_1) * 9 / 10)
@@ -77,7 +82,7 @@ def get_search_data():
     #only use results for testing
     data_1_test = np.concatenate([data_1_test,np.zeros(data_2_test.shape)],axis=-1)
 
-    return [con_data_train, data_1_test],[y_train, y_test]
+    return [con_data_train, con_data_test],[y_train, y_test]
 
 
 
@@ -100,6 +105,6 @@ model.fit(x_train, y_train)
 y_pred_cat = model.predict(x_test)
 
 print(classification_report(y_test, y_pred_cat))
-print("accuracy {:.2f}".format(accuracy_score(y_test, y_pred_cat)))
+print("accuracy {:.6f}".format(accuracy_score(y_test, y_pred_cat)))
 
 

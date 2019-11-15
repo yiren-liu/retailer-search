@@ -24,7 +24,7 @@ def BiLSTM(x_train, y_train):
 #     batch_size = 32
 
     model = Sequential()
-    model.add(Embedding(20000 , 512, input_length=maxlen))
+    #model.add(Embedding(20000 , 512, input_length=maxlen))
     model.add(Bidirectional(LSTM(512)))
     model.add(Dropout(0.2))
     model.add(Dense(100))
@@ -52,8 +52,8 @@ def get_search_data():
     #
     # x_train, x_test, y_train, y_test  = train_test_split(x_data, y_data, train_size=0.8)
 
-    data_1 = np.load('../../data/results_big_one_hot_index.npy')
-    data_2 = np.load('../../data/descriptions_big_one_hot_index.npy')
+    data_1 = np.load('../../data/results_big_one_hot.npy')
+    data_2 = np.load('../../data/descriptions_big_one_hot.npy')
     labels_all = to_categorical(np.load('../../data/labels_3_cat_big.npy'))
     con_data=np.concatenate([data_1,data_2],axis=-1)
 
@@ -118,11 +118,11 @@ callbacks = [
   ModelCheckpoint('model.h5', monitor='val_loss', save_best_only=True,
                   verbose=1),
 ]
-# history=model.fit(x_train, y_train,
-#           epochs=15,
-#           validation_data=[x_test, y_test],
-#             batch_size=512,
-#             callbacks=callbacks)
+history=model.fit(x_train, y_train,
+           epochs=15,
+           validation_data=[x_test, y_test],
+             batch_size=512,
+             callbacks=callbacks)
 # with open('history_params.sav', 'wb') as f:
 #     pickle.dump(history.history, f, -1)
 
@@ -132,7 +132,7 @@ y_pred = model.predict(x_test)
 y_pred_cat = np.round(y_pred)
 
 print(classification_report(y_test, y_pred_cat))
-print("accuracy {:.2f}".format(accuracy_score(y_test, y_pred_cat)))
+print("accuracy {:.2f}".format(accuracy_score(y_test.argmax(-1), y_pred_cat.argmax(-1))))
 
 
 
