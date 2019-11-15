@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/BERT-Classification-Tutorial-master" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BERT-BiLSTM" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Remote Python 3.7.4 (sftp://zhengjie@113.54.159.106:97/home/zhengjie/programs/anaconda3/bin/python)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Remote Python 3.6.6 (sftp://zhengjie@113.54.159.106:22/home/zhengjie/programs/anaconda3/bin/python3)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
