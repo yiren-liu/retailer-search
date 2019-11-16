@@ -1,0 +1,4 @@
+average score for results + descriptions ---> results + descriptions:{'micro avg': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.6805283678018623}, 'macro avg': {'precision': 0.6592756238966034, 'recall': 0.6591008579637543, 'f1-score': 0.6586932693618481}}
+
+average score for results + descriptions ---> results:{'micro avg': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.5330096443895697}, 'macro avg': {'precision': 0.5132147609280959, 'recall': 0.5189625179647006, 'f1-score': 0.510717384081227}}
+

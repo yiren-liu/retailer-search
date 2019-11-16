@@ -1,3 +1,6 @@
+
+
+
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -156,8 +159,7 @@ def f1_m(y_true, y_pred):
 
 # print(classification_report(y_test, y_pred_cat))
 # print("accuracy {:.2f}".format(accuracy_score(y_test.argmax(-1), y_pred_cat.argmax(-1))))
-
-
+f = open("10_fold_results.txt","w")
 
 data_1 = np.load('../../data/results_big_one_hot.npy')
 data_2 = np.load('../../data/descriptions_big_one_hot.npy')
@@ -165,54 +167,67 @@ labels_all = np.load('../../data/labels_3_cat_big.npy')
 con_data=np.concatenate([data_1,data_2],axis=-1)
 
 
-flag = 0
-avg_dict = {'micro avg': {'precision': 0,'recall': 0,'f1-score':0}, 'macro avg': {'precision': 0,'recall': 0,'f1-score':0}}
-for train, test in get_10_fold_data(con_data, labels_all):
-    flag+=1
+# flag = 0
+# avg_dict = {'micro avg': {'precision': 0,'recall': 0,'f1-score':0}, 'macro avg': {'precision': 0,'recall': 0,'f1-score':0}}
+# for train, test in get_10_fold_data(con_data, labels_all):
+#     flag+=1
 
-    x_train = con_data[train]
-    y_train = to_categorical(labels_all[train])
-    x_test = con_data[test]
-    y_test = to_categorical(labels_all[test])
+#     x_train = con_data[train]
+#     y_train = to_categorical(labels_all[train])
+#     x_test = con_data[test]
+#     y_test = to_categorical(labels_all[test])
 
 
-    model = BiLSTM(x_train, y_train)
-    # model.summary()
+#     model = BiLSTM(x_train, y_train)
+#     # model.summary()
 
-    callbacks = [
-      # EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
-      ModelCheckpoint('BiLSTM_3_cat.h5', monitor='val_loss', save_best_only=True,
-                      verbose=1),
-    ]
-    print('fold: '+ str(flag))
-    print('results + descriptions ---> results + descriptions ')
-    # model.summary()
-    print('Train...')
-    history = model.fit(x_train, y_train,
-                        epochs=15,
-                        validation_data=[x_test, y_test],
-                        batch_size=256,
-                        callbacks=callbacks)
-    model=load_model('BiLSTM_3_cat.h5')
-    y_pred = model.predict(x_test)
-    y_pred_cat = np.round(y_pred)
+#     callbacks = [
+#       # EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
+#       ModelCheckpoint('BiLSTM_3_cat.h5', monitor='val_loss', save_best_only=True,
+#                       verbose=1),
+#     ]
+#     print('fold: '+ str(flag))
+#     print('results + descriptions ---> results + descriptions ')
+#     # model.summary()
+#     print('Train...')
 
-    print(classification_report(y_test, y_pred_cat))
-    print("accuracy {:.2f}".format(accuracy_score(y_test.argmax(-1), y_pred_cat.argmax(-1))))
+#     f.write('fold: '+ str(flag))
+#     f.write('results + descriptions ---> results + descriptions ')
+#     # model.summary()
+#     f.write('Train...' + '\n\n')
 
-    temp_dict = classification_report(y_test, y_pred_cat, output_dict = True) 
-    for key1 in avg_dict:
-        for key2 in avg_dict[key1]:
-            avg_dict[key1][key2] += temp_dict[key1][key2]
+#     history = model.fit(x_train, y_train,
+#                         epochs=15,
+#                         validation_data=[x_test, y_test],
+#                         batch_size=256,
+#                         callbacks=callbacks)
+#     model=load_model('BiLSTM_3_cat.h5')
+#     y_pred = model.predict(x_test)
+#     y_pred_cat = np.round(y_pred)
+
+#     report = classification_report(y_test, y_pred_cat)
+#     score = accuracy_score(y_test.argmax(-1), y_pred_cat.argmax(-1))
+#     print(report)
+#     print("accuracy {:.2f}".format(score))
+
+#     f.write(report)
+#     f.write("accuracy {:.2f}".format(score) + '\n\n')
+
+#     temp_dict = classification_report(y_test, y_pred_cat, output_dict = True) 
+#     for key1 in avg_dict:
+#         for key2 in avg_dict[key1]:
+#             avg_dict[key1][key2] += temp_dict[key1][key2]
             
-for key1 in avg_dict:
-    for key2 in avg_dict[key1]:
-        avg_dict[key1][key2] = avg_dict[key1][key2]/10
+# for key1 in avg_dict:
+#     for key2 in avg_dict[key1]:
+#         avg_dict[key1][key2] = avg_dict[key1][key2]/10
 
-print("average score for results + descriptions ---> results + descriptions:")
-print(avg_dict)
+# print("average score for results + descriptions ---> results + descriptions:")
+# print(avg_dict)
 
-
+# f.write("average score for results + descriptions ---> results + descriptions:")
+# f.write(avg_dict)
+# f.write('\n\n')
 
 flag = 0
 avg_dict = {'micro avg': {'precision': 0,'recall': 0,'f1-score':0}, 'macro avg': {'precision': 0,'recall': 0,'f1-score':0}}
@@ -239,6 +254,12 @@ for train, test in get_10_fold_data(con_data, labels_all):
     print('results + descriptions ---> result')
     # model.summary()
     print('Train...')
+
+    f.write('fold: '+ str(flag))
+    f.write('results + descriptions ---> results + descriptions ')
+    # model.summary()
+    f.write('Train...' + '\n\n')
+
     history = model.fit(x_train, y_train,
                         epochs=15,
                         validation_data=[x_test, y_test],
@@ -248,8 +269,13 @@ for train, test in get_10_fold_data(con_data, labels_all):
     y_pred = model.predict(x_test)
     y_pred_cat = np.round(y_pred)
 
-    print(classification_report(y_test, y_pred_cat))
-    print("accuracy {:.2f}".format(accuracy_score(y_test.argmax(-1), y_pred_cat.argmax(-1))))
+    report = classification_report(y_test, y_pred_cat)
+    score = accuracy_score(y_test.argmax(-1), y_pred_cat.argmax(-1))
+    print(report)
+    print("accuracy {:.2f}".format(score))
+
+    f.write(report)
+    f.write("accuracy {:.2f}".format(score) + '\n\n')
 
     temp_dict = classification_report(y_test, y_pred_cat, output_dict = True) 
     for key1 in avg_dict:
@@ -264,3 +290,7 @@ print("average score for results + descriptions ---> results:")
 print(avg_dict)
 
 
+
+f.write("average score for results + descriptions ---> results + descriptions:")
+f.write(str(avg_dict))
+f.write('\n\n')

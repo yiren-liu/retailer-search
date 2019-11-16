@@ -1,0 +1,142 @@
+fold: 1results + descriptions ---> results + descriptions Train...
+
+              precision    recall  f1-score   support
+
+           0       0.83      0.63      0.72       269
+           1       0.72      0.40      0.52       238
+           2       0.62      0.33      0.43       138
+
+   micro avg       0.76      0.48      0.59       645
+   macro avg       0.72      0.45      0.55       645
+weighted avg       0.74      0.48      0.58       645
+ samples avg       0.48      0.48      0.48       645
+accuracy 0.59
+
+fold: 2results + descriptions ---> results + descriptions Train...
+
+              precision    recall  f1-score   support
+
+           0       0.86      0.57      0.69       269
+           1       0.73      0.50      0.59       238
+           2       0.64      0.21      0.32       138
+
+   micro avg       0.78      0.47      0.58       645
+   macro avg       0.75      0.43      0.53       645
+weighted avg       0.77      0.47      0.57       645
+ samples avg       0.47      0.47      0.47       645
+accuracy 0.59
+
+fold: 3results + descriptions ---> results + descriptions Train...
+
+              precision    recall  f1-score   support
+
+           0       0.78      0.63      0.70       269
+           1       0.76      0.24      0.37       238
+           2       0.54      0.09      0.16       138
+
+   micro avg       0.76      0.37      0.50       645
+   macro avg       0.69      0.32      0.41       645
+weighted avg       0.72      0.37      0.46       645
+ samples avg       0.37      0.37      0.37       645
+accuracy 0.52
+
+fold: 4results + descriptions ---> results + descriptions Train...
+
+              precision    recall  f1-score   support
+
+           0       0.79      0.66      0.72       269
+           1       0.70      0.25      0.37       237
+           2       0.67      0.36      0.47       138
+
+   micro avg       0.75      0.45      0.56       644
+   macro avg       0.72      0.42      0.52       644
+weighted avg       0.73      0.45      0.54       644
+ samples avg       0.45      0.45      0.45       644
+accuracy 0.56
+
+fold: 5results + descriptions ---> results + descriptions Train...
+
+              precision    recall  f1-score   support
+
+           0       0.80      0.59      0.68       269
+           1       0.70      0.30      0.42       237
+           2       0.50      0.41      0.45       138
+
+   micro avg       0.70      0.45      0.54       644
+   macro avg       0.67      0.43      0.52       644
+weighted avg       0.70      0.45      0.54       644
+ samples avg       0.45      0.45      0.45       644
+accuracy 0.56
+
+fold: 6results + descriptions ---> results + descriptions Train...
+
+              precision    recall  f1-score   support
+
+           0       0.80      0.65      0.72       269
+           1       0.71      0.32      0.44       237
+           2       0.67      0.35      0.46       138
+
+   micro avg       0.75      0.46      0.57       644
+   macro avg       0.73      0.44      0.54       644
+weighted avg       0.74      0.46      0.56       644
+ samples avg       0.46      0.46      0.46       644
+accuracy 0.56
+
+fold: 7results + descriptions ---> results + descriptions Train...
+
+              precision    recall  f1-score   support
+
+           0       0.81      0.63      0.71       269
+           1       0.72      0.25      0.38       237
+           2       0.58      0.28      0.38       138
+
+   micro avg       0.75      0.42      0.54       644
+   macro avg       0.70      0.39      0.49       644
+weighted avg       0.73      0.42      0.52       644
+ samples avg       0.42      0.42      0.42       644
+accuracy 0.54
+
+fold: 8results + descriptions ---> results + descriptions Train...
+
+              precision    recall  f1-score   support
+
+           0       0.80      0.56      0.66       268
+           1       0.70      0.35      0.47       237
+           2       0.67      0.22      0.34       138
+
+   micro avg       0.75      0.41      0.53       643
+   macro avg       0.72      0.38      0.49       643
+weighted avg       0.74      0.41      0.52       643
+ samples avg       0.41      0.41      0.41       643
+accuracy 0.56
+
+fold: 9results + descriptions ---> results + descriptions Train...
+
+              precision    recall  f1-score   support
+
+           0       0.79      0.63      0.70       268
+           1       0.67      0.29      0.40       237
+           2       0.63      0.28      0.39       138
+
+   micro avg       0.73      0.43      0.54       643
+   macro avg       0.69      0.40      0.50       643
+weighted avg       0.71      0.43      0.52       643
+ samples avg       0.43      0.43      0.43       643
+accuracy 0.55
+
+fold: 10results + descriptions ---> results + descriptions Train...
+
+              precision    recall  f1-score   support
+
+           0       0.79      0.61      0.69       268
+           1       0.72      0.33      0.46       237
+           2       0.58      0.36      0.44       137
+
+   micro avg       0.73      0.45      0.56       642
+   macro avg       0.70      0.43      0.53       642
+weighted avg       0.72      0.45      0.55       642
+ samples avg       0.45      0.45      0.45       642
+accuracy 0.58
+
+average score for results + descriptions ---> results + descriptions:{'micro avg': {'precision': 0.7446692425125843, 'recall': 0.43857585881923483, 'f1-score': 0.5513302413750975}, 'macro avg': {'precision': 0.7100273926186422, 'recall': 0.40988672252426656, 'f1-score': 0.5071510084555424}}
+
