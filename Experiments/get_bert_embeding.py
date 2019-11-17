@@ -10,6 +10,8 @@ import numpy as np
 import random
 from sklearn.feature_extraction.text import CountVectorizer
 from keras.preprocessing.sequence import pad_sequences
+import pickle
+
 def handle_search_result(search_result):
     title=search_result[0].translate(str.maketrans('', '',string.punctuation))
     description=search_result[2].translate(str.maketrans('', '',string.punctuation))
@@ -97,18 +99,39 @@ def clean_sentence(sentence):
     #print(x)
     return x
 
-def stat_words(descriptions,results):
+def stat_words(descriptions,results,labels):
+    manu_num = {'descriptions':[],'results':[]}
+    reta_num = {'descriptions':[],'results':[]}
+    other_num = {'descriptions':[],'results':[]}
+
     descriptions_num=[]
-    for sen in descriptions:
-        descriptions_num.append(len(sen.split(' ')))
+    for idx, sen in enumerate(descriptions):
+        num = len(sen.split(' '))
+        if labels[idx] == 0:
+            other_num['descriptions'].append(num)
+        elif labels[idx] == 1:
+            reta_num['descriptions'].append(num)
+        elif labels[idx] == 2:
+            manu_num['descriptions'].append(num)
+
+        descriptions_num.append(num)
 
     results_num = []
-    for sen in results:
-        results_num.append(len(sen.split(' ')))
+    for idx, sen in enumerate(results):
+        num = len(sen.split(' '))
+        if labels[idx] == 0:
+            other_num['results'].append(num)
+        elif labels[idx] == 1:
+            reta_num['results'].append(num)
+        elif labels[idx] == 2:
+            manu_num['results'].append(num)
+        results_num.append(num)
 
-    import pickle
+    
     with open('descriptions_results_num_params.sav', 'wb') as f:
-        pickle.dump([descriptions_num,results_num], f, -1)
+        pickle.dump([descriptions_num,results_num,
+            reta_num['descriptions'],manu_num['descriptions'],other_num['descriptions'],
+            reta_num['results'],manu_num['descriptions'],other_num['descriptions']], f, -1)
 
 # def get_one_hot_dict(descriptions, results):
 #     des_one_hot = []
@@ -280,53 +303,53 @@ if __name__=='__main__':
         descriptions.append(all_title[key] + all_description[key])
         results.append(all_search_results[key])
 
-    stat_words(descriptions,results)
-    d=list(zip(descriptions,results,out_label))
-    random.seed(59)
-    random.shuffle(d)
-    descriptions, results, out_label=zip(*d)
-    descriptions=list(descriptions)
-    results=list(results)
+    stat_words(descriptions,results,out_label)
+    # d=list(zip(descriptions,results,out_label))
+    # random.seed(59)
+    # random.shuffle(d)
+    # descriptions, results, out_label=zip(*d)
+    # descriptions=list(descriptions)
+    # results=list(results)
 
-    create_one_hot_embeding(descriptions, results, out_label)
-    # create_n_gram(descriptions, results, out_label, 1)
-    # create_n_gram(descriptions, results, out_label, 2)
-    # create_n_gram(descriptions, results, out_label, 3)
+    # create_one_hot_embeding(descriptions, results, out_label)
+    # # create_n_gram(descriptions, results, out_label, 1)
+    # # create_n_gram(descriptions, results, out_label, 2)
+    # # create_n_gram(descriptions, results, out_label, 3)
 
-    #get one-hot
-    all_text = deepcopy(descriptions)
-    all_text.extend(results)
-    tokenier = Tokenizer(num_words = 100)
-    tokenier.fit_on_texts(all_text)
-    #one_hot_all = tokenier.texts_to_matrix(all_text)
+    # #get one-hot
+    # all_text = deepcopy(descriptions)
+    # all_text.extend(results)
+    # tokenier = Tokenizer(num_words = 100)
+    # tokenier.fit_on_texts(all_text)
+    # #one_hot_all = tokenier.texts_to_matrix(all_text)
 
-    max_len = 200
-    des_one_hot = []
-    for sentence in descriptions:
-        temp = np.zeros([max_len, 100]).tolist()
-        for idx, word in enumerate(sentence.split(" ")):
-            if idx > max_len - 1:
-                break
-            temp[idx]= tokenier.texts_to_matrix([word])[0]
-        des_one_hot.append(temp)
+    # max_len = 200
+    # des_one_hot = []
+    # for sentence in descriptions:
+    #     temp = np.zeros([max_len, 100]).tolist()
+    #     for idx, word in enumerate(sentence.split(" ")):
+    #         if idx > max_len - 1:
+    #             break
+    #         temp[idx]= tokenier.texts_to_matrix([word])[0]
+    #     des_one_hot.append(temp)
 
-    res_one_hot = []
-    for sentence in results:
-        temp = np.zeros([max_len, 100]).tolist()
-        for idx, word in enumerate(sentence.split(" ")):
-            if idx > max_len - 1:
-                break
-            temp[idx]= tokenier.texts_to_matrix([word])[0]
-        res_one_hot.append(temp)
+    # res_one_hot = []
+    # for sentence in results:
+    #     temp = np.zeros([max_len, 100]).tolist()
+    #     for idx, word in enumerate(sentence.split(" ")):
+    #         if idx > max_len - 1:
+    #             break
+    #         temp[idx]= tokenier.texts_to_matrix([word])[0]
+    #     res_one_hot.append(temp)
 
-    des_one_hot = np.array(des_one_hot)
-    res_one_hot = np.array(res_one_hot)
+    # des_one_hot = np.array(des_one_hot)
+    # res_one_hot = np.array(res_one_hot)
 
 
-    # des_one_hot = one_hot_all[:len(descriptions)]
-    # res_one_hot = one_hot_all[len(descriptions):]
+    # # des_one_hot = one_hot_all[:len(descriptions)]
+    # # res_one_hot = one_hot_all[len(descriptions):]
 
-    np.save('../data/descriptions_big_one_hot.npy',des_one_hot)
-    np.save('../data/results_big_one_hot.npy', res_one_hot)
+    # np.save('../data/descriptions_big_one_hot.npy',des_one_hot)
+    # np.save('../data/results_big_one_hot.npy', res_one_hot)
     
-    #create_bert_embeding(descriptions, results, out_label)
+    # #create_bert_embeding(descriptions, results, out_label)
