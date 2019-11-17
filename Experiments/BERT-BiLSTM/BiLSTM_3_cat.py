@@ -140,7 +140,7 @@ def f1_m(y_true, y_pred):
 # model = BiLSTM(x_train, y_train)
 # # model.summary()
 
-<<<<<<< HEAD
+
 for i in range(15):
     history = model.fit(x_train, y_train,
                         epochs=1,
@@ -152,22 +152,7 @@ for i in range(15):
     y_pred_cat = np.round(y_pred)
 
     print(classification_report(y_test, y_pred_cat))
-=======
-# callbacks = [
-#   # EarlyStopping(monitor='val_loss', patience=args.train_patience, verbose=0),
-#   ModelCheckpoint('BiLSTM_3_cat.h5', monitor='val_loss', save_best_only=True,
-#                   verbose=1),
-# ]
 
-# history = model.fit(x_train, y_train,
-#                     epochs=15,
-#                     validation_data=[x_test, y_test],
-#                     batch_size=256,
-#                     callbacks=callbacks)
-# model=load_model('BiLSTM_3_cat.h5')
-# y_pred = model.predict(x_test)
-# y_pred_cat = np.round(y_pred)
->>>>>>> 549115192bcb66f2d9de1821fe3387f684e2962c
 
 # print(classification_report(y_test, y_pred_cat))
 
