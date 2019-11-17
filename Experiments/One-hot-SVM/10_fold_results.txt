@@ -1,6 +1,5 @@
-fold: 1
-results + descriptions ---> results + descriptions
-Train...
+fold: 1results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       269
@@ -10,11 +9,10 @@ Train...
     accuracy                           0.42       645
    macro avg       0.14      0.33      0.20       645
 weighted avg       0.17      0.42      0.25       645
-
 accuracy 0.42
-fold: 2
-results + descriptions ---> results + descriptions
-Train...
+
+fold: 2results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       269
@@ -24,11 +22,10 @@ Train...
     accuracy                           0.42       645
    macro avg       0.14      0.33      0.20       645
 weighted avg       0.17      0.42      0.25       645
-
 accuracy 0.42
-fold: 3
-results + descriptions ---> results + descriptions
-Train...
+
+fold: 3results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       269
@@ -38,11 +35,10 @@ Train...
     accuracy                           0.42       645
    macro avg       0.14      0.33      0.20       645
 weighted avg       0.17      0.42      0.25       645
-
 accuracy 0.42
-fold: 4
-results + descriptions ---> results + descriptions
-Train...
+
+fold: 4results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       269
@@ -52,11 +48,10 @@ Train...
     accuracy                           0.42       644
    macro avg       0.14      0.33      0.20       644
 weighted avg       0.17      0.42      0.25       644
-
 accuracy 0.42
-fold: 5
-results + descriptions ---> results + descriptions
-Train...
+
+fold: 5results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       269
@@ -66,11 +61,10 @@ Train...
     accuracy                           0.42       644
    macro avg       0.14      0.33      0.20       644
 weighted avg       0.17      0.42      0.25       644
-
 accuracy 0.42
-fold: 6
-results + descriptions ---> results + descriptions
-Train...
+
+fold: 6results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       269
@@ -80,11 +74,10 @@ Train...
     accuracy                           0.42       644
    macro avg       0.14      0.33      0.20       644
 weighted avg       0.17      0.42      0.25       644
-
 accuracy 0.42
-fold: 7
-results + descriptions ---> results + descriptions
-Train...
+
+fold: 7results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       269
@@ -94,11 +87,10 @@ Train...
     accuracy                           0.42       644
    macro avg       0.14      0.33      0.20       644
 weighted avg       0.17      0.42      0.25       644
-
 accuracy 0.42
-fold: 8
-results + descriptions ---> results + descriptions
-Train...
+
+fold: 8results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       268
@@ -108,11 +100,10 @@ Train...
     accuracy                           0.42       643
    macro avg       0.14      0.33      0.20       643
 weighted avg       0.17      0.42      0.25       643
-
 accuracy 0.42
-fold: 9
-results + descriptions ---> results + descriptions
-Train...
+
+fold: 9results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       268
@@ -122,11 +113,10 @@ Train...
     accuracy                           0.42       643
    macro avg       0.14      0.33      0.20       643
 weighted avg       0.17      0.42      0.25       643
-
 accuracy 0.42
-fold: 10
-results + descriptions ---> results + descriptions
-Train...
+
+fold: 10results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       268
@@ -136,11 +126,12 @@ Train...
     accuracy                           0.42       642
    macro avg       0.14      0.33      0.20       642
 weighted avg       0.17      0.42      0.25       642
-
 accuracy 0.42
-fold: 1
-results + descriptions ---> results
-Train...
+
+average score for results + descriptions ---> results + descriptions:{'micro avg': {'precision': 0, 'recall': 0, 'f1-score': 0}, 'macro avg': {'precision': 0, 'recall': 0, 'f1-score': 0}}
+
+fold: 1results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       269
@@ -150,11 +141,10 @@ Train...
     accuracy                           0.42       645
    macro avg       0.14      0.33      0.20       645
 weighted avg       0.17      0.42      0.25       645
-
 accuracy 0.42
-fold: 2
-results + descriptions ---> results
-Train...
+
+fold: 2results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       269
@@ -164,11 +154,10 @@ Train...
     accuracy                           0.42       645
    macro avg       0.14      0.33      0.20       645
 weighted avg       0.17      0.42      0.25       645
-
 accuracy 0.42
-fold: 3
-results + descriptions ---> results
-Train...
+
+fold: 3results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       269
@@ -178,11 +167,10 @@ Train...
     accuracy                           0.42       645
    macro avg       0.14      0.33      0.20       645
 weighted avg       0.17      0.42      0.25       645
-
 accuracy 0.42
-fold: 4
-results + descriptions ---> results
-Train...
+
+fold: 4results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       269
@@ -192,11 +180,10 @@ Train...
     accuracy                           0.42       644
    macro avg       0.14      0.33      0.20       644
 weighted avg       0.17      0.42      0.25       644
-
 accuracy 0.42
-fold: 5
-results + descriptions ---> results
-Train...
+
+fold: 5results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       269
@@ -206,11 +193,10 @@ Train...
     accuracy                           0.42       644
    macro avg       0.14      0.33      0.20       644
 weighted avg       0.17      0.42      0.25       644
-
 accuracy 0.42
-fold: 6
-results + descriptions ---> results
-Train...
+
+fold: 6results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       269
@@ -220,11 +206,10 @@ Train...
     accuracy                           0.42       644
    macro avg       0.14      0.33      0.20       644
 weighted avg       0.17      0.42      0.25       644
-
 accuracy 0.42
-fold: 7
-results + descriptions ---> results
-Train...
+
+fold: 7results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       269
@@ -234,11 +219,10 @@ Train...
     accuracy                           0.42       644
    macro avg       0.14      0.33      0.20       644
 weighted avg       0.17      0.42      0.25       644
-
 accuracy 0.42
-fold: 8
-results + descriptions ---> results
-Train...
+
+fold: 8results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       268
@@ -248,11 +232,10 @@ Train...
     accuracy                           0.42       643
    macro avg       0.14      0.33      0.20       643
 weighted avg       0.17      0.42      0.25       643
-
 accuracy 0.42
-fold: 9
-results + descriptions ---> results
-Train...
+
+fold: 9results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       268
@@ -262,11 +245,10 @@ Train...
     accuracy                           0.42       643
    macro avg       0.14      0.33      0.20       643
 weighted avg       0.17      0.42      0.25       643
-
 accuracy 0.42
-fold: 10
-results + descriptions ---> results
-Train...
+
+fold: 10results + descriptions ---> results + descriptions Train...
+
               precision    recall  f1-score   support
 
            0       0.42      1.00      0.59       268
@@ -276,5 +258,5 @@ Train...
     accuracy                           0.42       642
    macro avg       0.14      0.33      0.20       642
 weighted avg       0.17      0.42      0.25       642
-
 accuracy 0.42
+
