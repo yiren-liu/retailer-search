@@ -167,6 +167,23 @@ def load_word_level_features(max_seq_len, train_split):
   test = get_data(test, max_seq_len)
   return train, test
 
+def load_data_for_cross_test():
+  data_1 = np.load('../../data/results_big.npy')
+  data_2 = np.load('../../data/descriptions_big.npy')
+  labels_all = to_categorical(np.load('../../data/labels_3_cat_big.npy'))
+  split = int(len(data_1) * 9 / 10)
+  # facet_train = facet_all[0:3000]
+  data_1_train = data_1[0:split]
+  data_2_train = data_2[0:split]
+
+  # facet_test = facet_all[3000:]
+  data_1_test = data_1[split:]
+  data_2_test = data_2[split:]
+
+  y_train = labels_all[:split]
+  y_test = labels_all[split:]
+  return data_1,data_2,labels_all,np.load('../../data/labels_3_cat_big.npy')
+
 def load_search_data():
   data_1 = np.load('../../data/results_big.npy')
   data_2=np.load('../../data/descriptions_big.npy')

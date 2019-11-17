@@ -10,7 +10,7 @@ from .cells import AttentionDecoderCell
 from .cells import LSTMDecoderCell
 
 
-def mctn_model(output_dim,
+def mctn_model(input,output_dim,
                output_length,
                batch_input_shape=None,
                batch_size=None,
@@ -45,7 +45,7 @@ def mctn_model(output_dim,
   if hidden_dim is None:
     hidden_dim = output_dim
 
-  _input = Input(batch_shape=shape)
+  _input = input
   _input._keras_history[0].supports_masking = True
 
   # encoder phase
@@ -68,7 +68,7 @@ def mctn_model(output_dim,
   encoded = encoder(_input)
 
   # decoder phase
-  decoder = RecurrentSequential(decode=True, output_length=output_length,#output_length
+  decoder = RecurrentSequential(decode=True, output_length=1,#output_length
                                 unroll=unroll, stateful=stateful)
   decoder.add(
     Dropout(dropout, batch_input_shape=(shape[0], shape[1], hidden_dim)))
@@ -86,7 +86,7 @@ def mctn_model(output_dim,
 
   inputs = [_input]
   decoded = decoder(encoded)
-  # decoded=Reshape((output_dim,))(decoded)
+  decoded=Reshape((output_dim,))(decoded)
 
 
   # cycle phase
@@ -95,7 +95,7 @@ def mctn_model(output_dim,
     cycled_encoded = encoder(decoded)
     cycled_decoded = decoder(cycled_encoded)
 
-  return inputs, encoded, decoded, cycled_decoded
+  return  encoded, decoded, cycled_decoded
 
 
 def mctn_level2_model(input,

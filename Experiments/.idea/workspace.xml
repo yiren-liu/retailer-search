@@ -7,8 +7,27 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BERT-BiLSTM/BiLSTM_3_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/BERT-BiLSTM/BiLSTM_3_cat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_bert_embeding.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_bert_embeding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/end2end_bimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/models/bimodals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/utils/data_loader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/end2end_bimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/models/bimodals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/utils/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/configs/mctn.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/configs/mctn.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/end2end_bimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/models/bimodals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/seq2seq/mctn_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/seq2seq/mctn_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/utils/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reports/~WRL3919.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../data/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/descriptions_results_num_params.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/descriptions_results_num_params.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/preprocessing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +47,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1T6TmjSsFduH5B2XPmG40kNHHnq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -37,7 +58,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -52,14 +73,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BiLSTM_3_cat">
+  <component name="RunManager" selected="Python.get_bert_embeding">
     <configuration name="BiLSTM_3_cat (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Experiments" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda-10.0/lib64:/usr/local/cuda-10.0/lib64:/usr/local/cuda/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/One-hot-BiLSTM" />
@@ -98,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LR_3_cat" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="BiLSTM_3_cat_test_one_hot_zh" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Experiments" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,12 +126,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/n-Gram-LR" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BERT-BiLSTM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/n-Gram-LR/LR_3_cat.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BERT-BiLSTM/BiLSTM_3_cat_test_one_hot_zh.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,17 +187,17 @@
     <list>
       <item itemvalue="Python.get_bert_embeding" />
       <item itemvalue="Python.BiLSTM_3_cat" />
-      <item itemvalue="Python.LR_3_cat" />
       <item itemvalue="Python.SVM_3_cat" />
       <item itemvalue="Python.BiLSTM_3_cat (1)" />
+      <item itemvalue="Python.BiLSTM_3_cat_test_one_hot_zh" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.get_bert_embeding" />
+        <item itemvalue="Python.BiLSTM_3_cat_test_one_hot_zh" />
         <item itemvalue="Python.BiLSTM_3_cat" />
         <item itemvalue="Python.BiLSTM_3_cat (1)" />
         <item itemvalue="Python.SVM_3_cat" />
-        <item itemvalue="Python.LR_3_cat" />
-        <item itemvalue="Python.get_bert_embeding" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +232,8 @@
       <workItem from="1573676046600" duration="19930000" />
       <workItem from="1573736762980" duration="12372000" />
       <workItem from="1573760829390" duration="3193000" />
+      <workItem from="1573811311506" duration="11522000" />
+      <workItem from="1574001676710" duration="1180000" />
     </task>
     <servers />
   </component>
@@ -251,11 +273,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/get_bert_embeding.py</url>
-          <line>295</line>
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/get_bert_embeding.py</url>
           <line>242</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
@@ -284,16 +301,27 @@
           <line>77</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/get_bert_embeding.py</url>
+          <line>283</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/get_bert_embeding.py</url>
+          <line>284</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Experiments$LR_3_cat.coverage" NAME="LR_3_cat Coverage Results" MODIFIED="1573755736261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/n-Gram-LR" />
     <SUITE FILE_PATH="coverage/Experiments$run_classifier.coverage" NAME="run_classifier Coverage Results" MODIFIED="1572854176107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BERT-Classification-Tutorial-master" />
-    <SUITE FILE_PATH="coverage/Experiments$BiLSTM_3_cat.coverage" NAME="BiLSTM_3_cat Coverage Results" MODIFIED="1573764036649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BERT-BiLSTM" />
+    <SUITE FILE_PATH="coverage/Experiments$BiLSTM_3_cat.coverage" NAME="BiLSTM_3_cat Coverage Results" MODIFIED="1573841171676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BERT-BiLSTM" />
     <SUITE FILE_PATH="coverage/Experiments$SVM_3_cat.coverage" NAME="SVM_3_cat Coverage Results" MODIFIED="1573756937069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BoW-SVM" />
-    <SUITE FILE_PATH="coverage/Experiments$get_bert_embeding.coverage" NAME="get_bert_embeding Coverage Results" MODIFIED="1573751667965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Experiments$get_bert_embeding.coverage" NAME="get_bert_embeding Coverage Results" MODIFIED="1574002072042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Experiments$BiLSTM_3_cat__1_.coverage" NAME="BiLSTM_3_cat (1) Coverage Results" MODIFIED="1573759347660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/One-hot-BiLSTM" />
     <SUITE FILE_PATH="coverage/Experiments$BiLSTM_2_cat.coverage" NAME="BiLSTM_2_cat Coverage Results" MODIFIED="1573278248036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BERT-BiLSTM" />
+    <SUITE FILE_PATH="coverage/Experiments$BiLSTM_3_cat_test_one_hot_zh.coverage" NAME="BiLSTM_3_cat_test_one_hot_zh Coverage Results" MODIFIED="1573841667702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BERT-BiLSTM" />
   </component>
 </project>

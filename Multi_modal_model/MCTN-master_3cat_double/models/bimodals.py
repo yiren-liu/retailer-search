@@ -124,9 +124,9 @@ class E2E_MCTN_Model(BaseModel):
                           loss_weights=[1,1,1],
                           optimizer=optimizer,
                           metrics=[ 'categorical_accuracy'])
-    print("Model summary:")
-    print(end2end_model.summary())
-    print("END2END MODEL CREATED!")
+    # print("Model summary:")
+    # print(end2end_model.summary())
+    # print("END2END MODEL CREATED!")
 
     self.model = end2end_model
 

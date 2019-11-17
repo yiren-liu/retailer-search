@@ -106,9 +106,9 @@ class E2E_MCTN_Model(BaseModel):
                           loss_weights=losses_weights,
                           optimizer=optimizer,
                           metrics=[ 'categorical_accuracy'])
-    print("Model summary:")
+    # print("Model summary:")
     print(end2end_model.summary())
-    print("END2END MODEL CREATED!")
+    # print("END2END MODEL CREATED!")
 
     self.model = end2end_model
     # self.test_model=Model(inputs=inputs,
@@ -119,7 +119,7 @@ class E2E_MCTN_Model(BaseModel):
             n_epochs=200,
             val_split=2.0 / 3,
             batch_size=256,
-            is_verbose=1,
+            is_verbose=2,
             callbacks=None
             ):
 

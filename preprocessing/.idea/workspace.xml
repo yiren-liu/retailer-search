@@ -2,28 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c976b8-d862-4d9f-a094-99358b6c5a57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Experiments/.idea/Experiments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/.idea/Experiments.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Experiments/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Experiments/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Experiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Experiments/BERT-BiLSTM/BiLSTM_3_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/BERT-BiLSTM/BiLSTM_3_cat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Experiments/BERT-Classification-Tutorial-master.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Experiments/BoW-SVM/SVM_3_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/BoW-SVM/SVM_3_cat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Experiments/bert.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Experiments/get_bert_embeding.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/get_bert_embeding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/end2end_bimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/models/bimodals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/utils/data_loader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/end2end_bimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/models/bimodals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/utils/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/configs/mctn.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/configs/mctn.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/end2end_bimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/models/bimodals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/seq2seq/mctn_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/seq2seq/mctn_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/utils/data_loader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Multi_modal_model/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reports/report6.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Reports/report6.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/description_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/description_categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/dev.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/label_data_retailer_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/label_data_retailer_categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/result_categories_retailer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/result_categories_retailer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/train.tf_record" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/train.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reports/~WRL3919.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../data/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/tag_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/descriptions_results_num_params.sav" beforeDir="false" afterPath="$PROJECT_DIR$/descriptions_results_num_params.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +52,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Zheng\Projects\Search\preprocessing" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Zheng\Projects\Search\preprocessing" />
     </key>
   </component>
@@ -71,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tag_data">
+  <component name="RunManager" selected="Python.preprocessing">
     <configuration name="create_query" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="preprocessing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,8 +166,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tag_data" />
         <item itemvalue="Python.preprocessing" />
+        <item itemvalue="Python.tag_data" />
         <item itemvalue="Python.get_description" />
         <item itemvalue="Python.create_query" />
       </list>
@@ -203,6 +207,8 @@
       <workItem from="1573621401066" duration="2178000" />
       <workItem from="1573747636793" duration="707000" />
       <workItem from="1573748444839" duration="34000" />
+      <workItem from="1573830582998" duration="8654000" />
+      <workItem from="1573994148718" duration="2713000" />
     </task>
     <servers />
   </component>
@@ -232,12 +238,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/preprocessing.py</url>
-          <line>45</line>
+          <line>48</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/preprocessing.py</url>
-          <line>139</line>
+          <line>144</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -245,13 +251,23 @@
           <line>14</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing.py</url>
+          <line>226</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing.py</url>
+          <line>214</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/preprocessing$create_query.coverage" NAME="create_query Coverage Results" MODIFIED="1572524166376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/preprocessing$get_description.coverage" NAME="get_description Coverage Results" MODIFIED="1572746455928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/preprocessing$preprocessing.coverage" NAME="preprocessing Coverage Results" MODIFIED="1573621558188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/preprocessing$preprocessing.coverage" NAME="preprocessing Coverage Results" MODIFIED="1574002439816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/preprocessing$tag_data.coverage" NAME="tag_data Coverage Results" MODIFIED="1573747935573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

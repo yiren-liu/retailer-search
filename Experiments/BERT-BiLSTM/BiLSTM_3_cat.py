@@ -147,17 +147,17 @@ callbacks = [
 
 
 
+for i in range(15):
+    history = model.fit(x_train, y_train,
+                        epochs=1,
+                        validation_data=[x_test, y_test],
+                        batch_size=256,
+                        callbacks=callbacks)
+    # model=load_model('BiLSTM_3_cat.h5')
+    y_pred = model.predict(x_test)
+    y_pred_cat = np.round(y_pred)
 
-history = model.fit(x_train, y_train,
-                    epochs=0,
-                    validation_data=[x_test, y_test],
-                    batch_size=256,
-                    callbacks=callbacks)
-# model=load_model('BiLSTM_3_cat.h5')
-y_pred = model.predict(x_test)
-y_pred_cat = np.round(y_pred)
-
-print(classification_report(y_test, y_pred_cat))
+    print(classification_report(y_test, y_pred_cat))
 
 
 

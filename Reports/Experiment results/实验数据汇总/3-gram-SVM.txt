@@ -1,0 +1,284 @@
+fold: 1
+results + descriptions ---> results + descriptions
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.60       269
+           1       1.00      0.04      0.08       238
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.43      0.43      0.43       645
+   macro avg       0.47      0.35      0.23       645
+weighted avg       0.55      0.43      0.28       645
+
+accuracy 0.43
+fold: 2
+results + descriptions ---> results + descriptions
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       269
+           1       1.00      0.02      0.03       238
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.42      0.42      0.42       645
+   macro avg       0.47      0.34      0.21       645
+weighted avg       0.54      0.42      0.26       645
+
+accuracy 0.42
+fold: 3
+results + descriptions ---> results + descriptions
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       269
+           1       0.86      0.03      0.05       238
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.43      0.43      0.43       645
+   macro avg       0.43      0.34      0.21       645
+weighted avg       0.49      0.43      0.27       645
+
+accuracy 0.43
+fold: 4
+results + descriptions ---> results + descriptions
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       269
+           1       0.71      0.02      0.04       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.43      0.43      0.43       644
+   macro avg       0.38      0.34      0.21       644
+weighted avg       0.44      0.43      0.26       644
+
+accuracy 0.43
+fold: 5
+results + descriptions ---> results + descriptions
+Train...
+              precision    recall  f1-score   support
+
+           0       0.43      1.00      0.60       269
+           1       1.00      0.05      0.10       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.44      0.44      0.44       644
+   macro avg       0.48      0.35      0.23       644
+weighted avg       0.55      0.44      0.28       644
+
+accuracy 0.44
+fold: 6
+results + descriptions ---> results + descriptions
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.60       269
+           1       0.89      0.03      0.07       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.43      0.43      0.43       644
+   macro avg       0.44      0.34      0.22       644
+weighted avg       0.50      0.43      0.27       644
+
+accuracy 0.43
+fold: 7
+results + descriptions ---> results + descriptions
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       269
+           1       0.88      0.03      0.06       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.43      0.43      0.43       644
+   macro avg       0.43      0.34      0.22       644
+weighted avg       0.50      0.43      0.27       644
+
+accuracy 0.43
+fold: 8
+results + descriptions ---> results + descriptions
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.60       268
+           1       1.00      0.05      0.09       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.43      0.43      0.43       643
+   macro avg       0.47      0.35      0.23       643
+weighted avg       0.55      0.43      0.28       643
+
+accuracy 0.43
+fold: 9
+results + descriptions ---> results + descriptions
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       268
+           1       1.00      0.02      0.04       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.42      0.42      0.42       643
+   macro avg       0.47      0.34      0.21       643
+weighted avg       0.54      0.42      0.26       643
+
+accuracy 0.42
+fold: 10
+results + descriptions ---> results + descriptions
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       268
+           1       0.60      0.01      0.02       237
+           2       0.00      0.00      0.00       137
+
+   micro avg       0.42      0.42      0.42       642
+   macro avg       0.34      0.34      0.21       642
+weighted avg       0.40      0.42      0.26       642
+
+accuracy 0.42
+average score for results + descriptions ---> results + descriptions:
+{'micro avg': {'precision': 0.4283261711353624, 'recall': 0.4283261711353624, 'f1-score': 0.4283261711353624}}
+fold: 1
+results + descriptions ---> results
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       269
+           1       0.00      0.00      0.00       238
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.42      0.42      0.42       645
+   macro avg       0.14      0.33      0.20       645
+weighted avg       0.17      0.42      0.25       645
+
+accuracy 0.42
+fold: 2
+results + descriptions ---> results
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       269
+           1       0.00      0.00      0.00       238
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.42      0.42      0.42       645
+   macro avg       0.14      0.33      0.20       645
+weighted avg       0.17      0.42      0.25       645
+
+accuracy 0.42
+fold: 3
+results + descriptions ---> results
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       269
+           1       0.00      0.00      0.00       238
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.42      0.42      0.42       645
+   macro avg       0.14      0.33      0.20       645
+weighted avg       0.17      0.42      0.25       645
+
+accuracy 0.42
+fold: 4
+results + descriptions ---> results
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       269
+           1       0.00      0.00      0.00       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.42      0.42      0.42       644
+   macro avg       0.14      0.33      0.20       644
+weighted avg       0.17      0.42      0.25       644
+
+accuracy 0.42
+fold: 5
+results + descriptions ---> results
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       269
+           1       0.00      0.00      0.00       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.42      0.42      0.42       644
+   macro avg       0.14      0.33      0.20       644
+weighted avg       0.17      0.42      0.25       644
+
+accuracy 0.42
+fold: 6
+results + descriptions ---> results
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       269
+           1       0.00      0.00      0.00       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.42      0.42      0.42       644
+   macro avg       0.14      0.33      0.20       644
+weighted avg       0.17      0.42      0.25       644
+
+accuracy 0.42
+fold: 7
+results + descriptions ---> results
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       269
+           1       0.00      0.00      0.00       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.42      0.42      0.42       644
+   macro avg       0.14      0.33      0.20       644
+weighted avg       0.17      0.42      0.25       644
+
+accuracy 0.42
+fold: 8
+results + descriptions ---> results
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       268
+           1       0.00      0.00      0.00       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.42      0.42      0.42       643
+   macro avg       0.14      0.33      0.20       643
+weighted avg       0.17      0.42      0.25       643
+
+accuracy 0.42
+fold: 9
+results + descriptions ---> results
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       268
+           1       0.00      0.00      0.00       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.42      0.42      0.42       643
+   macro avg       0.14      0.33      0.20       643
+weighted avg       0.17      0.42      0.25       643
+
+accuracy 0.42
+fold: 10
+results + descriptions ---> results
+Train...
+              precision    recall  f1-score   support
+
+           0       0.42      1.00      0.59       268
+           1       0.00      0.00      0.00       237
+           2       0.00      0.00      0.00       137
+
+   micro avg       0.42      0.42      0.42       642
+   macro avg       0.14      0.33      0.20       642
+weighted avg       0.17      0.42      0.25       642
+
+accuracy 0.42
+average score for results + descriptions ---> results:
+{'micro avg': {'precision': 0.41730082619720915, 'recall': 0.41730082619720915, 'f1-score': 0.41730082619720915}}

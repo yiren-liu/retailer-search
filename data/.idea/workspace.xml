@@ -2,30 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7cb4b54-0e25-4ed0-a87b-ce43aa8e5b6a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Experiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Experiments/BERT-BiLSTM/BiLSTM_3_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/BERT-BiLSTM/BiLSTM_3_cat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Experiments/BERT-Classification-Tutorial-master.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Experiments/BoW-SVM/SVM_3_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/BoW-SVM/SVM_3_cat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Experiments/One-hot-BiLSTM/BiLSTM_3_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/One-hot-BiLSTM/BiLSTM_3_cat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Experiments/bert.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Experiments/get_bert_embeding.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiments/get_bert_embeding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/end2end_bimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/models/bimodals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/utils/data_loader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/end2end_bimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/models/bimodals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/utils/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/configs/mctn.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/configs/mctn.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/end2end_bimodal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/models/bimodals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/seq2seq/mctn_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/seq2seq/mctn_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/utils/data_loader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Multi_modal_model/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reports/report6.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Reports/report6.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reports/~$eport6.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reports/~$模型对比.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reports/模型对比.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Reports/模型对比.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reports/~WRL3919.tmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/description_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/description_categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/label_data_retailer_categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/label_data_retailer_categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_categories_retailer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result_categories_retailer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.tf_record" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.tsv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../preprocessing/tag_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/tag_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/preprocessing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +72,8 @@
       <workItem from="1573444924794" duration="214000" />
       <workItem from="1573445922022" duration="2650000" />
       <workItem from="1573748480149" duration="1016000" />
+      <workItem from="1573818971206" duration="152000" />
+      <workItem from="1573830670597" duration="1283000" />
     </task>
     <servers />
   </component>

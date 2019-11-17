@@ -4,7 +4,7 @@ MCTN-master_3cat_2mod：三类，用两个模态的数据去预测
 
 MCTN-master_3cat_simple: 用一个简单的模型来调
 
-MCTN-master_3cat_simple_test：测试一些简单的结构，比如去掉decoder。目前是改成decoder输出一个向量的形式。
+MCTN-master_3cat_simple_test：decoder输出一个向量的形式。（结果较好不可再修改）
 
 MCTN-master_3cat_double：两个seq2seq拼接
 

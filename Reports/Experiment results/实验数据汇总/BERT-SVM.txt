@@ -1,0 +1,4 @@
+average score for results + descriptions ---> results + descriptions:
+{'micro avg': {'precision': 0.7384663103301605, 'recall': 0.7384663103301605, 'f1-score': 0.7384663103301605}}
+
+

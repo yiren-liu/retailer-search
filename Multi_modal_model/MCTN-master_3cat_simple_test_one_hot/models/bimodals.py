@@ -1,9 +1,9 @@
 from keras import Model
 from seq2seq.mctn_models import mctn_model
-from keras.layers import embeddings
+
 from optimizers import get_optimizers
 from regression_model import create_regression_model
-
+from keras.layers import *
 
 class BaseModel(object):
   def __init__(self, configs, features, feats_dict):
@@ -18,44 +18,32 @@ class BaseModel(object):
 class E2E_MCTN_Model(BaseModel):
   """End to end MCTN Bimodal, also a wrapper for data"""
 
-  def __init__(self, configs, features, feats_dict):
-    super(E2E_MCTN_Model, self).__init__(configs, features, feats_dict)
+  def __init__(self, configs, data_1_train,data_2_train):
+    super(E2E_MCTN_Model, self).__init__(configs, data_1_train,data_2_train)
 
-    # this model only has 2 features (modalities)
-    self._in = self.features[0]
-    self._out = self.features[1]
 
-    self.input_train = self.feats_dict[self._in][0]
-    self.input_test = self.feats_dict[self._in][1]
-    self.output_train = self.feats_dict[self._out][0]
-    self.output_test = self.feats_dict[self._out][1]
 
     # update self.model object
     self.is_cycled = configs['translation']['is_cycled']
     self._create_model()
 
   def _create_model(self):
-    print("\n***SEQ2SEQ translates from {} to {}***".
-          format(self.feats_dict[self._in][2],
-                 self.feats_dict[self._out][2]))
 
-    input_dims = self.input_train.shape
-    output_dims = self.output_train.shape
-    print("Input Dims = {}".format(input_dims))
-    print("Output (Translation) Dims = {}".format(output_dims))
-    print("Output (Regression) Dims = {}\n".format(self.feats_dict[
-                                                     'train_labels'].shape))
+
+    input_dim = 200
+    output_dim = 200
+
     # --------------------Seq2Seq network params--------------------------------
-    n_samples = input_dims[0]
-    input_length = input_dims[1]
-    input_dim = input_dims[2]
-    output_length = output_dims[1]
-    output_dim = output_dims[2]
 
+    input_length = 100
+    output_length = 100
+
+    inputs=Input(shape=(input_length,))
+    embeddings = Embedding(20000, input_dim)(inputs)
     # --------------- MODEL TRANSLATION DEFINITION -----------------------------
     print("Creating TRANSLATION SEQ2SEQ model ...")
-    inputs, encoded_seq, decoded_seq, cycled_decoded_seq = \
-      mctn_model(output_dim=output_dim,
+    encoded_seq, decoded_seq, cycled_decoded_seq = \
+      mctn_model(input=embeddings,output_dim=output_dim,
                  hidden_dim=self.configs['translation']['hidden_dim'],
                  output_length=output_length,
                  input_dim=input_dim,
@@ -106,60 +94,14 @@ class E2E_MCTN_Model(BaseModel):
                           loss_weights=losses_weights,
                           optimizer=optimizer,
                           metrics=[ 'categorical_accuracy'])
-    print("Model summary:")
+    # print("Model summary:")
     print(end2end_model.summary())
-    print("END2END MODEL CREATED!")
+    # print("END2END MODEL CREATED!")
 
     self.model = end2end_model
-    # self.test_model=Model(inputs=inputs,
-    #                       outputs=[encoded_seq])
-
-  def train(self,
-            weights_path=None,
-            n_epochs=200,
-            val_split=2.0 / 3,
-            batch_size=256,
-            is_verbose=1,
-            callbacks=None
-            ):
+    self.embeding_model=Model(inputs=inputs,
+                          outputs=[embeddings])
 
 
-    # train now
-    if self.is_cycled:
-      output_feeds = [self.output_train,
-                      self.input_train,
-                      self.feats_dict['train_labels']
-                      ]
-    else:
-      output_feeds = [self.output_train,
-                      self.feats_dict['train_labels']
-                      ]
-    return  self.model.fit(x=self.input_train,
-                   y=output_feeds,
-                   epochs=n_epochs,
-                   validation_data=[self.input_test,[self.output_test,self.feats_dict['test_labels']]],#self.input_test,
-                   batch_size=batch_size,
-                   verbose=is_verbose,
-                   callbacks=callbacks)
 
-  def predict(self):
-    print('Predicting the stored test input')
-    preds = self.model.predict(self.input_test)
-
-    return preds[-1]
-
-  def evaluate(self, is_verbose=True):
-    if self.is_cycled:
-      output_feeds = [self.output_test,
-                      self.input_test,
-                      self.feats_dict['test_labels']
-                      ]
-    else:
-      output_feeds = [self.output_test,
-                      self.feats_dict['test_labels']
-                      ]
-    print('Evaluating the stored test input')
-    self.model.evaluate(x=[self.input_test],
-                        y=output_feeds,
-                        verbose=is_verbose)
 

@@ -1,6 +1,6 @@
 translation:
   is_bidirectional: True
-  hidden_dim: 32
+  hidden_dim: 256
   depth: !!python/tuple [1, 1]  # encoder and decoder depths
   loss_type: 'mse'
   loss_weight: 1
@@ -9,7 +9,7 @@ translation:
   cycle_loss_weight: 0.1
 
 regression:
-  reg_hidden_dim: 32
+  reg_hidden_dim: 128
   l2_factor: 0.01
   loss_type: 'categorical_crossentropy'
   loss_weight: 1

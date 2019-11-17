@@ -12,7 +12,7 @@
       <paths name="lab2">
         <serverdata>
           <mappings>
-            <mapping deploy="Projects\Search\Multi_modal_model\MCTN-master_3cat_simple_zh" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="Projects\Search\Multi_modal_model\MCTN-master_3cat_double" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

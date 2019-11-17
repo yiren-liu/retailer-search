@@ -280,7 +280,7 @@ if __name__=='__main__':
         descriptions.append(all_title[key] + all_description[key])
         results.append(all_search_results[key])
 
-    # stat_words(descriptions,results)
+    stat_words(descriptions,results)
     d=list(zip(descriptions,results,out_label))
     random.seed(59)
     random.shuffle(d)
@@ -288,7 +288,7 @@ if __name__=='__main__':
     descriptions=list(descriptions)
     results=list(results)
 
-    # create_one_hot_embeding(descriptions, results, out_label)
+    create_one_hot_embeding(descriptions, results, out_label)
     # create_n_gram(descriptions, results, out_label, 1)
     # create_n_gram(descriptions, results, out_label, 2)
     # create_n_gram(descriptions, results, out_label, 3)

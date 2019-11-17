@@ -1,0 +1,584 @@
+Train...
+Train on 5794 samples, validate on 645 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.55      0.71      0.62       269
+           1       0.64      0.21      0.31       238
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.57      0.37      0.45       645
+   macro avg       0.40      0.30      0.31       645
+weighted avg       0.47      0.37      0.37       645
+ samples avg       0.37      0.37      0.37       645
+
+accuracy 0.47
+Train...
+Train on 5794 samples, validate on 645 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.53      0.65      0.59       269
+           1       0.68      0.22      0.34       238
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.56      0.35      0.43       645
+   macro avg       0.40      0.29      0.31       645
+weighted avg       0.47      0.35      0.37       645
+ samples avg       0.35      0.35      0.35       645
+
+accuracy 0.47
+Train...
+Train on 5794 samples, validate on 645 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.54      0.65      0.59       269
+           1       0.58      0.20      0.30       238
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.55      0.35      0.42       645
+   macro avg       0.37      0.28      0.30       645
+weighted avg       0.44      0.35      0.36       645
+ samples avg       0.35      0.35      0.35       645
+
+accuracy 0.46
+Train...
+Train on 5795 samples, validate on 644 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.52      0.68      0.59       269
+           1       0.66      0.22      0.32       237
+           2       0.50      0.01      0.01       138
+
+   micro avg       0.55      0.36      0.44       644
+   macro avg       0.56      0.30      0.31       644
+weighted avg       0.57      0.36      0.37       644
+ samples avg       0.36      0.36      0.36       644
+
+accuracy 0.47
+Train...
+Train on 5795 samples, validate on 644 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.51      0.67      0.58       269
+           1       0.66      0.19      0.30       237
+           2       1.00      0.01      0.01       138
+
+   micro avg       0.54      0.35      0.43       644
+   macro avg       0.72      0.29      0.30       644
+weighted avg       0.67      0.35      0.36       644
+ samples avg       0.35      0.35      0.35       644
+
+accuracy 0.47
+Train...
+Train on 5795 samples, validate on 644 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.50      0.61      0.55       269
+           1       0.76      0.22      0.34       237
+           2       1.00      0.01      0.01       138
+
+   micro avg       0.54      0.34      0.42       644
+   macro avg       0.75      0.28      0.30       644
+weighted avg       0.70      0.34      0.36       644
+ samples avg       0.34      0.34      0.34       644
+
+accuracy 0.48
+Train...
+Train on 5795 samples, validate on 644 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.50      0.61      0.55       269
+           1       0.66      0.22      0.32       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.53      0.33      0.41       644
+   macro avg       0.39      0.27      0.29       644
+weighted avg       0.45      0.33      0.35       644
+ samples avg       0.33      0.33      0.33       644
+
+accuracy 0.47
+Train...
+Train on 5796 samples, validate on 643 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.52      0.63      0.57       268
+           1       0.62      0.19      0.29       237
+           2       1.00      0.01      0.01       138
+
+   micro avg       0.54      0.33      0.41       643
+   macro avg       0.71      0.28      0.29       643
+weighted avg       0.66      0.33      0.35       643
+ samples avg       0.33      0.33      0.33       643
+
+accuracy 0.46
+Train...
+Train on 5796 samples, validate on 643 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.52      0.62      0.57       268
+           1       0.61      0.22      0.32       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.54      0.34      0.42       643
+   macro avg       0.38      0.28      0.30       643
+weighted avg       0.44      0.34      0.35       643
+ samples avg       0.34      0.34      0.34       643
+
+accuracy 0.47
+Train...
+Train on 5797 samples, validate on 642 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.52      0.65      0.58       268
+           1       0.60      0.15      0.24       237
+           2       0.00      0.00      0.00       137
+
+   micro avg       0.53      0.33      0.41       642
+   macro avg       0.37      0.27      0.27       642
+weighted avg       0.44      0.33      0.33       642
+ samples avg       0.33      0.33      0.33       642
+
+accuracy 0.46
+average score for results + descriptions ---> results + descriptions:
+{'micro avg': {'precision': 0.5447750921219129, 'recall': 0.34569197032072363, 'f1-score': 0.422917289516407}}
+Train...
+Train on 5794 samples, validate on 645 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.60      0.52      0.56       269
+           1       0.60      0.08      0.13       238
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.60      0.25      0.35       645
+   macro avg       0.40      0.20      0.23       645
+weighted avg       0.47      0.25      0.28       645
+ samples avg       0.25      0.25      0.25       645
+
+accuracy 0.43
+Train...
+Train on 5794 samples, validate on 645 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.58      0.56      0.57       269
+           1       0.64      0.10      0.17       238
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.59      0.27      0.37       645
+   macro avg       0.41      0.22      0.25       645
+weighted avg       0.48      0.27      0.30       645
+ samples avg       0.27      0.27      0.27       645
+
+accuracy 0.44
+Train...
+Train on 5794 samples, validate on 645 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.56      0.50      0.53       269
+           1       0.73      0.08      0.14       238
+           2       1.00      0.01      0.01       138
+
+   micro avg       0.58      0.24      0.34       645
+   macro avg       0.76      0.20      0.23       645
+weighted avg       0.72      0.24      0.28       645
+ samples avg       0.24      0.24      0.24       645
+
+accuracy 0.45
+Train...
+Train on 5795 samples, validate on 644 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.60      0.59      0.60       269
+           1       0.72      0.10      0.17       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.61      0.28      0.39       644
+   macro avg       0.44      0.23      0.26       644
+weighted avg       0.52      0.28      0.31       644
+ samples avg       0.28      0.28      0.28       644
+
+accuracy 0.45
+Train...
+Train on 5795 samples, validate on 644 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.55      0.52      0.54       269
+           1       0.70      0.10      0.17       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.56      0.25      0.35       644
+   macro avg       0.41      0.21      0.24       644
+weighted avg       0.48      0.25      0.29       644
+ samples avg       0.25      0.25      0.25       644
+
+accuracy 0.44
+Train...
+Train on 5795 samples, validate on 644 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.54      0.51      0.52       269
+           1       0.83      0.10      0.18       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.57      0.25      0.35       644
+   macro avg       0.46      0.20      0.23       644
+weighted avg       0.53      0.25      0.28       644
+ samples avg       0.25      0.25      0.25       644
+
+accuracy 0.45
+Train...
+Train on 5795 samples, validate on 644 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.58      0.57      0.58       269
+           1       0.76      0.09      0.17       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.60      0.27      0.37       644
+   macro avg       0.45      0.22      0.25       644
+weighted avg       0.52      0.27      0.30       644
+ samples avg       0.27      0.27      0.27       644
+
+accuracy 0.45
+Train...
+Train on 5796 samples, validate on 643 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.55      0.55      0.55       268
+           1       0.66      0.10      0.17       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.56      0.27      0.36       643
+   macro avg       0.40      0.22      0.24       643
+weighted avg       0.47      0.27      0.29       643
+ samples avg       0.27      0.27      0.27       643
+
+accuracy 0.44
+Train...
+Train on 5796 samples, validate on 643 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.57      0.51      0.54       268
+           1       0.63      0.08      0.14       237
+           2       0.00      0.00      0.00       138
+
+   micro avg       0.58      0.24      0.34       643
+   macro avg       0.40      0.20      0.23       643
+weighted avg       0.47      0.24      0.28       643
+ samples avg       0.24      0.24      0.24       643
+
+accuracy 0.44
+Train...
+Train on 5797 samples, validate on 642 samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.59      0.58      0.58       268
+           1       0.70      0.07      0.12       237
+           2       0.00      0.00      0.00       137
+
+   micro avg       0.60      0.27      0.37       642
+   macro avg       0.43      0.22      0.24       642
+weighted avg       0.50      0.27      0.29       642
+ samples avg       0.27      0.27      0.27       642
+
+accuracy 0.44
+average score for results + descriptions ---> results + descriptions:
+{'micro avg': {'precision': 0.5329949238578681, 'recall': 0.32710280373831774, 'f1-score': 0.4054054054054054}}
