@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="055d94e7-2a13-4bca-a3ee-8d965dbb3167" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Experiments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Experiments.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BERT-BiLSTM/BiLSTM_3_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/BERT-BiLSTM/BiLSTM_3_cat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_bert_embeding.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_bert_embeding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/end2end_bimodal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/models/bimodals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_double/utils/data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/end2end_bimodal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/models/bimodals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/utils/data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/configs/mctn.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/configs/mctn.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/end2end_bimodal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/end2end_bimodal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/models/bimodals.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/models/bimodals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/seq2seq/mctn_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/seq2seq/mctn_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/utils/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test_one_hot/utils/data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reports/~WRL3919.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../data/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../preprocessing/descriptions_results_num_params.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/descriptions_results_num_params.sav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../preprocessing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/preprocessing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -233,7 +208,7 @@
       <workItem from="1573736762980" duration="12372000" />
       <workItem from="1573760829390" duration="3193000" />
       <workItem from="1573811311506" duration="11522000" />
-      <workItem from="1574001676710" duration="1180000" />
+      <workItem from="1574001676710" duration="1966000" />
     </task>
     <servers />
   </component>
@@ -288,17 +263,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/n-Gram-LR/LR_3_cat.py</url>
-          <line>132</line>
+          <line>141</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/n-Gram-LR/LR_3_cat.py</url>
-          <line>147</line>
+          <line>156</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/One-hot-BiLSTM/BiLSTM_3_cat.py</url>
-          <line>77</line>
+          <line>103</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
