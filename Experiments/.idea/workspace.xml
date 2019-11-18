@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="055d94e7-2a13-4bca-a3ee-8d965dbb3167" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BERT-BiLSTM/BiLSTM_3_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/BERT-BiLSTM/BiLSTM_3_cat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multi_modal_model/MCTN-master_3cat_simple_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reports/字数统计.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Reports/字数统计.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocessing/descriptions_results_num_params.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../preprocessing/descriptions_results_num_params.sav" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -209,6 +213,7 @@
       <workItem from="1573760829390" duration="3193000" />
       <workItem from="1573811311506" duration="11522000" />
       <workItem from="1574001676710" duration="1966000" />
+      <workItem from="1574046194730" duration="1320000" />
     </task>
     <servers />
   </component>

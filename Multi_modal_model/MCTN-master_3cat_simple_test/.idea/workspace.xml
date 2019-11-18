@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8fdb0a3-6f37-4a32-835e-0571f870b371" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Experiments/BERT-BiLSTM/BiLSTM_3_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Experiments/BERT-BiLSTM/BiLSTM_3_cat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Experiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Experiments/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Reports/字数统计.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Reports/字数统计.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../preprocessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../preprocessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../preprocessing/descriptions_results_num_params.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../../preprocessing/descriptions_results_num_params.sav" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +118,7 @@
       <workItem from="1573760868339" duration="10335000" />
       <workItem from="1573855858243" duration="10734000" />
       <workItem from="1573994173165" duration="1393000" />
+      <workItem from="1574046189100" duration="1188000" />
     </task>
     <servers />
   </component>
